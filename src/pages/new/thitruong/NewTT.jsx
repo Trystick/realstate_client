@@ -41,7 +41,7 @@ const NewTT = () => {
     
    
     useEffect(() => {
-        axios.get('http://localhost:8800/api/post/postCategory/657290cfeab7b27a0a0ba7ba')
+        axios.get('https://realstate-api-glm4.onrender.com/api/post/postCategory/657290cfeab7b27a0a0ba7ba')
           .then(response => setData(response.data))
           .catch(error => console.error(error));
       }, []);

@@ -16,7 +16,7 @@ const SearchTop = () => {
     useEffect(() => {
         const fetchPropertyTypes = async () => {
             try {
-                const response = await axios.get('http://localhost:8800/api/property-types');
+                const response = await axios.get('https://realstate-api-glm4.onrender.com/api/property-types');
                 setPropertyTypes(response.data);
             } catch (err) {
                 console.error(err);
@@ -28,7 +28,7 @@ const SearchTop = () => {
 
     const handleSearch = async () => {
         try {
-            const response = await axios.get(`http://localhost:8800/api/search?searchTerm=${searchTerm}&propertyTypeId=${propertyType}&priceRange=${priceRange}&areaRange=${areaRange}`);
+            const response = await axios.get(`https://realstate-api-glm4.onrender.com/api/search?searchTerm=${searchTerm}&propertyTypeId=${propertyType}&priceRange=${priceRange}&areaRange=${areaRange}`);
             const results = response.data;
             console.log(results);
             // Xử lý kết quả tìm kiếm ở đây

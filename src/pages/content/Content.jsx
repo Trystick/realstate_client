@@ -28,7 +28,7 @@ const Content = () => {
   const itemsPerPage = 5;
 
   useEffect(() => {
-      axios.get('http://localhost:8800/api/job')
+      axios.get('https://realstate-api-glm4.onrender.com/api/job')
         .then(response => setData(response.data))
         .catch(error => console.error(error));
     }, []);
@@ -103,7 +103,7 @@ const Content = () => {
           try {
             await postData();
             console.log(response);
-            const responseemail = await axios.post('http://localhost:8800/api/sendMail', formState);
+            const responseemail = await axios.post('https://realstate-api-glm4.onrender.com/api/sendMail', formState);
             console.log(responseemail);
             setFormState(initialFormState);
             setSubmitStatus('success');

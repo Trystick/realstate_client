@@ -26,7 +26,7 @@ const NewDetail = () => {
       return;
     }
   
-    fetch(`http://localhost:8800/api/like/check/${user._id}/${postId}`)
+    fetch(`https://realstate-api-glm4.onrender.com/api/like/check/${user._id}/${postId}`)
       .then(response => response.json())
       .then(data => setHasLiked(data.hasLiked));
   }, [user, postId]);
@@ -37,7 +37,7 @@ const NewDetail = () => {
       return;
     }
   
-    const url = hasLiked ? `http://localhost:8800/api/like/${localStorage.likeId}` : 'http://localhost:8800/api/like';
+    const url = hasLiked ? `https://realstate-api-glm4.onrender.com/api/like/${localStorage.likeId}` : 'https://realstate-api-glm4.onrender.com/api/like';
     const method = hasLiked ? 'DELETE' : 'POST';
     const userId = user._id;
     const options = {
@@ -102,14 +102,14 @@ const NewDetail = () => {
     return `${day}/${month}/${year}`;
   }
 
-  const {data,loading, error} = useFetch(`http://localhost:8800/api/post/find/${postId}`);
+  const {data,loading, error} = useFetch(`https://realstate-api-glm4.onrender.com/api/post/find/${postId}`);
 
   const ArrayData = [data];
  
   const [datanew, setDataNew] = useState([]);
 
   useEffect(() => {
-      axios.get('http://localhost:8800/api/post/randomposts')
+      axios.get('https://realstate-api-glm4.onrender.com/api/post/randomposts')
         .then(response => setDataNew(response.data))
         .catch(error => console.error(error));
     }, []);
@@ -120,7 +120,7 @@ const NewDetail = () => {
         return;
       }
       try {
-        const response = await axios.post('http://localhost:8800/api/comment', {
+        const response = await axios.post('https://realstate-api-glm4.onrender.com/api/comment', {
           userId: user._id,
           postId,
           content: comment,
@@ -143,18 +143,18 @@ const NewDetail = () => {
     useEffect(() => {
       const fetchComments = async () => {
         try {
-          const response = await axios.get(`http://localhost:8800/api/comment/postId/${postId}`);
+          const response = await axios.get(`https://realstate-api-glm4.onrender.com/api/comment/postId/${postId}`);
     
           if (response.status === 200) {
             const commentData = response.data;
             const approvedComments = commentData.filter(comment => comment.isApproved);
             const commentsWithUser = await Promise.all(approvedComments.map(async (comment) => {
-              const userResponse = await axios.get(`http://localhost:8800/api/users/${comment.userId}`);
+              const userResponse = await axios.get(`https://realstate-api-glm4.onrender.com/api/users/${comment.userId}`);
               let repliesWithUser = [];
               if (comment.replies && comment.replies.length > 0) {
                 const approvedReplies = comment.replies.filter(reply => reply.isApproved);
                 repliesWithUser = await Promise.all(approvedReplies.map(async (reply) => {
-                  const replyUserResponse = await axios.get(`http://localhost:8800/api/users/${reply.userId}`);
+                  const replyUserResponse = await axios.get(`https://realstate-api-glm4.onrender.com/api/users/${reply.userId}`);
                   return { ...reply, user: replyUserResponse.data };
                 }));
               }
@@ -180,7 +180,7 @@ const NewDetail = () => {
       }
   
       try {
-        const response = await axios.post(`http://localhost:8800/api/comment/${commentId}/replies`, {
+        const response = await axios.post(`https://realstate-api-glm4.onrender.com/api/comment/${commentId}/replies`, {
           userId: user._id,
           content: reply,
           isApproved: false,

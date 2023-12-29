@@ -10,7 +10,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
 const History = () => {
-    const {data, loading, error} = useFetch(`http://localhost:8800/api/slide`);
+    const {data, loading, error} = useFetch(`https://realstate-api-glm4.onrender.com/api/slide`);
 
     const img = data.map(item => item.photos).flat();
   
@@ -47,7 +47,7 @@ const History = () => {
     const userJson = localStorage.getItem('user');
     const user = JSON.parse(userJson);
     const userId = user._id;
-    axios.get(`http://localhost:8800/api/users/${userId}`, {withCredentials: true})
+    axios.get(`https://realstate-api-glm4.onrender.com/api/users/${userId}`, {withCredentials: true})
     .then(response => {
         setUserLocal(response.data);
         localStorage.setItem('userId', response.data._id);
@@ -61,20 +61,20 @@ const [landData, setLandData] = useState([]);
  console.log(userLocal._id);
  useEffect(() => {
     // Lấy dữ liệu landsale
-    axios.get(`http://localhost:8800/api/landSale/user/${userLocal._id}`)
+    axios.get(`https://realstate-api-glm4.onrender.com/api/landSale/user/${userLocal._id}`)
       .then(response => {
         const landsalePromises = response.data.map(landsale => {
-          return axios.get(`http://localhost:8800/api/landSaleCategory/${landsale.categoryLandSaleId}`)
+          return axios.get(`https://realstate-api-glm4.onrender.com/api/landSaleCategory/${landsale.categoryLandSaleId}`)
             .then(res => {
               return { ...landsale, categoryName: res.data.name, type: 'Landsale' };
             });
         });
   
         // Lấy dữ liệu landlease
-        axios.get(`http://localhost:8800/api/landLease/user/${userLocal._id}`)
+        axios.get(`https://realstate-api-glm4.onrender.com/api/landLease/user/${userLocal._id}`)
           .then(response => {
             const landleasePromises = response.data.map(landlease => {
-              return axios.get(`http://localhost:8800/api/landLeaseCategory/${landlease.categoryLandLeaseId}`)
+              return axios.get(`https://realstate-api-glm4.onrender.com/api/landLeaseCategory/${landlease.categoryLandLeaseId}`)
                 .then(res => {
                   return { ...landlease, categoryName: res.data.name, type: 'Landlease' };
                 });
@@ -122,9 +122,9 @@ const [landData, setLandData] = useState([]);
     if (window.confirm('Bạn có chắc chắn muốn xóa không?')) {
       let url;
       if (type === 'Landsale') {
-        url = `http://localhost:8800/api/landSale/${id}/${categoryId}`;
+        url = `https://realstate-api-glm4.onrender.com/api/landSale/${id}/${categoryId}`;
       } else {
-        url = `http://localhost:8800/api/landLease/${id}/${categoryId}`;
+        url = `https://realstate-api-glm4.onrender.com/api/landLease/${id}/${categoryId}`;
       }
   
       axios.delete(url, {withCredentials: true})

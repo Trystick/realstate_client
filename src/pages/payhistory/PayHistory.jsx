@@ -10,7 +10,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
 const PayHistory = () => {
-    const {data, loading, error} = useFetch(`http://localhost:8800/api/slide`);
+    const {data, loading, error} = useFetch(`https://realstate-api-glm4.onrender.com/api/slide`);
     const navigate = useNavigate();
     const img = data.map(item => item.photos).flat();
   
@@ -47,7 +47,7 @@ const PayHistory = () => {
     const userJson = localStorage.getItem('user');
     const user = JSON.parse(userJson);
     const userId = user._id;
-    axios.get(`http://localhost:8800/api/users/${userId}`, {withCredentials: true})
+    axios.get(`https://realstate-api-glm4.onrender.com/api/users/${userId}`, {withCredentials: true})
     .then(response => {
         setUserLocal(response.data);
         localStorage.setItem('userId', response.data._id);
@@ -71,7 +71,7 @@ function formatDate(dateString) {
   useEffect(() => {
     const fetchOrder = async () => {
       try {
-        const response = await axios.get(`http://localhost:8800/api/order/get/${userLocal._id}`, {withCredentials: true});
+        const response = await axios.get(`https://realstate-api-glm4.onrender.com/api/order/get/${userLocal._id}`, {withCredentials: true});
         setLandData(response.data);
       } catch (error) {
         console.error('Failed to fetch order:', error);

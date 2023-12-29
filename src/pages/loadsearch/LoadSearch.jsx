@@ -46,7 +46,7 @@ const LoadSearch = () => {
     const user = JSON.parse(userJson);
     if (user && user._id) {
         const userId = user._id;
-        axios.get(`http://localhost:8800/api/users/${userId}`, {withCredentials: true})
+        axios.get(`https://realstate-api-glm4.onrender.com/api/users/${userId}`, {withCredentials: true})
         .then(response => {
             setUserLocal(response.data);
             localStorage.setItem('userId', response.data._id);
@@ -63,7 +63,7 @@ useEffect(() => {
   const fetchUsers = async () => {
     const usersData = await Promise.all(results.map(async (item) => {
       try {
-        const response = await axios.get(`http://localhost:8800/api/users/${item.userId}`, {withCredentials: true});
+        const response = await axios.get(`https://realstate-api-glm4.onrender.com/api/users/${item.userId}`, {withCredentials: true});
         if (response.status === 200) {
           return response.data;
         } else {

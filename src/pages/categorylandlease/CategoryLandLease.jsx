@@ -14,7 +14,7 @@ import FavoriteButton from '../../components/favorite/FavoriteButton'
 
 const CategoryLandLease = () => {
 
-  const {data, loading, error} = useFetch(`http://localhost:8800/api/slide`);
+  const {data, loading, error} = useFetch(`https://realstate-api-glm4.onrender.com/api/slide`);
   
   console.log(data);
 
@@ -58,12 +58,12 @@ const CategoryLandLease = () => {
   const [landleaseType, setLandleaseType] = useState(''); 
 
   useEffect(() => {
-    axios.get(`http://localhost:8800/api/landLeaseCategory/${categorylandleaseId}`)
+    axios.get(`https://realstate-api-glm4.onrender.com/api/landLeaseCategory/${categorylandleaseId}`)
       .then(response => {
         const landsaleIds = response.data.landleases;
         setLandleaseType(response.data.name); // Cập nhật tên loại dự án
         const landsalePromises = landsaleIds.map(_id =>
-          axios.get(`http://localhost:8800/api/landLease/find/${_id}`)
+          axios.get(`https://realstate-api-glm4.onrender.com/landLease/find/${_id}`)
         );
         Promise.all(landsalePromises)
           .then(landsaleResponses => {
@@ -75,7 +75,7 @@ const CategoryLandLease = () => {
 
             // Gọi API để lấy thông tin người dùng
             const userPromises = userIds.map(userId =>
-              axios.get(`http://localhost:8800/api/users/${userId}`, {withCredentials: true})
+              axios.get(`https://realstate-api-glm4.onrender.com/api/users/${userId}`, {withCredentials: true})
             );
             Promise.all(userPromises)
               .then(userResponses => {
@@ -127,7 +127,7 @@ const CategoryLandLease = () => {
     const user = JSON.parse(userJson);
     if (user && user._id) {
         const userId = user._id;
-        axios.get(`http://localhost:8800/api/users/${userId}`, {withCredentials: true})
+        axios.get(`https://realstate-api-glm4.onrender.com/api/users/${userId}`, {withCredentials: true})
         .then(response => {
             setUserLocal(response.data);
             localStorage.setItem('userId', response.data._id);

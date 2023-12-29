@@ -25,7 +25,7 @@ const PostChange = () => {
     useEffect(() => {
         const fetchData = async () => {
           try {
-            let response = await axios.get(`http://localhost:8800/api/landSale/find/${postchange}`);
+            let response = await axios.get(`https://realstate-api-glm4.onrender.com/api/landSale/find/${postchange}`);
             if (response.status === 200 && response.data) {
               setActivePost('salepost');
               setPostName(response.data.name);
@@ -37,7 +37,7 @@ const PostChange = () => {
               setToilet(response.data.toilet);
               setCategoryLandSaleId(response.data.categoryLandSaleId);
             } else {
-              response = await axios.get(`http://localhost:8800/api/landLease/find/${postchange}`);
+              response = await axios.get(`https://realstate-api-glm4.onrender.com/api/landLease/find/${postchange}`);
               if (response.status === 200 && response.data) {
                 setActivePost('leasepost');
                 setPostName(response.data.name);
@@ -72,13 +72,13 @@ const PostChange = () => {
         const fetchData = async () => {
           let url;
           try {
-            let response = await axios.get(`http://localhost:8800/api/landSale/find/${postchange}`);
+            let response = await axios.get(`https://realstate-api-glm4.onrender.com/api/landSale/find/${postchange}`);
             if (response.status === 200 && response.data) {
-              url = `http://localhost:8800/api/landSaleCategory/${categoryLandSaleId}`;
+              url = `https://realstate-api-glm4.onrender.com/api/landSaleCategory/${categoryLandSaleId}`;
             } else {
-              response = await axios.get(`http://localhost:8800/api/landLease/find/${postchange}`);
+              response = await axios.get(`https://realstate-api-glm4.onrender.com/api/landLease/find/${postchange}`);
               if (response.status === 200 && response.data) {
-                url = `http://localhost:8800/api/landLeaseCategory/${categoryLandLeaseId}`;
+                url = `https://realstate-api-glm4.onrender.com/api/landLeaseCategory/${categoryLandLeaseId}`;
               }
             }
             response = await axios.get(url);
@@ -165,7 +165,7 @@ console.log(provinces);
       const userJson = localStorage.getItem('user');
       const user = JSON.parse(userJson);
       const userId = user._id;
-      axios.get(`http://localhost:8800/api/users/${userId}`, {withCredentials: true})
+      axios.get(`https://realstate-api-glm4.onrender.com/api/users/${userId}`, {withCredentials: true})
       .then(response => {
           setUserLocal(response.data);
           localStorage.setItem('userId', response.data._id);
@@ -357,13 +357,13 @@ const handleClickForm = async (e) => {
     };
     
     let url;
-    let response = await axios.get(`http://localhost:8800/api/landSale/find/${postchange}`);
+    let response = await axios.get(`https://realstate-api-glm4.onrender.com/api/landSale/find/${postchange}`);
     if (response.status === 200 && response.data) {
-        url = `http://localhost:8800/api/landSale/${postchange}`;
+        url = `https://realstate-api-glm4.onrender.com/api/landSale/${postchange}`;
     } else {
-        response = await axios.get(`http://localhost:8800/api/landLease/find/${postchange}`);
+        response = await axios.get(`https://realstate-api-glm4.onrender.com/api/landLease/find/${postchange}`);
         if (response.status === 200 && response.data) {
-            url = `http://localhost:8800/api/landLease/${postchange}`;
+            url = `https://realstate-api-glm4.onrender.com/api/landLease/${postchange}`;
         }
     }
     
@@ -406,11 +406,11 @@ const handleClickForm = async (e) => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        let response = await axios.get(`http://localhost:8800/api/landSale/find/${postchange}`);
+        let response = await axios.get(`https://realstate-api-glm4.onrender.com/api/landSale/find/${postchange}`);
         if (response.status === 200 && response.data) {
           setSelectCategoryId('categoryLandSaleId');
         } else {
-          response = await axios.get(`http://localhost:8800/api/landLease/find/${postchange}`);
+          response = await axios.get(`https://realstate-api-glm4.onrender.com/api/landLease/find/${postchange}`);
           if (response.status === 200 && response.data) {
             setSelectCategoryId('categoryLandLeaseId');
           }

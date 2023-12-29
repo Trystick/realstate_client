@@ -31,7 +31,7 @@ const PostPage = () => {
     }
 
     useEffect(() => {
-        let url = activePost === 'salepost' ? 'http://localhost:8800/api/landSaleCategory' : 'http://localhost:8800/api/landLeaseCategory';
+        let url = activePost === 'salepost' ? 'https://realstate-api-glm4.onrender.com/api/landSaleCategory' : 'https://realstate-api-glm4.onrender.com/api/landLeaseCategory';
         axios.get(url)
             .then(response => {
                 setData(response.data);
@@ -113,7 +113,7 @@ const PostPage = () => {
       const userJson = localStorage.getItem('user');
       const user = JSON.parse(userJson);
       const userId = user._id;
-      axios.get(`http://localhost:8800/api/users/${userId}`, {withCredentials: true})
+      axios.get(`https://realstate-api-glm4.onrender.com/api/users/${userId}`, {withCredentials: true})
       .then(response => {
           setUserLocal(response.data);
           localStorage.setItem('userId', response.data._id);
@@ -317,9 +317,9 @@ const handleSubmit = (event) => {
         
         let url;
         if (activePost === 'salepost') {
-            url = `http://localhost:8800/api/landSale/${selectedId}`;
+            url = `https://realstate-api-glm4.onrender.com/api/landSale/${selectedId}`;
         } else if (activePost === 'leasepost') {
-            url = `http://localhost:8800/api/landLease/${selectedId}`;
+            url = `https://realstate-api-glm4.onrender.com/api/landLease/${selectedId}`;
         }
         
         await axios.post(url, newPost, {withCredentials: true});

@@ -40,7 +40,7 @@ const New = () => {
     );
     
     useEffect(() => {
-        axios.get('http://localhost:8800/api/post/postCategory/657290bbeab7b27a0a0ba7af')
+        axios.get('https://realstate-api-glm4.onrender.com/api/post/postCategory/657290bbeab7b27a0a0ba7af')
           .then(response => setData(response.data))
           .catch(error => console.error(error));
       }, []);

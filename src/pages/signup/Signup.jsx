@@ -22,7 +22,7 @@ function Signup() {
 
     const checkUsernameExists = async (username) => {
         try {
-            const res = await axios.get(`http://localhost:8800/api/checkexist?username=${username}`);
+            const res = await axios.get(`https://realstate-api-glm4.onrender.com/api/checkexist?username=${username}`);
             return res.data.exists;
         } catch (err) {
             console.error(err);
@@ -32,7 +32,7 @@ function Signup() {
     
     const checkPhoneNumberExists = async (phoneNumber) => {
         try {
-            const res = await axios.get(`http://localhost:8800/api/checkexist?phoneNumber=${phoneNumber}`);
+            const res = await axios.get(`https://realstate-api-glm4.onrender.com/api/checkexist?phoneNumber=${phoneNumber}`);
             return res.data.exists;
         } catch (err) {
             console.error(err);
@@ -42,7 +42,7 @@ function Signup() {
     
     const checkEmailExists = async (email) => {
         try {
-            const res = await axios.get(`http://localhost:8800/api/checkexist?email=${email}`);
+            const res = await axios.get(`https://realstate-api-glm4.onrender.com/api/checkexist?email=${email}`);
             return res.data.exists;
         } catch (err) {
             console.error(err);
@@ -106,7 +106,7 @@ function Signup() {
     
         dispatch({type:"LOGIN_START"})
         try {
-            const res = await axios.post("http://localhost:8800/api/auth/register", form)
+            const res = await axios.post("https://realstate-api-glm4.onrender.com/api/auth/register", form)
             dispatch({type:"LOGIN_SUCCESS", payload: { ...res.data.details, role: res.data.role }})
             alert("Đăng ký thành công")
             navigate('/login')

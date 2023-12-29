@@ -18,7 +18,7 @@ const Success = () => {
     const status = vnpResponseCode === '00' ? 'Thành công' : 'Hủy';
 
     // Gửi yêu cầu cập nhật trạng thái đơn hàng lên server
-    fetch('http://localhost:8800/api/update_order_status', {
+    fetch('https://realstate-api-glm4.onrender.com/api/update_order_status', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ orderId, status })

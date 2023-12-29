@@ -13,7 +13,7 @@ const Pay = () => {
   useEffect(() => {
     const fetchPackets = async () => {
       try {
-        const response = await axios.get(`http://localhost:8800/api/packet/find/${payid}`); // Thay đổi URL này thành URL API của bạn
+        const response = await axios.get(`https://realstate-api-glm4.onrender.com/api/packet/find/${payid}`); // Thay đổi URL này thành URL API của bạn
         setPackets(response.data);
       } catch (error) {
         console.error('Error fetching packets:', error);
@@ -30,7 +30,7 @@ const Pay = () => {
     const user = JSON.parse(userJson);
     if (user && user._id) {
         const userId = user._id;
-        axios.get(`http://localhost:8800/api/users/${userId}`, {withCredentials: true})
+        axios.get(`https://realstate-api-glm4.onrender.com/api/users/${userId}`, {withCredentials: true})
         .then(response => {
             setUserLocal(response.data);
             localStorage.setItem('userId', response.data._id);
@@ -101,7 +101,7 @@ const handleVNPayPayment = async () => {
   const amount = packets.price; // Giả sử bạn đã lưu giá tiền vào biến packets
 
   // Gửi yêu cầu tạo đơn hàng đến máy chủ
-  const response = await axios.post('http://localhost:8800/api/create_order', {
+  const response = await axios.post('https://realstate-api-glm4.onrender.com/api/create_order', {
       orderInfo: orderInfo,
       amount: amount
   });

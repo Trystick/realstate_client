@@ -12,7 +12,7 @@ import { useEffect, useState } from 'react'
 import useFetch from '../../hooks/useFetch'
 
 const Favorite = () => {
-  const {data, loading, error} = useFetch(`http://localhost:8800/api/slide`);
+  const {data, loading, error} = useFetch(`https://realstate-api-glm4.onrender.com/api/slide`);
 
   const img = data.map(item => item.photos).flat();
 
@@ -55,7 +55,7 @@ const Favorite = () => {
     const userJson = localStorage.getItem('user');
     const user = JSON.parse(userJson);
     const userId = user._id;
-    axios.get(`http://localhost:8800/api/users/${userId}`, {withCredentials: true})
+    axios.get(`https://realstate-api-glm4.onrender.com/api/users/${userId}`, {withCredentials: true})
     .then(response => {
         setUserLocal(response.data);
         localStorage.setItem('userId', response.data._id);
@@ -72,17 +72,17 @@ useEffect(() => {
       const favoriteData = [];
       for (let i = 0; i < userLocal.favorites.length; i++) {
         const favoriteId = userLocal.favorites[i];
-        const favoriteResponse = await axios.get(`http://localhost:8800/api/favorite/${favoriteId}`);
+        const favoriteResponse = await axios.get(`https://realstate-api-glm4.onrender.com/api/favorite/${favoriteId}`);
         const favorite = favoriteResponse.data;
   
         // Check and fetch landsale data
         if (favorite.landsaleId) {
           try {
-            const landsaleResponse = await axios.get(`http://localhost:8800/api/landSale/find/${favorite.landsaleId}`);
+            const landsaleResponse = await axios.get(`https://realstate-api-glm4.onrender.com/api/landSale/find/${favorite.landsaleId}`);
             const landsale = landsaleResponse.data;
             favorite.landsale = landsale;
             const userId = landsale.userId;
-            const userResponse = await axios.get(`http://localhost:8800/api/users/${userId}`, { withCredentials: true });
+            const userResponse = await axios.get(`https://realstate-api-glm4.onrender.com/api/users/${userId}`, { withCredentials: true });
             const user = userResponse.data;
             favorite.user = user;
           } catch (error) {
@@ -93,11 +93,11 @@ useEffect(() => {
         // Check and fetch landlease data
         if (favorite.landleaseId) {
           try {
-            const landleaseResponse = await axios.get(`http://localhost:8800/api/landLease/find/${favorite.landleaseId}`);
+            const landleaseResponse = await axios.get(`https://realstate-api-glm4.onrender.com/api/landLease/find/${favorite.landleaseId}`);
             const landlease = landleaseResponse.data;
             favorite.landlease = landlease;
             const userId = landlease.userId;
-            const userResponse = await axios.get(`http://localhost:8800/api/users/${userId}`, { withCredentials: true });
+            const userResponse = await axios.get(`https://realstate-api-glm4.onrender.com/api/users/${userId}`, { withCredentials: true });
             const user = userResponse.data;
             favorite.user = user;
           } catch (error) {

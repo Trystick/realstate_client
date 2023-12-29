@@ -13,7 +13,7 @@ const Resetpassword = () => {
     const handlePasswordReset = async (e) => {
         e.preventDefault();
         try {
-            const res = await axios.post("http://localhost:8800/api/auth/reset-password", { email: resetPasswordEmail });
+            const res = await axios.post("https://realstate-api-glm4.onrender.com/api/auth/reset-password", { email: resetPasswordEmail });
             if (res.status === 200) {
                 alert('link đặt lại mật khẩu đã được gửi đến email của bạn.');
                 navigate("/login");

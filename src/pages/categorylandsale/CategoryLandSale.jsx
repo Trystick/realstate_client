@@ -14,7 +14,7 @@ import FavoriteButton from '../../components/favorite/FavoriteButton'
 
 const CategoryLandSale = () => {
 
-  const {data, loading, error} = useFetch(`http://localhost:8800/api/slide`);
+  const {data, loading, error} = useFetch(`https://realstate-api-glm4.onrender.com/api/slide`);
 
   const img = data.map(item => item.photos).flat();
 
@@ -56,12 +56,12 @@ const CategoryLandSale = () => {
   const [landsaleType, setLandsaleType] = useState(''); 
 
   useEffect(() => {
-    axios.get(`http://localhost:8800/api/landSaleCategory/${categorylandsaleId}`)
+    axios.get(`https://realstate-api-glm4.onrender.com/api/landSaleCategory/${categorylandsaleId}`)
       .then(response => {
         const landsaleIds = response.data.landsales;
         setLandsaleType(response.data.name); // Cập nhật tên loại dự án
         const landsalePromises = landsaleIds.map(_id =>
-          axios.get(`http://localhost:8800/api/landSale/find/${_id}`)
+          axios.get(`https://realstate-api-glm4.onrender.com/api/landSale/find/${_id}`)
         );
         Promise.all(landsalePromises)
           .then(landsaleResponses => {
@@ -73,7 +73,7 @@ const CategoryLandSale = () => {
 
             // Gọi API để lấy thông tin người dùng
             const userPromises = userIds.map(userId =>
-              axios.get(`http://localhost:8800/api/users/${userId}`, {withCredentials: true})
+              axios.get(`https://realstate-api-glm4.onrender.com/api/users/${userId}`, {withCredentials: true})
             );
             Promise.all(userPromises)
               .then(userResponses => {
@@ -127,7 +127,7 @@ const CategoryLandSale = () => {
     const user = JSON.parse(userJson);
     if (user && user._id) {
         const userId = user._id;
-        axios.get(`http://localhost:8800/api/users/${userId}`, {withCredentials: true})
+        axios.get(`https://realstate-api-glm4.onrender.com/api/users/${userId}`, {withCredentials: true})
         .then(response => {
             setUserLocal(response.data);
             localStorage.setItem('userId', response.data._id);

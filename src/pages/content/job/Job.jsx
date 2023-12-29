@@ -28,7 +28,7 @@ const Job = () => {
   const navigate = useNavigate()
 //   const [names, setNames] = useState("")  
   const {jobId} = useParams();
-  const {data, loading} = useFetch(`http://localhost:8800/api/job/find/${jobId}`);
+  const {data, loading} = useFetch(`https://realstate-api-glm4.onrender.com/api/job/find/${jobId}`);
   const arrayData = [data];
 
   const [datajob, setDataJob] = useState([]);
@@ -39,7 +39,7 @@ const Job = () => {
 
  
   useEffect(() => {
-      axios.get('http://localhost:8800/api/job')
+      axios.get('https://realstate-api-glm4.onrender.com/api/job')
         .then(response => setDataJob(response.data))
         .catch(error => console.error(error));
     }, []);

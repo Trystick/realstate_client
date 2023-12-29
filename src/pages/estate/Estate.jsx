@@ -14,10 +14,10 @@ const Estate = () => {
   const [datatb, setDataTb] = useState([]);
   const {estateId} = useParams();
 
-  const {data, loading, error} = useFetch(`http://localhost:8800/api/project/find/${estateId}`);
+  const {data, loading, error} = useFetch(`https://realstate-api-glm4.onrender.com/api/project/find/${estateId}`);
 
   useEffect(() => {
-    axios.get('http://localhost:8800/api/project/randomprojects')
+    axios.get('https://realstate-api-glm4.onrender.com/api/project/randomprojects')
       .then(response => setDataTb(response.data))
       .catch(error => console.error(error));
   }, []);

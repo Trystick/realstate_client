@@ -9,7 +9,7 @@ import '../../hooks/i18n';
 const ImpressLandLease = () => {
   const { t } = useTranslation();
 
-  const {data, loading, error, reFetch} = useFetch(`http://localhost:8800/api/landLease/landleasethree`)
+  const {data, loading, error, reFetch} = useFetch(`https://realstate-api-glm4.onrender.com/api/landLease/landleasethree`)
   console.log(data);
 
   return (

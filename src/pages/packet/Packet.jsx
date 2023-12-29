@@ -19,7 +19,7 @@ const Packet = () => {
     useEffect(() => {
       const fetchPackets = async () => {
         try {
-          const response = await axios.get('http://localhost:8800/api/packet'); // Thay đổi URL này thành URL API của bạn
+          const response = await axios.get('https://realstate-api-glm4.onrender.com/api/packet'); // Thay đổi URL này thành URL API của bạn
           setPackets(response.data);
            // Tìm gói "1 tháng" và đặt clickedItem thành _id của gói đó
           const oneMonthPacket = response.data.find(packet => packet.name === 'Gói 1 tháng');

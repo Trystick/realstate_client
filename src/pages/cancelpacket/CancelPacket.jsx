@@ -17,7 +17,7 @@ const CancelPacket = () => {
       return;
     }
     try {
-      const response = await axios.post('http://localhost:8800/api/cancel-package', { orderId, cancelReason });
+      const response = await axios.post('https://realstate-api-glm4.onrender.com/api/cancel-package', { orderId, cancelReason });
       alert(response.data.message);
       navigate('/')
     } catch (error) {

@@ -99,7 +99,7 @@ const Formungtuyen = () => {
             formData.append('file', file);
       
             // Gửi dữ liệu qua API
-            const response = await axios.post('http://localhost:8800/api/sendMailJob', formData, {
+            const response = await axios.post('https://realstate-api-glm4.onrender.com/api/sendMailJob', formData, {
               headers: {
                 'Content-Type': 'multipart/form-data'
               }
@@ -117,7 +117,7 @@ const Formungtuyen = () => {
               file: url,
             };
 
-            await axios.post("http://localhost:8800/api/jobApply", newJobApply);
+            await axios.post("https://realstate-api-glm4.onrender.com/api/jobApply", newJobApply);
 
             setFormState(initialFormState);
             setSubmitStatus('success');

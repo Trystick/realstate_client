@@ -14,7 +14,7 @@ import FavoriteButton from '../../components/favorite/FavoriteButton'
 
 const LandLease = () => {
 
-  const {data, loading, error} = useFetch(`http://localhost:8800/api/slide`);
+  const {data, loading, error} = useFetch(`https://realstate-api-glm4.onrender.com/api/slide`);
   
   console.log(data);
 
@@ -53,7 +53,7 @@ const LandLease = () => {
   const itemsPerPage = 5;
 
   useEffect(() => {
-    axios.get('http://localhost:8800/api/landLease', {withCredentials: true})
+    axios.get('https://realstate-api-glm4.onrender.com/api/landLease', {withCredentials: true})
       .then(response => {
         setHouses(response.data);
         // Lấy danh sách userId duy nhất từ dữ liệu
@@ -61,7 +61,7 @@ const LandLease = () => {
         console.log(userIds);
         // Gọi API để lấy thông tin người dùng
         const userPromises = userIds.map(userId =>
-          axios.get(`http://localhost:8800/api/users/${userId}`, {withCredentials: true})
+          axios.get(`https://realstate-api-glm4.onrender.com/api/users/${userId}`, {withCredentials: true})
         );
         Promise.all(userPromises)
           .then(userResponses => {
@@ -109,7 +109,7 @@ const LandLease = () => {
     const user = JSON.parse(userJson);
     if (user && user._id) {
         const userId = user._id;
-        axios.get(`http://localhost:8800/api/users/${userId}`, {withCredentials: true})
+        axios.get(`https://realstate-api-glm4.onrender.com/api/users/${userId}`, {withCredentials: true})
         .then(response => {
             setUserLocal(response.data);
             localStorage.setItem('userId', response.data._id);

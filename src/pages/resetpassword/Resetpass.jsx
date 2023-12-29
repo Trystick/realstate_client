@@ -38,7 +38,7 @@ const Resetpass = () => {
         try {
             // Replace this URL with the endpoint for your password reset API
             // You'll also need to include the password reset token in the URL or body
-            const res = await axios.post(`http://localhost:8800/api/auth/reset-password/${token}`, { password });
+            const res = await axios.post(`https://realstate-api-glm4.onrender.com/api/auth/reset-password/${token}`, { password });
             if (res.status === 200) {
                 alert('Mật khẩu của bạn đã được đặt lại thành công.');
             }

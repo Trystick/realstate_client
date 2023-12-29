@@ -29,7 +29,7 @@ const [errors, setErrors] = useState({});
 const [submitStatus, setSubmitStatus] = useState(null);
 
 const { response, postData } =
-  usePost(`http://localhost:8800/api/advise/`, formState);
+  usePost(`https://realstate-api-glm4.onrender.com/api/advise/`, formState);
 
 const handleInputChange = (event) => {
   const { name, value } = event.target;
@@ -87,7 +87,7 @@ const handleSubmit = async (event) => {
     try {
       await postData();
       console.log(response);
-      const responseemail = await axios.post('http://localhost:8800/api/sendMail', formState);
+      const responseemail = await axios.post('https://realstate-api-glm4.onrender.com/api/sendMail', formState);
       console.log(responseemail);
       setFormState(initialFormState);
       setSubmitStatus('success');

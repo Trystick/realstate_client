@@ -25,7 +25,7 @@ const LandLeasePage = () => {
   useEffect(() => {
     const fetchData = async () => {
       const result = await axios(
-        'http://localhost:8800/api/landLease/randomlandleases', // Thay thế bằng đường dẫn API của bạn
+        'https://realstate-api-glm4.onrender.com/api/landLease/randomlandleases', // Thay thế bằng đường dẫn API của bạn
       );
       setData(result.data);
     };
@@ -39,7 +39,7 @@ const LandLeasePage = () => {
     const user = JSON.parse(userJson);
     if (user && user._id) {
         const userId = user._id;
-        axios.get(`http://localhost:8800/api/users/${userId}`, {withCredentials: true})
+        axios.get(`https://realstate-api-glm4.onrender.com/api/users/${userId}`, {withCredentials: true})
         .then(response => {
             setUserLocal(response.data);
             localStorage.setItem('userId', response.data._id);
@@ -51,13 +51,13 @@ const LandLeasePage = () => {
  }, []);
 
   useEffect(() => {
-    axios.get(`http://localhost:8800/api/landLease/find/${landleaseId}`)
+    axios.get(`https://realstate-api-glm4.onrender.com/api/landLease/find/${landleaseId}`)
       .then(response => {
         setImgs(response.data.photos);
         setWordData(response.data.photos[0]);
         setHouseData(response.data); // Lưu trữ tất cả dữ liệu trả về từ API
         // Gọi API để lấy thông tin người dùng
-        axios.get(`http://localhost:8800/api/users/${response.data.userId}`, {withCredentials: true})
+        axios.get(`https://realstate-api-glm4.onrender.com/api/users/${response.data.userId}`, {withCredentials: true})
           .then(userResponse => {
             setUsers(userResponse.data);
           })

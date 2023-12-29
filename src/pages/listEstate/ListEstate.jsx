@@ -16,7 +16,7 @@ import SearchTop from '../../components/search/SearchTop'
 const ListEstate = () => {
   const { t } = useTranslation();
  
-  const { data, loading, error, reFetch } = useFetch(`http://localhost:8800/api/project`);
+  const { data, loading, error, reFetch } = useFetch(`https://realstate-api-glm4.onrender.com/api/project`);
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 12;
   // Tính toán số trang

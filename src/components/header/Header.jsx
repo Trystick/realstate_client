@@ -26,7 +26,7 @@ const Header = () => {
     const {user} = useContext(AuthContext);
 
     useEffect(() => {
-        fetch('http://localhost:8800/api/landSaleCategory')
+        fetch('https://realstate-api-glm4.onrender.com/api/landSaleCategory')
             .then(response => response.json())
             .then(data => {
                 const itemsnb = data.map(item => ({
@@ -41,7 +41,7 @@ const Header = () => {
     }, []); // Chỉ gọi API một lần khi component được mount
 
     useEffect(() => {
-        fetch('http://localhost:8800/api/landLeaseCategory')
+        fetch('https://realstate-api-glm4.onrender.com/api/landLeaseCategory')
             .then(response => response.json())
             .then(data => {
                 const itemsnt = data.map(item => ({
@@ -56,7 +56,7 @@ const Header = () => {
     }, []); // Chỉ gọi API một lần khi component được mount
 
     useEffect(() => {
-        fetch('http://localhost:8800/api/category')
+        fetch('https://realstate-api-glm4.onrender.com/api/category')
             .then(response => response.json())
             .then(data => {
                 const items = data.map(item => ({
@@ -164,7 +164,7 @@ const Header = () => {
     const user = JSON.parse(userJson);
     if (user && user._id) {
         const userId = user._id;
-        axios.get(`http://localhost:8800/api/users/${userId}`, {withCredentials: true})
+        axios.get(`https://realstate-api-glm4.onrender.com/api/users/${userId}`, {withCredentials: true})
         .then(response => {
             setUserLocal(response.data);
             localStorage.setItem('userId', response.data._id);

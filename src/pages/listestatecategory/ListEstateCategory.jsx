@@ -32,7 +32,7 @@ const ListEstateCategory = () => {
       setCurrentPage(newPage);
   };
 
-  const {data, loading, error} = useFetch(`http://localhost:8800/api/slide`);
+  const {data, loading, error} = useFetch(`https://realstate-api-glm4.onrender.com/api/slide`);
   
   console.log(data);
 
@@ -66,12 +66,12 @@ const ListEstateCategory = () => {
   }, [currentImgIndex]);
 
   useEffect(() => {
-    axios.get(`http://localhost:8800/api/category/${categoryEstateId}`)
+    axios.get(`https://realstate-api-glm4.onrender.com/api/category/${categoryEstateId}`)
       .then(response => {
         const projectIds = response.data.projects;
         setProjectType(response.data.name); // Cập nhật tên loại dự án
         const projectPromises = projectIds.map(_id =>
-          axios.get(`http://localhost:8800/api/project/find/${_id}`)
+          axios.get(`https://realstate-api-glm4.onrender.com/api/project/find/${_id}`)
         );
         Promise.all(projectPromises)
         .then(projectResponses => {

@@ -27,7 +27,7 @@ const Profile = () => {
         const userJson = localStorage.getItem('user');
         const user = JSON.parse(userJson);
         const userId = user._id;
-        axios.get(`http://localhost:8800/api/users/${userId}`, {withCredentials: true})
+        axios.get(`https://realstate-api-glm4.onrender.com/api/users/${userId}`, {withCredentials: true})
         .then(response => {
             setForm(response.data);
             localStorage.setItem('userId', response.data._id);
@@ -45,7 +45,7 @@ const Profile = () => {
 
     const checkUsernameExists = async (username) => {
         try {
-            const res = await axios.get(`http://localhost:8800/api/checkexist?username=${username}`);
+            const res = await axios.get(`https://realstate-api-glm4.onrender.com/api/checkexist?username=${username}`);
             return res.data.exists;
         } catch (err) {
             console.error(err);
@@ -93,7 +93,7 @@ const Profile = () => {
         const user = JSON.parse(userJson);
         const userId = user._id;
 
-        axios.put(`http://localhost:8800/api/users/nopass/${userId}`, form, {withCredentials: true})
+        axios.put(`https://realstate-api-glm4.onrender.com/api/users/nopass/${userId}`, form, {withCredentials: true})
         .then( response => {
             setForm(response.data);
             console.log(response.data);
