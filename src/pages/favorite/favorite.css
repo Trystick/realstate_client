@@ -1,0 +1,1048 @@
+.favoriteContainer {
+    width: 100%;
+    position: absolute;
+}
+
+.landsalepage {
+    width: 100%;
+}
+
+.imgSlideLand {
+    width: 100%;
+}
+
+.imgSlideTran {
+    width: 100%;
+    height: auto;
+}
+
+.titlelandsale {
+    text-align: center;
+}
+
+.landsaletitle {
+    font-size: 30px;
+    font-weight: 500;
+    color: goldenrod;
+}
+
+.contentListLandSale {
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 50px;
+    height: 100%;
+    border-radius: 5px;
+    padding: 10px;
+   
+}
+
+.leftcontentlandsale {
+    width: 100%;
+}
+
+.itemlandsale {
+    width: 100%;
+    margin-bottom: 20px;
+    border: 2px dashed orange;
+    box-shadow: 10px 10px goldenrod;
+}
+
+.picturelandsale {
+    width: 100%;
+    display: flex;
+}
+
+.leftpicture {
+    width: 65%;
+    height: 250px;
+    padding-right: 2px;
+}
+
+.grouppicture {
+    width: 35%;
+    height: 250px;
+}
+
+.toppicture {
+    width: 100%;
+    height: 50%;
+    padding-bottom: 2px;
+}
+
+.imgleftpicture {
+    width: 100%;
+    height: 100%;
+}
+
+.groupbotompicture {
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
+
+.imgtoppicture {
+    width: 100%;
+    height: 100%;
+}
+
+.imgleftbottompicture {
+    width: 100%;
+    height: 100%;
+}
+
+.imgrightbottompicture {
+    width: 100%;
+    height: 100%;
+    
+}
+
+.rightbottompicture {
+    padding-left: 2px;
+}
+
+.detaillandsale {
+    padding: 10px;
+}
+
+.chacralandsale {
+    display: flex;
+    opacity: 90%;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.arealandsale {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.toilet {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.detaildeslandsale {
+   
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.descdetaillandsale {
+    opacity: 90%;
+    font-size: 15px;
+    margin-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.avatarphone {
+    border-top: 1px solid rgb(171, 161, 161);
+    display: flex;
+    width: 100%;
+}
+
+.leftavatar {
+    float: left;
+    display: flex;
+    padding: 8px;
+    width: 40%;
+}
+
+.avatarlandsale {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.rightphoneandlike {
+    display: flex;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 50%;
+    margin-left: 10%;
+}
+
+.phonelandsale {
+    background-color: rgb(28, 164, 209);
+    margin-right: 20px;
+    color: white;
+    height: 80%;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.phonelandsale:hover {
+    background-color: aqua;
+}
+
+.nameavatarlandsale {
+    margin-left: 10px;
+    color: red;
+    
+}
+
+.iconphonelandsale {
+    margin-right: 10px;
+    color: red;
+   
+}
+
+.categorytilte {
+    color: green;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.linklandsale {
+    color: black;
+    text-decoration: none;
+}
+
+.favorited {
+    color: red;
+}
+
+.searchTopLand {
+    position: relative;
+    height: 200px;
+    display: block;
+ }
+
+ @media all and (max-width: 360px) {
+    
+    .landsalepage {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .contentListLandSale {
+        display: flex;
+        width: 96%;
+        margin-left: 2%;
+        margin-top: 50px;
+        height: 100%;
+        border-radius: 5px;
+        padding: 10px;
+       
+    }
+    
+    .picturelandsale {
+        width: 100%;
+        display: flex;
+    }
+    
+    .leftpicture {
+        width: 65%;
+        height: 150px;
+        padding-right: 2px;
+    }
+    
+    .grouppicture {
+        width: 35%;
+        height: 150px;
+    }
+    
+    .toppicture {
+        width: 100%;
+        height: 50%;
+        padding-bottom: 2px;
+    }
+    
+    .imgleftpicture {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .groupbotompicture {
+        display: flex;
+        width: 100%;
+        height: 50%;
+    }
+    
+    .imgtoppicture {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .imgleftbottompicture {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .imgrightbottompicture {
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    .rightbottompicture {
+        padding-left: 2px;
+    }
+    
+    .detaillandsale {
+        padding: 10px;
+    }
+    
+    .chacralandsale {
+        display: block;
+        opacity: 90%;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    
+    .arealandsale {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .toilet {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .detaildeslandsale {
+        font-size: 13px;
+        font-weight: 600;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .descdetaillandsale {
+        opacity: 90%;
+        font-size: 11px;
+        margin-top: 5px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .avatarphone {
+        border-top: 1px solid rgb(171, 161, 161);
+        display: block;
+        width: 100%;
+        height: 60px;
+    }
+    
+    .leftavatar {
+        display: flex;
+        padding: 8px;
+        width: 100%;
+    }
+    
+    .avatarlandsale {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    
+    .rightphoneandlike {
+        display: flex;
+        font-size: 11px;
+        width: 100%;
+        margin-left: 10%;
+    }
+    
+    .phonelandsale {
+        background-color: rgb(28, 164, 209);
+        margin-right: 20px;
+        color: white;
+        height: 80%;
+        border-radius: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .phonelandsale:hover {
+        background-color: aqua;
+    }
+    
+    .nameavatarlandsale {
+        margin-left: 10px;
+        color: red;
+        font-size: 11px;
+    }
+    
+    .iconphonelandsale {
+        margin-right: 10px;
+        color: red;
+        font-size: 11px;
+    }
+    
+    .categorytilte {
+        color: green;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media all and (max-width: 375px) {
+    
+    .landsalepage {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .contentListLandSale {
+        display: flex;
+        width: 96%;
+        margin-left: 2%;
+        margin-top: 50px;
+        height: 100%;
+        border-radius: 5px;
+        padding: 10px;
+       
+    }
+    
+    .picturelandsale {
+        width: 100%;
+        display: flex;
+    }
+    
+    .leftpicture {
+        width: 65%;
+        height: 150px;
+        padding-right: 2px;
+    }
+    
+    .grouppicture {
+        width: 35%;
+        height: 150px;
+    }
+    
+    .toppicture {
+        width: 100%;
+        height: 50%;
+        padding-bottom: 2px;
+    }
+    
+    .imgleftpicture {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .groupbotompicture {
+        display: flex;
+        width: 100%;
+        height: 50%;
+    }
+    
+    .imgtoppicture {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .imgleftbottompicture {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .imgrightbottompicture {
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    .rightbottompicture {
+        padding-left: 2px;
+    }
+    
+    .detaillandsale {
+        padding: 10px;
+    }
+    
+    .chacralandsale {
+        display: block;
+        opacity: 90%;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    
+    .arealandsale {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .toilet {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .detaildeslandsale {
+        font-size: 13px;
+        font-weight: 600;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .descdetaillandsale {
+        opacity: 90%;
+        font-size: 11px;
+        margin-top: 5px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .avatarphone {
+        border-top: 1px solid rgb(171, 161, 161);
+        display: block;
+        width: 100%;
+        height: 60px;
+    }
+    
+    .leftavatar {
+        display: flex;
+        padding: 8px;
+        width: 100%;
+    }
+    
+    .avatarlandsale {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    
+    .rightphoneandlike {
+        display: flex;
+        font-size: 11px;
+        width: 100%;
+        margin-left: 10%;
+    }
+    
+    .phonelandsale {
+        background-color: rgb(28, 164, 209);
+        margin-right: 20px;
+        color: white;
+        height: 80%;
+        border-radius: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .phonelandsale:hover {
+        background-color: aqua;
+    }
+    
+    .nameavatarlandsale {
+        margin-left: 10px;
+        color: red;
+        font-size: 11px;
+    }
+    
+    .iconphonelandsale {
+        margin-right: 10px;
+        color: red;
+        font-size: 11px;
+    }
+    
+    .categorytilte {
+        color: green;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media all and (max-width: 414px) {
+    
+    .landsalepage {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .contentListLandSale {
+        display: flex;
+        width: 96%;
+        margin-left: 2%;
+        margin-top: 50px;
+        height: 100%;
+        border-radius: 5px;
+        padding: 10px;
+       
+    }
+    
+    .picturelandsale {
+        width: 100%;
+        display: flex;
+    }
+    
+    .leftpicture {
+        width: 65%;
+        height: 150px;
+        padding-right: 2px;
+    }
+    
+    .grouppicture {
+        width: 35%;
+        height: 150px;
+    }
+    
+    .toppicture {
+        width: 100%;
+        height: 50%;
+        padding-bottom: 2px;
+    }
+    
+    .imgleftpicture {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .groupbotompicture {
+        display: flex;
+        width: 100%;
+        height: 50%;
+    }
+    
+    .imgtoppicture {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .imgleftbottompicture {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .imgrightbottompicture {
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    .rightbottompicture {
+        padding-left: 2px;
+    }
+    
+    .detaillandsale {
+        padding: 10px;
+    }
+    
+    .chacralandsale {
+        display: block;
+        opacity: 90%;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    
+    .arealandsale {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .toilet {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .detaildeslandsale {
+        font-size: 13px;
+        font-weight: 600;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .descdetaillandsale {
+        opacity: 90%;
+        font-size: 11px;
+        margin-top: 5px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .avatarphone {
+        border-top: 1px solid rgb(171, 161, 161);
+        display: block;
+        width: 100%;
+        height: 60px;
+    }
+    
+    .leftavatar {
+        display: flex;
+        padding: 8px;
+        width: 100%;
+    }
+    
+    .avatarlandsale {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    
+    .rightphoneandlike {
+        display: flex;
+        font-size: 11px;
+        width: 100%;
+        margin-left: 10%;
+    }
+    
+    .phonelandsale {
+        background-color: rgb(28, 164, 209);
+        margin-right: 20px;
+        color: white;
+        height: 80%;
+        border-radius: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .phonelandsale:hover {
+        background-color: aqua;
+    }
+    
+    .nameavatarlandsale {
+        margin-left: 10px;
+        color: red;
+        font-size: 11px;
+    }
+    
+    .iconphonelandsale {
+        margin-right: 10px;
+        color: red;
+        font-size: 11px;
+    }
+    
+    .categorytilte {
+        color: green;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media all and (max-width: 600px) {
+    
+    .landsalepage {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .contentListLandSale {
+        display: flex;
+        width: 96%;
+        margin-left: 2%;
+        margin-top: 50px;
+        height: 100%;
+        border-radius: 5px;
+        padding: 10px;
+       
+    }
+    
+    .picturelandsale {
+        width: 100%;
+        display: flex;
+    }
+    
+    .leftpicture {
+        width: 65%;
+        height: 150px;
+        padding-right: 2px;
+    }
+    
+    .grouppicture {
+        width: 35%;
+        height: 150px;
+    }
+    
+    .toppicture {
+        width: 100%;
+        height: 50%;
+        padding-bottom: 2px;
+    }
+    
+    .imgleftpicture {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .groupbotompicture {
+        display: flex;
+        width: 100%;
+        height: 50%;
+    }
+    
+    .imgtoppicture {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .imgleftbottompicture {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .imgrightbottompicture {
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    .rightbottompicture {
+        padding-left: 2px;
+    }
+    
+    .detaillandsale {
+        padding: 10px;
+    }
+    
+    .chacralandsale {
+        display: block;
+        opacity: 90%;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    
+    .arealandsale {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .toilet {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .detaildeslandsale {
+        font-size: 13px;
+        font-weight: 600;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .descdetaillandsale {
+        opacity: 90%;
+        font-size: 11px;
+        margin-top: 5px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .avatarphone {
+        border-top: 1px solid rgb(171, 161, 161);
+        display: block;
+        width: 100%;
+        height: 60px;
+    }
+    
+    .leftavatar {
+        display: flex;
+        padding: 8px;
+        width: 100%;
+    }
+    
+    .avatarlandsale {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    
+    .rightphoneandlike {
+        display: flex;
+        font-size: 11px;
+        width: 100%;
+        margin-left: 10%;
+    }
+    
+    .phonelandsale {
+        background-color: rgb(28, 164, 209);
+        margin-right: 20px;
+        color: white;
+        height: 80%;
+        border-radius: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .phonelandsale:hover {
+        background-color: aqua;
+    }
+    
+    .nameavatarlandsale {
+        margin-left: 10px;
+        color: red;
+        font-size: 11px;
+    }
+    
+    .iconphonelandsale {
+        margin-right: 10px;
+        color: red;
+        font-size: 11px;
+    }
+    
+    .categorytilte {
+        color: green;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media all and (max-width: 800px) {
+    
+    .landsalepage {
+        width: 100%;
+        height: 300px;
+    }
+    
+    .contentListLandSale {
+        display: flex;
+        width: 96%;
+        margin-left: 2%;
+        margin-top: 50px;
+        height: 100%;
+        border-radius: 5px;
+        padding: 10px;
+       
+    }
+    
+    .picturelandsale {
+        width: 100%;
+        display: flex;
+    }
+    
+    .leftpicture {
+        width: 65%;
+        height: 150px;
+        padding-right: 2px;
+    }
+    
+    .grouppicture {
+        width: 35%;
+        height: 150px;
+    }
+    
+    .toppicture {
+        width: 100%;
+        height: 50%;
+        padding-bottom: 2px;
+    }
+    
+    .imgleftpicture {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .groupbotompicture {
+        display: flex;
+        width: 100%;
+        height: 50%;
+    }
+    
+    .imgtoppicture {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .imgleftbottompicture {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .imgrightbottompicture {
+        width: 100%;
+        height: 100%;
+        
+    }
+    
+    .rightbottompicture {
+        padding-left: 2px;
+    }
+    
+    .detaillandsale {
+        padding: 10px;
+    }
+    
+    .chacralandsale {
+        display: block;
+        opacity: 90%;
+        font-weight: 400;
+        font-size: 12px;
+    }
+    
+    .arealandsale {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .toilet {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    .detaildeslandsale {
+        font-size: 13px;
+        font-weight: 600;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .descdetaillandsale {
+        opacity: 90%;
+        font-size: 11px;
+        margin-top: 5px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .avatarphone {
+        border-top: 1px solid rgb(171, 161, 161);
+        display: block;
+        width: 100%;
+        height: 60px;
+    }
+    
+    .leftavatar {
+        display: flex;
+        padding: 8px;
+        width: 100%;
+    }
+    
+    .avatarlandsale {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    
+    .rightphoneandlike {
+        display: flex;
+        font-size: 11px;
+        width: 100%;
+        margin-left: 10%;
+    }
+    
+    .phonelandsale {
+        background-color: rgb(28, 164, 209);
+        margin-right: 20px;
+        color: white;
+        height: 80%;
+        border-radius: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .phonelandsale:hover {
+        background-color: aqua;
+    }
+    
+    .nameavatarlandsale {
+        margin-left: 10px;
+        color: red;
+        font-size: 11px;
+    }
+    
+    .iconphonelandsale {
+        margin-right: 10px;
+        color: red;
+        font-size: 11px;
+    }
+    
+    .categorytilte {
+        color: green;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+}

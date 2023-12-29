@@ -1,0 +1,1247 @@
+.newdetailContainer {
+    padding-bottom: 50px;
+    padding-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fbfaea;
+}
+.imgdetailnew {
+    width: 100%;
+}
+
+.linknewdetail {
+    text-decoration: none;
+    color: black;
+    display: flex;
+}
+
+.contentnewdetail {
+    justify-content: center;
+    width: 700px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 40px;
+}
+
+.textdescnewdetail {
+    margin-top: 30px;
+}
+
+.imgcontentnewdetail {
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+}
+
+.textdescnewdetailfirst {
+    margin-top: 30px;
+    font-style: italic;
+    font-weight: 400;
+}
+.titlenewdetail {
+    color: goldenrod;
+    font-weight: 500;
+    font-family: sans-serif;
+}
+
+.minhhoa {
+    text-align: center;
+}
+
+.textdescnewdetailsecond {
+    margin-top: 30px;
+    text-indent: 30px;
+    line-height: 1.6;
+    text-align: justify;
+    font-size: 18px;
+    white-space: pre-line;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.other {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-top: 20px;
+}
+
+.titleother {
+    margin-top: 40px;
+    text-align: center;
+    color: goldenrod;
+    text-decoration: underline;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.imgnewother {
+    width: 100%;
+    height: 200px;
+}
+
+.itemneworder {
+    width: 200px;
+    height: 300px;
+    border: 2px solid goldenrod;
+    background-color: white;
+}
+
+.namenewother {
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.timecreate {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.iconcalender {
+    margin-top: 4px;
+    padding-right: 10px;
+}
+
+.commentdiv {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 3%;
+    margin-left: 24%;
+    margin-right: 20%;
+    background-color: rgb(210, 241, 241);
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+.inpcomment {
+    width: 100%;
+    border: none;
+}
+
+.inpcommentuser {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    margin-left: 2%;
+}
+
+.inputcomment {
+    width: 80%;
+    height: 40px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btnsendcomment {
+    width: 12%;
+    margin-left: 2%;
+    border: none;
+    font-size: 18px;
+    background-color: goldenrod;
+    color: white;
+    border-radius: 3px;
+}
+
+.btnsendcomment:hover {
+    background-color: green;
+}
+
+.btnsendcomment:active {
+    background-color: gray;
+}
+
+.divanycomment {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.thanhngang {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.titlecommentpost {
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 2%;
+}
+
+.usercommentform {
+    display: flex;
+    width: 100%;
+    margin-top: 3%;
+}
+
+.imgussercomment {
+    width: 10%;
+}
+
+.imgcommentuser {
+    width: 60%;
+    border-radius: 50%;
+    height: 40px;
+    margin-left: 20%;
+}
+
+.tableinfousercomment {
+    color: black;
+    width: 85%;
+    border: 1px solid rgb(212, 208, 208);
+}
+
+.nameusercomment {
+    color: blue;
+    border-bottom: 1px solid rgb(211, 207, 207) ;
+}
+
+.commentbyusser, .nameusercomment {
+    padding: 2%;
+}
+
+.replycomment {
+    margin-top: 2px;
+    margin-left: 10%;
+}
+
+.replydiv {
+    font-size: 13px;
+    color: rgb(80, 169, 241);
+    cursor: pointer;
+    margin-bottom: 1%;
+}
+
+.iconreplycomment {
+    margin-right: 2px;
+}
+
+.replycommentbycomment {
+    width: 100%;
+    display: flex;
+    height: 40px;
+    margin-bottom: 2%;
+}
+
+.replycommentreply {
+    width: 85%;
+    border: 1px solid black;
+}
+
+.btnsendreplycommentreply {
+    width: 8%;
+    margin-left: 2%;
+    border: none;
+    background-color: goldenrod;
+    border-radius: 3px;
+
+}
+
+.btnsendreplycommentreply:hover {
+    background-color: green;
+}
+
+.btnsendreplycommentreply:active {
+    background-color: gray;
+}
+
+.usercommentformreply {
+    display: flex;
+    width: 95%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+
+.replycommentcomment {
+    margin-top: 2px;
+    margin-left: 10%;
+}
+
+.replydivcomment {
+    font-size: 13px;
+    color: rgb(80, 169, 241);
+    cursor: pointer;
+    margin-bottom: 1%;
+    margin-left: 5%;
+}
+
+.replycommentbycommentcomment {
+    width: 95%;
+    display: flex;
+    height: 40px;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+.likepost {
+    margin-left: 24%;
+    margin-right: 20%;
+    margin-top: 2%;
+}
+
+.likediv {
+    display: flex;
+}
+
+.iconlikepost {
+    margin-right: 1%;
+    font-size: 25px;
+    color: gray;
+    cursor: pointer;
+}
+
+.iconlikepost.liked {
+    color: blue;
+}
+
+.titlelikepost {
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+
+@media all and (max-width: 1024px) {
+    .newContainer {
+        width: 100%;
+    }
+    .contentnewdetail {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .other {
+        width: 70%;
+        margin-left: 15%;
+    }
+    
+}
+
+/* Dành cho máy tính bảng chiều ngang */
+@media all and (max-width: 800px) {
+    .contentnewdetail {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .other {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+/* Dành cho máy tính bảng loại lớn*/
+@media all and (max-width: 768px) {
+    .contentnewdetail {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .other {
+        width: 80%;
+        margin-left: 10%;
+    }
+}
+
+/* Dành cho máy tính bảng chiều dọc*/
+@media all and (max-width: 600px) {
+    .contentnewdetail {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .other {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .newother {
+        width: 100%;
+    }
+    .imgnewother {
+        width: 100%;
+        height: 160px;
+    }
+    
+    .itemneworder {
+        width: 90%;
+        height: 300px;
+        border: 2px solid goldenrod;
+    }
+    
+    .namenewother {
+        font-size: 14px;
+    }
+    
+}
+
+/* Dành cho điện thoại chiều ngang */
+@media all and (max-width: 480px) {
+    .contentnewdetail {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .other {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .newother {
+        width: 100%;
+    }
+    .imgnewother {
+        width: 100%;
+        height: 160px;
+    }
+    
+    .itemneworder {
+        width: 90%;
+        height: 300px;
+        border: 2px solid goldenrod;
+    }
+    .namenewother {
+        font-size: 14px;
+    }
+    .textdescnewdetailsecond {
+        font-size: 16px;
+    }
+}
+
+/* Dành cho điện thoại chiều ngang */
+@media all and (max-width: 414px) {
+    .contentnewdetail {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .other {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .newother {
+        width: 100%;
+    }
+    .imgnewother {
+        width: 100%;
+        height: 160px;
+    }
+    
+    .itemneworder {
+        width: 90%;
+        height: 300px;
+        border: 2px solid goldenrod;
+    }
+    .namenewother {
+        font-size: 14px;
+    }
+    .textdescnewdetailsecond {
+        font-size: 16px;
+    }
+    .imgcontentnewdetail {
+        height: 80%;
+    }
+    .other {
+        display: block;
+        padding-left: 10%;
+    }
+    .itemneworder {
+        margin-bottom: 10px;
+    }
+
+    .commentdiv {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: 3%;
+        margin-left: 2%;
+        margin-right: 2%;
+        background-color: rgb(210, 241, 241);
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    }
+    
+    .inpcomment {
+        width: 100%;
+        border: none;
+    }
+    
+    .inpcommentuser {
+        width: 100%;
+        padding: 3px;
+        display: flex;
+        margin-left: 2%;
+    }
+    
+    .inputcomment {
+        width: 80%;
+        height: 30px;
+        font-size: 14px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .btnsendcomment {
+        width: 14%;
+        margin-left: 2%;
+        border: none;
+        font-size: 10px;
+        background-color: goldenrod;
+        color: white;
+        border-radius: 3px;
+    }
+    
+    .btnsendcomment:hover {
+        background-color: green;
+    }
+    
+    .btnsendcomment:active {
+        background-color: gray;
+    }
+    
+    .divanycomment {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .thanhngang {
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+    
+    .titlecommentpost {
+        font-size: 14px;
+        font-weight: 500;
+        margin-left: 2%;
+    }
+    
+    .usercommentform {
+        display: flex;
+        width: 100%;
+        margin-top: 3%;
+    }
+    
+    .imgussercomment {
+        width: 10%;
+    }
+    
+    .imgcommentuser {
+        width: 60%;
+        border-radius: 50%;
+        height: 20px;
+        margin-left: 20%;
+    }
+    
+    .tableinfousercomment {
+        color: black;
+        width: 85%;
+        border: 1px solid rgb(212, 208, 208);
+    }
+    
+    .nameusercomment {
+        color: blue;
+        border-bottom: 1px solid rgb(211, 207, 207) ;
+    }
+    
+    .commentbyusser, .nameusercomment {
+        padding: 2%;
+        font-size: 13px;
+    }
+    
+    .replycomment {
+        margin-top: 2px;
+        margin-left: 10%;
+    }
+    
+    .replydiv {
+        font-size: 12px;
+        color: rgb(80, 169, 241);
+        cursor: pointer;
+        margin-bottom: 1%;
+    }
+    
+    .iconreplycomment {
+        margin-right: 2px;
+        font-size: 8px;
+    }
+    
+    .replycommentbycomment {
+        width: 100%;
+        display: flex;
+        height: 40px;
+        margin-bottom: 2%;
+    }
+    
+    .replycommentreply {
+        width: 85%;
+        border: 1px solid black;
+        height: 75%;
+        font-size: 13px;
+    }
+    
+    .btnsendreplycommentreply {
+        width: 10%;
+        margin-left: 2%;
+        border: none;
+        background-color: goldenrod;
+        border-radius: 3px;
+        font-size: 12px;
+        color: white;
+        height: 80%;
+    }
+    
+    .btnsendreplycommentreply:hover {
+        background-color: green;
+    }
+    
+    .btnsendreplycommentreply:active {
+        background-color: gray;
+    }
+    
+    .usercommentformreply {
+        display: flex;
+        width: 95%;
+        margin-top: 3%;
+        margin-left: 5%;
+    }
+    
+    .replycommentcomment {
+        margin-top: 2px;
+        margin-left: 10%;
+    }
+    
+    .replydivcomment {
+        font-size: 13px;
+        color: rgb(80, 169, 241);
+        cursor: pointer;
+        margin-bottom: 1%;
+        margin-left: 5%;
+    }
+    
+    .replycommentbycommentcomment {
+        width: 95%;
+        display: flex;
+        height: 40px;
+        margin-left: 5%;
+        margin-bottom: 2%;
+    }
+    
+    .likepost {
+        margin-left: 24%;
+        margin-right: 20%;
+        margin-top: 2%;
+    }
+    
+    .likediv {
+        display: flex;
+    }
+    
+    .iconlikepost {
+        margin-right: 1%;
+        font-size: 25px;
+        color: gray;
+        cursor: pointer;
+    }
+    
+    .iconlikepost.liked {
+        color: blue;
+    }
+    
+    .titlelikepost {
+        font-size: 18px;
+        margin-top: 2px;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .contentnewdetail {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .other {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .newother {
+        width: 100%;
+    }
+    .imgnewother {
+        width: 100%;
+        height: 160px;
+    }
+    
+    .itemneworder {
+        width: 90%;
+        height: 300px;
+        border: 2px solid goldenrod;
+    }
+    .namenewother {
+        font-size: 14px;
+    }
+    .textdescnewdetailsecond {
+        font-size: 16px;
+    }
+    .imgcontentnewdetail {
+        height: 80%;
+    }
+    .other {
+        display: block;
+        padding-left: 10%;
+    }
+    .itemneworder {
+        margin-bottom: 10px;
+    }
+    .commentdiv {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: 3%;
+        margin-left: 2%;
+        margin-right: 2%;
+        background-color: rgb(210, 241, 241);
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    }
+    
+    .inpcomment {
+        width: 100%;
+        border: none;
+    }
+    
+    .inpcommentuser {
+        width: 100%;
+        padding: 3px;
+        display: flex;
+        margin-left: 2%;
+    }
+    
+    .inputcomment {
+        width: 80%;
+        height: 30px;
+        font-size: 14px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .btnsendcomment {
+        width: 14%;
+        margin-left: 2%;
+        border: none;
+        font-size: 10px;
+        background-color: goldenrod;
+        color: white;
+        border-radius: 3px;
+    }
+    
+    .btnsendcomment:hover {
+        background-color: green;
+    }
+    
+    .btnsendcomment:active {
+        background-color: gray;
+    }
+    
+    .divanycomment {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .thanhngang {
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+    
+    .titlecommentpost {
+        font-size: 14px;
+        font-weight: 500;
+        margin-left: 2%;
+    }
+    
+    .usercommentform {
+        display: flex;
+        width: 100%;
+        margin-top: 3%;
+    }
+    
+    .imgussercomment {
+        width: 10%;
+    }
+    
+    .imgcommentuser {
+        width: 60%;
+        border-radius: 50%;
+        height: 20px;
+        margin-left: 20%;
+    }
+    
+    .tableinfousercomment {
+        color: black;
+        width: 85%;
+        border: 1px solid rgb(212, 208, 208);
+    }
+    
+    .nameusercomment {
+        color: blue;
+        border-bottom: 1px solid rgb(211, 207, 207) ;
+    }
+    
+    .commentbyusser, .nameusercomment {
+        padding: 2%;
+        font-size: 13px;
+    }
+    
+    .replycomment {
+        margin-top: 2px;
+        margin-left: 10%;
+    }
+    
+    .replydiv {
+        font-size: 12px;
+        color: rgb(80, 169, 241);
+        cursor: pointer;
+        margin-bottom: 1%;
+    }
+    
+    .iconreplycomment {
+        margin-right: 2px;
+        font-size: 8px;
+    }
+    
+    .replycommentbycomment {
+        width: 100%;
+        display: flex;
+        height: 40px;
+        margin-bottom: 2%;
+    }
+    
+    .replycommentreply {
+        width: 85%;
+        border: 1px solid black;
+        height: 75%;
+        font-size: 13px;
+    }
+    
+    .btnsendreplycommentreply {
+        width: 10%;
+        margin-left: 2%;
+        border: none;
+        background-color: goldenrod;
+        border-radius: 3px;
+        font-size: 12px;
+        color: white;
+        height: 80%;
+    }
+    
+    .btnsendreplycommentreply:hover {
+        background-color: green;
+    }
+    
+    .btnsendreplycommentreply:active {
+        background-color: gray;
+    }
+    
+    .usercommentformreply {
+        display: flex;
+        width: 95%;
+        margin-top: 3%;
+        margin-left: 5%;
+    }
+    
+    .replycommentcomment {
+        margin-top: 2px;
+        margin-left: 10%;
+    }
+    
+    .replydivcomment {
+        font-size: 13px;
+        color: rgb(80, 169, 241);
+        cursor: pointer;
+        margin-bottom: 1%;
+        margin-left: 5%;
+    }
+    
+    .replycommentbycommentcomment {
+        width: 95%;
+        display: flex;
+        height: 40px;
+        margin-left: 5%;
+        margin-bottom: 2%;
+    }
+    
+    .likepost {
+        margin-left: 24%;
+        margin-right: 20%;
+        margin-top: 2%;
+    }
+    
+    .likediv {
+        display: flex;
+    }
+    
+    .iconlikepost {
+        margin-right: 1%;
+        font-size: 25px;
+        color: gray;
+        cursor: pointer;
+    }
+    
+    .iconlikepost.liked {
+        color: blue;
+    }
+    
+    .titlelikepost {
+        font-size: 18px;
+        margin-top: 2px;
+    }
+    
+
+}
+
+/* Dành cho điện thoại chiều ngang */
+@media all and (max-width: 360px) {
+    .contentnewdetail {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .other {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .newother {
+        width: 100%;
+    }
+    .imgnewother {
+        width: 100%;
+        height: 160px;
+    }
+    
+    .itemneworder {
+        width: 90%;
+        height: 300px;
+        border: 2px solid goldenrod;
+    }
+    .namenewother {
+        font-size: 14px;
+    }
+    .textdescnewdetailsecond {
+        font-size: 16px;
+    }
+    .imgcontentnewdetail {
+        height: 80%;
+    }
+    .other {
+        display: block;
+        padding-left: 10%;
+    }
+    .itemneworder {
+        margin-bottom: 10px;
+    }
+    .commentdiv {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-top: 3%;
+        margin-left: 2%;
+        margin-right: 2%;
+        background-color: rgb(210, 241, 241);
+        box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+    }
+    
+    .inpcomment {
+        width: 100%;
+        border: none;
+    }
+    
+    .inpcommentuser {
+        width: 100%;
+        padding: 3px;
+        display: flex;
+        margin-left: 2%;
+    }
+    
+    .inputcomment {
+        width: 80%;
+        height: 30px;
+        font-size: 14px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .btnsendcomment {
+        width: 14%;
+        margin-left: 2%;
+        border: none;
+        font-size: 10px;
+        background-color: goldenrod;
+        color: white;
+        border-radius: 3px;
+    }
+    
+    .btnsendcomment:hover {
+        background-color: green;
+    }
+    
+    .btnsendcomment:active {
+        background-color: gray;
+    }
+    
+    .divanycomment {
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .thanhngang {
+        width: 100%;
+        height: 1px;
+        background-color: black;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+    
+    .titlecommentpost {
+        font-size: 14px;
+        font-weight: 500;
+        margin-left: 2%;
+    }
+    
+    .usercommentform {
+        display: flex;
+        width: 100%;
+        margin-top: 3%;
+    }
+    
+    .imgussercomment {
+        width: 10%;
+    }
+    
+    .imgcommentuser {
+        width: 60%;
+        border-radius: 50%;
+        height: 20px;
+        margin-left: 20%;
+    }
+    
+    .tableinfousercomment {
+        color: black;
+        width: 85%;
+        border: 1px solid rgb(212, 208, 208);
+    }
+    
+    .nameusercomment {
+        color: blue;
+        border-bottom: 1px solid rgb(211, 207, 207) ;
+    }
+    
+    .commentbyusser, .nameusercomment {
+        padding: 2%;
+        font-size: 13px;
+    }
+    
+    .replycomment {
+        margin-top: 2px;
+        margin-left: 10%;
+    }
+    
+    .replydiv {
+        font-size: 12px;
+        color: rgb(80, 169, 241);
+        cursor: pointer;
+        margin-bottom: 1%;
+    }
+    
+    .iconreplycomment {
+        margin-right: 2px;
+        font-size: 8px;
+    }
+    
+    .replycommentbycomment {
+        width: 100%;
+        display: flex;
+        height: 40px;
+        margin-bottom: 2%;
+    }
+    
+    .replycommentreply {
+        width: 85%;
+        border: 1px solid black;
+        height: 75%;
+        font-size: 13px;
+    }
+    
+    .btnsendreplycommentreply {
+        width: 10%;
+        margin-left: 2%;
+        border: none;
+        background-color: goldenrod;
+        border-radius: 3px;
+        font-size: 12px;
+        color: white;
+        height: 80%;
+    }
+    
+    .btnsendreplycommentreply:hover {
+        background-color: green;
+    }
+    
+    .btnsendreplycommentreply:active {
+        background-color: gray;
+    }
+    
+    .usercommentformreply {
+        display: flex;
+        width: 95%;
+        margin-top: 3%;
+        margin-left: 5%;
+    }
+    
+    .replycommentcomment {
+        margin-top: 2px;
+        margin-left: 10%;
+    }
+    
+    .replydivcomment {
+        font-size: 13px;
+        color: rgb(80, 169, 241);
+        cursor: pointer;
+        margin-bottom: 1%;
+        margin-left: 5%;
+    }
+    
+    .replycommentbycommentcomment {
+        width: 95%;
+        display: flex;
+        height: 40px;
+        margin-left: 5%;
+        margin-bottom: 2%;
+    }
+    
+    .likepost {
+        margin-left: 24%;
+        margin-right: 20%;
+        margin-top: 2%;
+    }
+    
+    .likediv {
+        display: flex;
+    }
+    
+    .iconlikepost {
+        margin-right: 1%;
+        font-size: 25px;
+        color: gray;
+        cursor: pointer;
+    }
+    
+    .iconlikepost.liked {
+        color: blue;
+    }
+    
+    .titlelikepost {
+        font-size: 18px;
+        margin-top: 2px;
+    }
+    
+
+}
+
+@media all and (max-width: 320px) {
+    .contentnewdetail {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .other {
+        width: 80%;
+        margin-left: 10%;
+    }
+    .newother {
+        width: 100%;
+    }
+    .imgnewother {
+        width: 100%;
+        height: 160px;
+    }
+    
+    .itemneworder {
+        width: 90%;
+        height: 300px;
+        border: 2px solid goldenrod;
+    }
+    .namenewother {
+        font-size: 14px;
+    }
+    .textdescnewdetailsecond {
+        font-size: 14px;
+    }
+    .imgcontentnewdetail {
+        height: 80%;
+    }
+    .other {
+        display: block;
+        padding-left: 10%;
+    }
+    .itemneworder {
+        margin-bottom: 10px;
+    }
+}
+
+@media all and (min-width: 1280px) and (max-width: 1366px) {
+    .newdetailContainer {
+        width: 100%;
+    }
+    .imgdetailnew {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 1366px) and (max-width: 1440px) {
+    .newdetailContainer {
+        width: 100%;
+    }
+    .imgdetailnew {
+        width: 100%;
+    }
+    .contentnewdetail {
+        width: 800px;
+    }
+    .other {
+        width: 60%;
+    }
+}
+
+@media all and (min-width: 1440px) and (max-width: 1680px) {
+    .newdetailContainer {
+        width: 100%;
+        padding-top: 4.8%;
+    }
+    .imgdetailnew {
+        width: 100%;
+    }
+    .contentnewdetail {
+        width: 900px;
+    }
+    .other {
+        width: 60%;
+    }
+}
+
+@media all and (min-width: 1680px) and (max-width: 1920px) {
+    .newdetailContainer {
+        width: 100%;
+        padding-top: 4.2%;
+    }
+    .imgdetailnew {
+        width: 100%;
+    }
+    .contentnewdetail {
+        width: 1000px;
+    }
+    .other {
+        width: 60%;
+    }
+}
+
+@media all and (min-width: 1920px) and (max-width: 2560px) {
+    .newdetailContainer {
+        width: 100%;
+        padding-top: 3.8%;
+    }
+    .imgdetailnew {
+        width: 100%;
+    }
+    .contentnewdetail {
+        width: 1200px;
+    }
+    .other {
+        width: 60%;
+    }
+}

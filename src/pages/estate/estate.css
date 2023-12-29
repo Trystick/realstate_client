@@ -1,0 +1,903 @@
+.estateContainer {
+    padding-top: 5%;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #fbfaea;
+}
+
+.firstimgestate {
+    width: 100%;
+    height: 550px;
+}
+
+.nameestate{
+    text-align: center;
+    font-size: 30px;
+    color: goldenrod;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.tongquanestate {
+    display: flex;
+    height: 500px;
+    margin-top: 40px;
+}
+
+.divimgsecond {
+    width: 50%;
+    height: 70%;
+}
+
+.imgsecond {
+    height: 100%;
+    width: 100%;
+}
+
+.noidungtq {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(238, 200, 103);
+    padding-top: 40px;
+    padding-left: 30px;
+    padding-right: 60px;
+}
+
+.titletq {
+    color: green;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.ptongquan {
+    color: rgb(43, 42, 42)
+}
+
+.ptongquan > span {
+    color: black;
+    font-weight: bold;
+}
+
+.vitriestate {
+    margin-top: 50px;
+    width: 100%;
+    height: 800px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 30px;
+}
+
+.titlevitri {
+    color: goldenrod;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.textandunderline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+  
+
+.underline {
+    height: 2.5px;
+    width: 10%;
+    background-color: goldenrod;
+}
+
+.noidungvitri {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: justify;
+    line-height:2;
+    
+}
+
+.divimgthree {
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.imgfive {
+    width: 100%;
+    height: 65%;
+    margin-top: 15px;
+}
+
+.matbangestate {
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 1000px;
+    
+}
+
+.titlematbang {
+    text-align: center;
+    color: goldenrod;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.noidungmatbang {
+    white-space: pre-line;
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 2;
+    height: 30%;
+    text-align: justify;
+}
+
+.divimgfour {
+    width: 100%;
+    height: 65%;
+}
+
+.imgfour {
+    width: 100%;
+    height: 95%;
+}
+
+.tienichestate {
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 1200px;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.titletienich {
+    text-align: center;
+    color: goldenrod;
+    font-size: 30px;
+    font-weight: bold;
+    word-spacing: 10px;
+}
+
+.diemngoaikhu {
+    text-align: center;
+    font-style: italic;
+    color: #bbb;
+    font-size: 20px;
+}
+
+
+.tiendoestate {
+    width: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 700px;
+}
+
+.slidetiendo {
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+    height: 80%;
+}
+
+.titletiendo {
+    color: goldenrod;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.imgslide {
+    width: 100%;
+    height: 95%;
+}
+
+.arrow {
+    position: absolute;
+    top: calc(50% - 20px);
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .arrow-left {
+    left: 10px;
+  }
+  
+  .arrow-right {
+    right: 10px;
+  }
+
+  .noidungtienich {
+    font-size: 18px;
+    line-height: 2;
+    text-align: justify;
+    white-space: pre-line;
+  }
+
+  .imgthree {
+    width: 100%;
+    height: 55%;
+  }
+  
+  .noidungngoaitienich {
+    font-size: 18px;
+    line-height: 2;
+    height: 45%;
+    white-space: pre-line;
+    text-align: justify;
+    margin-top: 10px;
+  }
+
+  .tienichngoaiestate {
+    margin-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 1250px;
+    padding-top: 50px;
+  }
+
+
+  .titlengoaitienich {
+    font-size: 30px;
+    color: goldenrod;
+    font-weight: bold;
+    text-align: center;
+    word-spacing: 10px;
+  }
+  
+  .anotherproject {
+    width: 100%;
+    
+  }
+
+  .addtb {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    height: 100%;
+    margin-top: 20px;
+  }
+
+  .titleanotherproject {
+    font-size: 30px;
+    color: goldenrod;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .tieubieuproject {
+    width: 50%;
+    background-color: aqua;
+    margin-left: 25%;
+  }
+
+  .linktb {
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 20px;
+    height: 1500px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .linktb:hover {
+    color: greenyellow;
+  }
+
+  .imgtbproject {
+    width: 100%;
+    
+  }
+
+  .imgItemTb {
+    width: 100%;
+  }
+
+  .covernamebtn {
+    width: 100%;
+    height: 70%;
+  }
+
+  .nametbproject {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(232, 157, 157);
+    font-size: 20px;
+  }
+
+  .btntbproject {
+    width: 100%;
+    border: none;
+    height: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #469bef;
+    color: white;
+  }
+
+ 
+  /* Dành cho máy tính bảng*/
+@media all and (max-width: 1024px) {
+    .estateContainer {
+        width: 100%;
+    }
+    .firstimgestate {
+        width: 100%;
+    }
+    .nameestate {
+        width: 100%;
+    }
+    .tongquanestate {
+        width: 100%;
+    }
+    .tongquanestate {
+        height: 550px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .estateContainer {
+        width: 100%;
+    }
+    .firstimgestate {
+        width: 100%;
+    }
+    .nameestate {
+        width: 100%;
+    }
+    .tongquanestate {
+        width: 100%;
+    }
+    .tongquanestate {
+        height: 620px;
+    }
+    .noidungvitri {
+        font-size: 16px;
+    }
+    .noidungtienich {
+        font-size: 16px;
+    }
+    .tienichngoaiestate {
+        margin-bottom: 90px;
+    }
+    .noidungngoaitienich {
+        font-size: 16px;
+    }
+    .noidungmatbang {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .estateContainer {
+        width: 100%;
+    }
+    .firstimgestate {
+        width: 100%;
+    }
+    .nameestate {
+        width: 100%;
+    }
+    .tongquanestate {
+        width: 100%;
+    }
+    .tongquanestate {
+        height: 620px;
+    }
+    .noidungvitri {
+        font-size: 15px;
+    }
+    .noidungtienich {
+        font-size: 15px;
+    }
+    .tienichngoaiestate {
+        margin-bottom: 90px;
+    }
+    .noidungngoaitienich {
+        font-size: 15px;
+    }
+    .noidungmatbang {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .estateContainer {
+        width: 100%;
+    }
+    .firstimgestate {
+        width: 100%;
+        height: 400px;
+    }
+    .nameestate {
+        width: 100%;
+    }
+    .tongquanestate {
+        width: 100%;
+    }
+    .tongquanestate {
+        height: 600px;
+    }
+    .noidungvitri {
+        font-size: 14px;
+    }
+    .noidungtienich {
+        font-size: 14px;
+    }
+    .tienichngoaiestate {
+        margin-bottom: 90px;
+    }
+    .noidungngoaitienich {
+        font-size: 14px;
+    }
+    .noidungmatbang {
+        font-size: 14px;
+    }
+    .titletq {
+        font-size: 26px; 
+    }
+    .ptongquan {
+        font-size: 14px;
+    }
+    .imgthree {
+        width: 100%;
+        height: 30%;
+    }
+    .imgfive {
+        width: 100%;
+        height: 30%;
+    }
+    .titlematbang, .titlevitri, .titletienich, .titlengoaitienich, .titletiendo {
+        font-size: 22px;
+    }
+    .tienichestate {
+        height: 500px;
+    }
+    .tiendoestate {
+        height: 400px;
+    }
+    .slidetiendo {
+       height: 70%;
+    }
+    .imgslide {
+       width: 100%;
+       height: 100%;
+    }
+    .vitriestate {
+        height: 900px;
+    }
+    
+}
+
+@media all and (max-width: 480px) {
+    .estateContainer {
+        width: 100%;
+    }
+    .firstimgestate {
+        width: 100%;
+        height: 400px;
+    }
+    .nameestate {
+        width: 100%;
+    }
+    .tongquanestate {
+        width: 100%;
+        display: block;
+        height: 600px;
+    }
+    .divimgsecond {
+        width: 100%;
+        height: 35%;
+    }
+    .noidungtq {
+        width: 100%;
+        height: 70%;
+        padding-top: 5%;
+        line-height: 1.2;
+    }
+    .titletq {
+        font-size: 24px; 
+        margin-top: 0%;
+    }
+    .noidungvitri {
+        font-size: 13px;
+    }
+    .noidungtienich {
+        font-size: 13px;
+    }
+    .tienichngoaiestate {
+        margin-bottom: 90px;
+    }
+    .noidungngoaitienich {
+        font-size: 13px;
+    }
+    .noidungmatbang {
+        font-size: 13px;
+    }
+ 
+    .ptongquan {
+        font-size: 14px;
+    }
+    .imgthree {
+        width: 100%;
+        height: 30%;
+    }
+    .imgfive {
+        width: 100%;
+        height: 30%;
+    }
+    .titlematbang, .titlevitri, .titletienich, .titlengoaitienich, .titletiendo {
+        font-size: 20px;
+    }
+    .tienichestate {
+        height: 500px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .matbangestate {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .tiendoestate {
+        height: 400px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .tienichngoaiestate{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .slidetiendo {
+       height: 65%;
+    }
+    .imgslide {
+       width: 100%;
+       height: 100%;
+    }
+    .vitriestate {
+        height: 900px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+}
+
+@media all and (max-width: 414px) {
+    .estateContainer {
+        width: 100%;
+    }
+    .firstimgestate {
+        width: 100%;
+        height: 400px;
+    }
+    .nameestate {
+        width: 100%;
+    }
+    .tongquanestate {
+        width: 100%;
+        display: block;
+        height: 600px;
+    }
+    .divimgsecond {
+        width: 100%;
+        height: 35%;
+    }
+    .noidungtq {
+        width: 100%;
+        height: 70%;
+        padding-top: 5%;
+        line-height: 1.2;
+    }
+    .titletq {
+        font-size: 24px; 
+        margin-top: 0%;
+    }
+    .noidungvitri {
+        font-size: 13px;
+    }
+    .noidungtienich {
+        font-size: 13px;
+    }
+    .tienichngoaiestate {
+        margin-bottom: 90px;
+    }
+    .noidungngoaitienich {
+        font-size: 13px;
+    }
+    .noidungmatbang {
+        font-size: 13px;
+    }
+ 
+    .ptongquan {
+        font-size: 14px;
+    }
+    .imgthree {
+        width: 100%;
+        height: 30%;
+    }
+    .imgfive {
+        width: 100%;
+        height: 30%;
+    }
+    .titlematbang, .titlevitri, .titletienich, .titlengoaitienich, .titletiendo {
+        font-size: 20px;
+    }
+    .tienichestate {
+        height: 500px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .matbangestate {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .tiendoestate {
+        height: 400px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .tienichngoaiestate{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .slidetiendo {
+       height: 65%;
+    }
+    .imgslide {
+       width: 100%;
+       height: 100%;
+    }
+    .vitriestate {
+        height: 900px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+}
+
+@media all and (max-width: 320px) {
+    .estateContainer {
+        width: 100%;
+    }
+    .firstimgestate {
+        width: 100%;
+        height: 400px;
+    }
+    .nameestate {
+        width: 100%;
+    }
+    .tongquanestate {
+        width: 100%;
+        display: block;
+        height: 600px;
+    }
+    .divimgsecond {
+        width: 100%;
+        height: 35%;
+    }
+    .noidungtq {
+        width: 100%;
+        height: 70%;
+        padding-top: 5%;
+        line-height: 1.2;
+    }
+    .titletq {
+        font-size: 24px; 
+        margin-top: 0%;
+    }
+    .noidungvitri {
+        font-size: 12px;
+    }
+    .noidungtienich {
+        font-size: 12px;
+    }
+    .tienichngoaiestate {
+        margin-bottom: 90px;
+    }
+    .noidungngoaitienich {
+        font-size: 12px;
+    }
+    .noidungmatbang {
+        font-size: 12px;
+    }
+ 
+    .ptongquan {
+        font-size: 13px;
+    }
+    .imgthree {
+        width: 100%;
+        height: 30%;
+    }
+    .imgfive {
+        width: 100%;
+        height: 30%;
+    }
+    .titlematbang, .titlevitri, .titletienich, .titlengoaitienich, .titletiendo {
+        font-size: 18px;
+    }
+    .tienichestate {
+        height: 500px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .matbangestate {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .tiendoestate {
+        height: 400px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .tienichngoaiestate{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .slidetiendo {
+       height: 65%;
+    }
+    .imgslide {
+       width: 100%;
+       height: 100%;
+    }
+    .vitriestate {
+        height: 900px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .nameestate {
+        font-size: 20px;
+    } 
+}
+
+@media all and (max-width: 360px) {
+    .estateContainer {
+        width: 100%;
+    }
+    .firstimgestate {
+        width: 100%;
+        height: 400px;
+    }
+    .nameestate {
+        width: 100%;
+    }
+    .tongquanestate {
+        width: 100%;
+        display: block;
+        height: 600px;
+    }
+    .divimgsecond {
+        width: 100%;
+        height: 35%;
+    }
+    .noidungtq {
+        width: 100%;
+        height: 70%;
+        padding-top: 5%;
+        line-height: 1.2;
+    }
+    .titletq {
+        font-size: 24px; 
+        margin-top: 0%;
+    }
+    .noidungvitri {
+        font-size: 12px;
+    }
+    .noidungtienich {
+        font-size: 12px;
+    }
+    .tienichngoaiestate {
+        margin-bottom: 90px;
+    }
+    .noidungngoaitienich {
+        font-size: 12px;
+    }
+    .noidungmatbang {
+        font-size: 12px;
+    }
+ 
+    .ptongquan {
+        font-size: 13px;
+    }
+    .imgthree {
+        width: 100%;
+        height: 30%;
+    }
+    .imgfive {
+        width: 100%;
+        height: 30%;
+    }
+    .titlematbang, .titlevitri, .titletienich, .titlengoaitienich, .titletiendo {
+        font-size: 18px;
+    }
+    .tienichestate {
+        height: 500px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 110px;
+    }
+    .matbangestate {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .tiendoestate {
+        height: 400px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .tienichngoaiestate{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .slidetiendo {
+       height: 65%;
+    }
+    .imgslide {
+       width: 100%;
+       height: 100%;
+    }
+    .vitriestate {
+        height: 900px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .nameestate {
+        font-size: 20px;
+    } 
+    .divimgfour {
+        width: 100%;
+        height: 60%;
+    }
+}
+
+@media all and (min-width: 1280px) and (max-width: 1366px) {
+    .estateContainer {
+        width: 100%;
+    }
+    .firstimgestate {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 1366px) and (max-width: 1440px) {
+    .estateContainer {
+        width: 100%;
+    }
+    .firstimgestate {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 1440px) and (max-width: 1680px) {
+    .estateContainer {
+        width: 100%;
+        padding-top: 4.8%;
+    }
+    .firstimgestate {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 1680px) and (max-width: 1920px) {
+    .estateContainer {
+        width: 100%;
+        padding-top: 4.2%;
+    }
+    .firstimgestate {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 1920px) and (max-width: 2560px) {
+    .estateContainer {
+        width: 100%;
+        padding-top: 3.5%;
+    }
+    .firstimgestate {
+        width: 100%;
+    }
+}

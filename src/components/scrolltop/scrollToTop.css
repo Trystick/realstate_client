@@ -1,0 +1,15 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 100px;
+    right: 30px;
+    border: none;
+    border-radius: 10%;
+  }
+
+.iconscroll {
+    width: 40px;
+    height: 40px;
+    color: red;
+    
+}
+  

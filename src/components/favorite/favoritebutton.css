@@ -1,0 +1,7 @@
+.favorite-icon {
+  color: black;
+}
+
+.favorited .favorite-icon {
+  color: red;
+} 

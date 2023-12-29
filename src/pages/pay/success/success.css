@@ -1,0 +1,56 @@
+.successContainer {
+    width: 100%;
+    position: absolute;
+    background-image: url(../success/Picture1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 700px;
+   
+}
+
+.topsuccess {
+    width: 100%;
+    height: 50%;
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.undersuccess {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.titlesuccess {
+    border: 1px solid green;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: goldenrod;
+    font-weight: bold;
+    padding: 3px;
+    background-color: rgb(43, 118, 222);
+    border-radius: 5px;
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.textundersuccess {
+    border: 1px solid blue;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: red;
+    font-weight: bold;
+    padding: 3px;
+    background-color: goldenrod;
+    border-radius: 5px;
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}

@@ -1,0 +1,21 @@
+.loadSearchContainer {
+    position: absolute;
+    width: 100%;
+}
+
+.loadsearch {
+    margin-top: 6%;
+}
+
+.checkfind {
+    width: 100%;
+    position: absolute;
+}
+
+.seterrorfind {
+    margin-top: 10%;
+    text-align: center;
+    color: red;
+    font-size: 30px;
+    margin-bottom: 10%;
+}

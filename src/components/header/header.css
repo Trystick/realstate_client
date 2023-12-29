@@ -1,0 +1,680 @@
+.header {
+    z-index: 1;
+    height: 70px;
+    color: #1F6E04 ;
+    display: flex;
+    justify-content: left;
+    position: fixed;
+    width: 100%;
+    background-image: url(./abstract-luxury-gold-yellow-gradient-studio-wall-well-use-as-background-layout-banner-product-presentation.jpg) ;
+}
+
+.headerContainer {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    padding-top: 20px;
+}
+
+.navContainer {
+    width: 5%;
+  
+}
+
+.logo {
+   width: 100%;
+   height: 70%;
+   margin-left: 3px;
+}
+
+.headerList {
+    width: 70%;
+    display: flex;
+    height: 30px;
+    margin-left: 15px;
+}
+
+.headerListItem{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+}
+
+.headerListItem.active {
+    border: 2px solid white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    background-color: #1F6E04;
+    color: white;
+}
+
+.headerListItem:hover {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.nav-language {
+    margin-top: 5px;
+    text-decoration: none;
+    padding-right: 10px;
+    font-size: 13px;
+    width: 5%;
+}
+
+.languageBtn {
+    width: 25px;
+    height: 22px;
+    margin-left: 2px;
+    border: none;
+    color: #1F6E04;
+}
+
+.languageBtn:hover {
+    color: white;
+    background-color: goldenrod;
+}
+
+.languageBtn:active {
+    background-color: gray;
+}
+
+.headerTitle {
+    color: white;
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.headerSign {
+    width: 20%;
+    display: flex;
+    margin-top: 2px;
+   
+}
+
+.headerSignUp {
+    width: 50%;
+    margin-right: 10px;
+}
+
+.headerSignIn {
+    width: 50%;
+}
+
+.btnsign {
+    font-size: 0.8em;
+    width: 100%;
+    padding: 4px;
+    color: #1F6E04;
+    font-weight: 500;
+    border: 1px solid green;
+    border-radius: 2px;
+}
+
+.btnsign:hover {
+    color: white;
+    background-color: #febb02;
+}
+
+.btnsign:active {
+    background-color: gray;
+}
+
+.menudropdown{
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    font-size: 16px;
+    top: 20px;
+    left: 0;
+}
+
+.menudropdown div {
+    border-radius: 2px;
+    background-color: rgb(74, 226, 57); /* Màu nền cho mỗi mục */
+    margin: 2px; /* Khoảng cách giữa các mục */
+    padding: 7px; /* Khoảng cách giữa nội dung và biên của mục */
+}
+
+.headerListItem:hover .menudropdown {
+    display: block;
+}
+
+.menudropdown div:hover {
+    background-color: #1F6E04;
+    color: yellow;
+}
+
+.menudropdown div:active {
+    background-color: white;
+}
+
+.linkheaderhref {
+   text-decoration: none;
+   color: white;
+}
+  
+.navbarrs {
+    display: none;
+    font-size: 20px;
+}
+
+.nav_overplay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    animation: fadeIn linear 0.2s;
+}
+
+.nav_mobile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 320px;
+    opacity: 0;
+    max-width: 100%;
+    background-color: goldenrod;
+    transform: translateX(-100%);
+    transition: transform linear 0.2s, opacity linear 0.2s;
+}
+
+.headerListMobile {
+    margin-top: 24px;
+
+}
+
+.headerListItemMobile {
+    text-decoration: none;
+    display: block;
+    padding: 8px 0;
+    padding-left: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.headerListItemMobile:hover {
+    color: #1F6E04;
+    background-color: white;
+    cursor: pointer;
+}
+
+.nav_x {
+    width: 30px;
+    height: 30px;
+    top: 1rem;
+    right: 1rem;
+    float: right;
+    font-size: 30px;
+}
+
+.nav_input:checked ~ .nav_overplay {
+    display: block;
+}
+
+.nav_input:checked ~ .nav_mobile {
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.nav_input {
+    display: none;
+}
+
+.linkcss {
+    color: #1F6E04;
+    text-decoration: none;
+}
+
+.headerAvatar {
+    margin-left: 20px;
+    width: 40px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.avatarHeader {
+    width: 100%;
+    height: 100%;
+}
+
+.dropdownMenu {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F6E04;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 1;
+    font-size: 12px;
+    right: 25px;
+    top: 53px;
+  }
+  
+  .dropdownItem {
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    display: block;
+    color: white;
+  }
+  
+  .dropdownItem:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdownItem:active {
+    background-color: gray;
+  }
+
+  .pictureavatar {
+    width: 100px;
+    height: 100px;
+    
+  }
+
+  .checkrember {
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+
+  .iconProfile {
+    margin-right: 10px;
+  }
+
+ 
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .header{
+        width: 100%;
+    }
+    .headerContainer {
+        width: 100%;
+    }
+    .navbarrs {
+        display: block;
+    }
+    .headerList {
+        display: none;
+    }
+    .headerSearch {
+        display: none;
+    }
+    .nav-language {
+        display: none;
+    }
+    .headerSign {
+        display: none;
+    }
+    .navContainer {
+        display: none;
+    }
+    .logoMobile {
+        width: 25%;
+        margin-bottom: 1%;
+        margin-left: 2%;
+    }
+    .menudropdownmobile {
+        display: block;
+        position: absolute;
+        background-color: rgb(128, 201, 233);
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .menudropdownmobile a {
+        width: 100%;
+        color: black;
+        padding: 8px;
+        text-decoration: none;
+        display: block;
+    }
+    .menudropdownmobile a:hover {
+        background-color: green;
+        color: white;
+    }
+    .headerSignMobile {
+        display: flex;
+        width: 100%;
+    }
+    .signupinmobile {
+        width: 50%;
+    }
+    .headerAvatarMobile {
+        width: 50%;
+    }
+    .aheadermobile {
+        width: 100%;
+    }
+    .avatarHeaderMobile {
+        width: 30%;
+        height: 45px;
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+    .headerSignUpMobile {
+        width: 80%;
+        margin-top: 10px;
+    }
+    .headerSignInMobile {
+        width: 80%;
+    }
+    .btnsignMobile {
+        width: 100%;
+        border: none;
+        margin-bottom: 10px;
+        padding: 5px;
+        font-size: 14px;
+        margin-left: 8%;
+    }
+    .btnsignMobile:hover {
+        background-color: #febb02;
+        color: white;
+    }
+    .btnsignMobile:active {
+       background-color: gray;
+    }
+    .linkcssMobile {
+        color: #1F6E04;
+        font-weight: 500;
+        text-decoration: none;
+        
+    }
+    .dropdownMenuMobile {
+        display: flex;
+        flex-direction: column;
+        background-color: #1F6E04;
+        border-radius: 4px;
+        position: absolute;
+        z-index: 1;
+        font-size: 12px;
+        right: 10px;
+        bottom: 150px;
+    }
+
+}
+
+/* Dành cho máy tính bảng chiều ngang */
+@media all and (max-width: 800px) {
+    .header {
+        width: 100%;
+    }
+    .headerContainer {
+        width: 100%
+    }
+    .navbarrs {
+        display: block;
+    }
+    .headerList {
+        display: none;
+    }
+    .headerSearch {
+        display: none;
+    }
+    .nav-language {
+        display: none;
+    }
+}
+@media all and (max-width: 768px) {
+    .header {
+        width: 100%;
+    }
+    .headerContainer {
+        width: 100%;
+    }
+    .navbarrs {
+        display: block;
+        margin-left: 10px;
+    }
+    .headerList {
+        display: none;
+    }
+    .headerSearch {
+        display: none;
+    }
+    .nav-language {
+        display: none;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .header {
+        width: 100%;
+    }
+    .headerContainer {
+        width: 100%;
+    }
+    .navbarrs {
+        display: block;
+    }
+    .headerList {
+        display: none;
+    }
+    .headerSearch {
+        display: none;
+    }
+    .nav-language {
+        display: none;
+    }
+}
+@media all and (max-width: 480px) {
+    .header {
+        width: 100%;
+    }
+    .headerContainer {
+        width: 100%;
+    }
+    .navbarrs {
+        display: block;
+    }
+    .headerList {
+        display: none;
+    }
+    .headerSearch {
+        display: none;
+    }
+    .nav-language {
+        display: none;
+    }
+}
+@media all and (max-width: 414px) {
+    .header {
+        width: 100%;
+    }
+    .headerContainer {
+        width: 100%
+    }
+    .navbarrs {
+        display: block;
+    }
+    .headerList {
+        display: none;
+    }
+    .headerSearch {
+        display: none;
+    }
+    .nav-language {
+        display: none;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .header {
+        width: 100%;
+    }
+    .headerContainer {
+        width: 100%
+    }
+    .navbarrs {
+        display: block;
+    }
+    .headerList {
+        display: none;
+    }
+    .headerSearch {
+        display: none;
+    }
+    .nav-language {
+        display: none;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .header {
+        width: 100%;
+    }
+    .headerContainer {
+        width: 100%
+    }
+    .navbarrs {
+        display: block;
+    }
+    .headerList {
+        display: none;
+    }
+    .headerSearch {
+        display: none;
+    }
+    .nav-language {
+        display: none;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .header {
+        width: 100%;
+    }
+    .navbarrs {
+        display: block;
+    }
+    .headerList {
+        display: none;
+    }
+    .headerSearch {
+        display: none;
+    }
+    .nav-language {
+        display: none;
+    }
+}
+
+@media all and (min-width: 1280px) and (max-width: 1366px) {
+    .header {
+        width: 100%;
+    }
+    .headerContainer {
+        width: 100%;
+    }
+    .nav-language {
+        margin-left: 100px;
+        display: flex;
+    }
+    .inptk {
+        width: 250px;
+    }
+    .headerSearch {
+        margin-left: 700px;
+    }
+}
+
+@media all and (min-width: 1366px) and (max-width: 1440px) {
+    .header {
+        width: 100%;
+    }
+    .headerContainer {
+        width: 100%;
+    }
+    .nav-language {
+        margin-left: 100px;
+        display: flex;
+    }
+    .inptk {
+        width: 250px;
+    }
+    .headerSearch {
+        margin-left: 750px;
+    }
+}
+
+@media all and (min-width: 1440px) and (max-width: 1680px) {
+    .header {
+        width: 100%;
+    }
+    .headerContainer {
+        width: 100%;
+    }
+    .nav-language {
+        margin-left: 100px;
+        display: flex;
+    }
+    .inptk {
+        width: 250px;
+    }
+    .headerSearch {
+        margin-left: 800px;
+    }
+    .headerListItem {
+        font-size: 24px;
+    }
+}
+
+@media all and (min-width: 1680px) and (max-width: 1920px) {
+    .header {
+        width: 100%;
+    }
+    .headerContainer {
+        width: 100%;
+    }
+    .nav-language {
+        margin-left: 100px;
+        display: flex;
+    }
+    .inptk {
+        width: 280px;
+    }
+    .headerSearch {
+        margin-left: 950px;
+    }
+    .headerListItem {
+        font-size: 26px;
+    }
+}
+
+@media all and (min-width: 1920px) and (max-width: 2560px) {
+    .header {
+        width: 100%;
+    }
+    .headerContainer {
+        width: 100%;
+    }
+    .nav-language {
+        margin-left: 100px;
+        display: flex;
+    }
+    .inptk {
+        width: 280px;
+    }
+    .headerSearch {
+        margin-left: 1150px;
+    }
+    .headerListItem {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,21 @@
+.imgNavbar {
+    margin-top: 6.2px;
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+}
+
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.slide {
+    margin-top: 10px;
+    height: 550px;
+    width: 100%;
+}
+
+

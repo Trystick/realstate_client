@@ -1,0 +1,2023 @@
+.landSaleDetaiContainer {
+    width: 100%;
+    position: absolute;
+}
+
+
+.contentdetaillandsale {
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 200px;
+}
+
+.leftdetaillandsale {
+    width: 55%;
+    height: 1500px;
+    margin-left: 13%;
+}
+
+.grouppicturelandsaledetail {
+    width: 100%;
+    height: 30%;
+}
+
+.toppicturesliderlandsale {
+    width: 100%;
+    height: 80%;
+    background-color: black;
+    position: relative;
+    display: flex;
+}
+
+.bottompicturelandsaledetail {
+    width: 100%;
+    height: 20%;
+    margin-top: 1%;
+    background-color: rgb(233, 214, 214);
+}
+
+.imglandsaledetail {
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    text-align: center;
+    margin-top:30px ;
+  }
+
+.flex_row{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.thumbnail {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+}
+
+.clicked{
+  border: 5px solid rgb(234, 17, 17);
+}
+
+  
+.btns {
+    position: absolute;
+    top: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.btns:first-child {
+    left: 10px;
+    transform: translateY(-50%);
+}
+
+.btns:last-child {
+    right: 10px;
+    transform: translateY(-50%);
+}
+  
+.namelandsaledetail {
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.addresslandsaledetail {
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.ultitilandsaledetail {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(212, 206, 206) ;
+    border-bottom: 1px solid rgb(212, 206, 206) ;
+}
+
+.groupinfolandsale {
+    display: flex;
+    width: 70%;
+   
+}
+
+.arealandsaledetail {
+   margin-right: 10%;
+   line-height: 1;
+   margin-top: 10px;
+}
+
+.plandsaledetail {
+    opacity: 90%;
+}
+
+.plandsaledetailunder {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sharelikelandsale {
+    width: 30%;
+    float: right;
+}
+
+.iconshrarelike {
+    margin-top: 10%;
+    margin-left: 40%;
+    font-size: 23px;
+    color: goldenrod;
+}
+
+.deslandsaledetail {
+    margin-top: 50px;
+
+}
+
+
+.titledeslandsale {
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.characlandsaledetail {
+    margin-top: 30px;
+}
+
+.titlecharaclandsaledetail {
+   font-size: 22px;
+   font-weight: 500;
+   margin-bottom: 20px;
+}
+
+.groupleftrightcharacdetaillandsale {
+    display: flex;
+    width: 100%;
+}
+
+.groupleftcharaclandsaledetail {
+    width: 48%;
+}
+
+.grouprightcharaclandsaledetail {
+   width: 48%;
+   margin-left: 4%;
+}
+
+.grouptopcharaclandsaledetail {
+    display: flex;
+}
+
+.groupbottomcharaclandsaledetail {
+    display: flex;
+}
+
+.ptopright {
+    margin-left: 100px;
+}
+
+.punderright {
+    margin-left: 60px;
+}
+
+.punderright2 {
+    margin-left: 98px;
+}
+
+.grouptopcharaclandsaledetail {
+    border-top: 1px solid rgb(212, 206, 206);
+    border-bottom: 1px solid rgb(212, 206, 206);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.groupbottomcharaclandsaledetail {
+    border-bottom: 1px solid rgb(212, 206, 206);
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.descontentlandsaledetail {
+    text-align: justify;
+    margin-right: 20px;
+}
+
+.ptopleft, .punderleft {
+    font-weight: 500;
+}
+
+.iconcharacdetaillandsale {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.anotherinfodetaillandsale {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.titleanotherdetaillandsale {
+    font-weight: 500;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.groupanotherdetaillandsale {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid rgb(212, 206, 206);
+    border-top: 1px solid rgb(212, 206, 206);
+}
+
+.itemanotherdetaillandsale {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 17%;
+    margin-right: 5%;
+}
+
+.firstitemanotherdetaillandsale {
+    color: gray;
+}
+
+.seconditemanotherdetaillandsale {
+    font-weight: 500;
+}
+
+.tinnoibatkhac {
+    margin-top: 30px;
+    width: 100%;
+}
+
+.titletinoibatkhac {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.grouptinnoibat {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemtinnoibat {
+    width: 30%;
+}
+
+.anhtinnoibat {
+    width: 100%;
+}
+
+.imgnoibat {
+    width: 100%;
+    height: 150px;
+}
+
+.coveritemtinnoibat {
+    width: 100%;
+    background-color: antiquewhite;
+    height: 120px;
+}
+
+.priceareanoibat {
+    display: flex;
+    padding-top: 5%;
+    padding-left: 5%;
+    color: red;
+}
+
+.ppriceareanoibat {
+    margin-right: 5%;
+    font-size: 13px;
+}
+
+.locanoibatkhac {
+    display: flex;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.iconlocatinnoibat {
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.rightdetaillandsale {   
+    width: 15%;
+    background-color: wheat;
+    height: 100%;
+    margin-left: 3%;
+    border-radius: 5px;
+    border: 1px solid rgb(213, 209, 209);
+    padding-bottom: 50px;
+}
+
+.itemuserdangtin {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.avatarlandsaledetail {
+    width: 70%;
+    height: 60px;
+    margin-left: 15%;
+    margin-bottom: 10px;
+}
+
+.avtaruserlandsale {
+    width: 50%;
+    border-radius: 50%;
+    height: 100%;
+}
+
+.bydangtin {
+    color: gray;
+    opacity: 90%;
+    font-size: 14px;
+}
+
+.usernamedangtin {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.phoneuserdangtin {
+    background-color: rgb(18, 129, 193);
+    margin-top: 20px;
+    padding: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .btnsharesocialcopy {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  .btnsharesocialcopy:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .iconcopy {
+    width: 25px;
+    height: 25px;
+  }
+
+  .btnsharesocialfa {
+    margin-right: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .btnsharesocialtw {
+    margin-right: 55px;
+  }
+  
+  @media all and (max-width: 360px) {
+    .contentdetaillandsale {
+        display: flex;
+        margin-top: 25%;
+        margin-bottom: 200px;
+    }
+    
+    .leftdetaillandsale {
+        width: 75%;
+        height: 1900px;
+        margin-left: 3%;
+    }
+    
+    .grouppicturelandsaledetail {
+        width: 100%;
+        height: 20%;
+    }
+    
+    .toppicturesliderlandsale {
+        width: 100%;
+        height: 80%;
+        background-color: black;
+        position: relative;
+        display: flex;
+    }
+    
+    .bottompicturelandsaledetail {
+        width: 100%;
+        height: 10%;
+        margin-top: 1%;
+        background-color: rgb(233, 214, 214);
+    }
+    
+    .imglandsaledetail {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .main{
+        text-align: center;
+        margin-top:30px ;
+      }
+    
+    .flex_row{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .thumbnail {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+    
+    .clicked{
+      border: 5px solid rgb(234, 17, 17);
+    }
+    
+      
+    .btns {
+        position: absolute;
+        top: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    
+         
+    .namelandsaledetail {
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .addresslandsaledetail {
+        margin-top: 5px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    
+    .ultitilandsaledetail {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid rgb(212, 206, 206) ;
+        border-bottom: 1px solid rgb(212, 206, 206) ;
+    }
+    
+    .groupinfolandsale {
+        display: flex;
+        width: 70%;
+       
+    }
+    
+    .arealandsaledetail {
+       margin-right: 10%;
+       line-height: 1;
+       margin-top: 10px;
+    }
+    
+    .plandsaledetail {
+        opacity: 90%;
+        font-size: 12px;
+    }
+    
+    .plandsaledetailunder {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    
+    .sharelikelandsale {
+        width: 30%;
+        float: right;
+    }
+    
+    .iconshrarelike {
+        margin-top: 10%;
+        margin-left: 40%;
+        font-size: 23px;
+        color: goldenrod;
+    }
+    
+    .deslandsaledetail {
+        margin-top: 50px;
+    
+    }
+    
+    
+    .titledeslandsale {
+        font-size: 15px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+    
+    .characlandsaledetail {
+        margin-top: 30px;
+    }
+    
+    .titlecharaclandsaledetail {
+       font-size: 15px;
+       font-weight: 500;
+       margin-bottom: 20px;
+    }
+    
+    .groupleftrightcharacdetaillandsale {
+        display: block;
+        width: 100%;
+    }
+    
+    .groupleftcharaclandsaledetail {
+        width: 100%;
+    }
+    
+    .grouprightcharaclandsaledetail {
+       width: 100%;
+       margin-left: 0%;
+    }
+    
+    .grouptopcharaclandsaledetail {
+        display: flex;
+    }
+    
+    .groupbottomcharaclandsaledetail {
+        display: flex;
+    }
+    
+    .ptopright {
+        margin-left: 100px;
+    }
+    
+    .punderright {
+        margin-left: 60px;
+    }
+    
+    .punderright2 {
+        margin-left: 98px;
+    }
+    
+    .grouptopcharaclandsaledetail {
+        border-top: 1px solid rgb(212, 206, 206);
+        border-bottom: 1px solid rgb(212, 206, 206);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+    
+    .groupbottomcharaclandsaledetail {
+        border-bottom: none;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 14px;
+    }
+    
+    .descontentlandsaledetail {
+        text-align: justify;
+        margin-right: 20px;
+        font-size: 13px;
+    }
+    
+    .ptopleft, .punderleft {
+        font-weight: 500;
+    }
+    
+    .iconcharacdetaillandsale {
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+    
+    .anotherinfodetaillandsale {
+        margin-top: 30px;
+        width: 100%;
+    }
+    
+    .titleanotherdetaillandsale {
+        font-weight: 500;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .groupanotherdetaillandsale {
+        width: 100%;
+        display: block;
+        border-bottom: 1px solid rgb(212, 206, 206);
+        border-top: 1px solid rgb(212, 206, 206);
+    }
+    
+    .itemanotherdetaillandsale {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        margin-right: 0%;
+    }
+    
+    .firstitemanotherdetaillandsale {
+        color: gray;
+        font-size: 13px;
+    }
+    
+    .seconditemanotherdetaillandsale {
+        font-weight: 500;
+        font-size: 13px;
+    }
+    
+    .tinnoibatkhac {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    .ploacationnoibat {
+        font-size: 13px;
+    }
+    
+    .titletinoibatkhac {
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    
+    .grouptinnoibat {
+        width: 100%;
+        display: block;
+        justify-content: none;
+    }
+    
+    .itemtinnoibat {
+        width: 60%;
+    }
+    
+    .anhtinnoibat {
+        width: 100%;
+    }
+    
+    .imgnoibat {
+        width: 100%;
+        height: 90px;
+    }
+    
+    .coveritemtinnoibat {
+        width: 100%;
+        background-color: antiquewhite;
+        height: 100px;
+    }
+    
+    .priceareanoibat {
+        display: flex;
+        padding-top: 5%;
+        padding-left: 5%;
+        color: red;
+    }
+    
+    .ppriceareanoibat {
+        margin-right: 5%;
+    }
+    
+    .locanoibatkhac {
+        display: flex;
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+    
+    .iconlocatinnoibat {
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+    
+    .rightdetaillandsale {   
+        width: 15%;
+        background-color: wheat;
+        height: 100%;
+        margin-left: 3%;
+        border-radius: 5px;
+        border: 1px solid rgb(213, 209, 209);
+        padding-bottom: 50px;
+    }
+    
+    .itemuserdangtin {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .avatarlandsaledetail {
+        width: 70%;
+        height: 30px;
+        margin-left: 15%;
+        margin-bottom: 10px;
+    }
+    
+    .avtaruserlandsale {
+        width: 80%;
+        border-radius: 50%;
+        height: 70%;
+    }
+    
+    .bydangtin {
+        color: gray;
+        opacity: 90%;
+        font-size: 12px;
+    }
+    
+    .usernamedangtin {
+        font-weight: 500;
+        font-size: 11px;
+        word-wrap: break-word;
+    }
+    
+    .phoneuserdangtin {
+        background-color: rgb(18, 129, 193);
+        writing-mode: vertical-lr;
+        margin-top: 20px;
+        padding: 5px;
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 11px;
+        color: white;
+        border-radius: 5px;
+    }
+    
+    .dropdown {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .btnsharesocialcopy {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        border: none;
+        background: none;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+      }
+      
+      .btnsharesocialcopy:hover {
+        background-color: #f1f1f1;
+      }
+      
+      .iconcopy {
+        width: 25px;
+        height: 25px;
+      }
+    
+      .btnsharesocialfa {
+        margin-right: 35px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    
+      .btnsharesocialtw {
+        margin-right: 55px;
+      }
+      
+  }
+
+  @media all and (max-width: 375px) {
+    .contentdetaillandsale {
+        display: flex;
+        margin-top: 25%;
+        margin-bottom: 200px;
+    }
+    
+    .leftdetaillandsale {
+        width: 75%;
+        height: 1900px;
+        margin-left: 3%;
+    }
+    
+    .grouppicturelandsaledetail {
+        width: 100%;
+        height: 10%;
+    }
+    
+    .toppicturesliderlandsale {
+        width: 100%;
+        height: 80%;
+        background-color: black;
+        position: relative;
+        display: flex;
+    }
+    
+    .bottompicturelandsaledetail {
+        width: 100%;
+        height: 10%;
+        margin-top: 1%;
+        background-color: rgb(233, 214, 214);
+    }
+    
+    .imglandsaledetail {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .main{
+        text-align: center;
+        margin-top:30px ;
+      }
+    
+    .flex_row{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .thumbnail {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+    
+    .clicked{
+      border: 5px solid rgb(234, 17, 17);
+    }
+    
+      
+    .btns {
+        position: absolute;
+        top: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    
+    .ploacationnoibat {
+        font-size: 13px;
+    }
+      
+    .namelandsaledetail {
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .addresslandsaledetail {
+        margin-top: 5px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    
+    .ultitilandsaledetail {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid rgb(212, 206, 206) ;
+        border-bottom: 1px solid rgb(212, 206, 206) ;
+    }
+    
+    .groupinfolandsale {
+        display: flex;
+        width: 70%;
+       
+    }
+    
+    .arealandsaledetail {
+       margin-right: 10%;
+       line-height: 1;
+       margin-top: 10px;
+    }
+    
+    .plandsaledetail {
+        opacity: 90%;
+        font-size: 12px;
+    }
+    
+    .plandsaledetailunder {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    
+    .sharelikelandsale {
+        width: 30%;
+        float: right;
+    }
+    
+    .iconshrarelike {
+        margin-top: 10%;
+        margin-left: 40%;
+        font-size: 23px;
+        color: goldenrod;
+    }
+    
+    .deslandsaledetail {
+        margin-top: 50px;
+    }
+    
+    .titledeslandsale {
+        font-size: 15px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+    
+    .characlandsaledetail {
+        margin-top: 30px;
+    }
+    
+    .titlecharaclandsaledetail {
+       font-size: 15px;
+       font-weight: 500;
+       margin-bottom: 20px;
+    }
+    
+    .groupleftrightcharacdetaillandsale {
+        display: block;
+        width: 100%;
+    }
+    
+    .groupleftcharaclandsaledetail {
+        width: 100%;
+    }
+    
+    .grouprightcharaclandsaledetail {
+       width: 100%;
+       margin-left: 0%;
+    }
+    
+    .grouptopcharaclandsaledetail {
+        display: flex;
+    }
+    
+    .groupbottomcharaclandsaledetail {
+        display: flex;
+    }
+    
+    .ptopright {
+        margin-left: 100px;
+    }
+    
+    .punderright {
+        margin-left: 60px;
+    }
+    
+    .punderright2 {
+        margin-left: 98px;
+    }
+    
+    .grouptopcharaclandsaledetail {
+        border-top: 1px solid rgb(212, 206, 206);
+        border-bottom: 1px solid rgb(212, 206, 206);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+    
+    .groupbottomcharaclandsaledetail {
+        border-bottom: none;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 14px;
+    }
+    
+    .descontentlandsaledetail {
+        text-align: justify;
+        margin-right: 20px;
+        font-size: 13px;
+    }
+    
+    .ptopleft, .punderleft {
+        font-weight: 500;
+    }
+    
+    .iconcharacdetaillandsale {
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+    
+    .anotherinfodetaillandsale {
+        margin-top: 30px;
+        width: 100%;
+    }
+    
+    .titleanotherdetaillandsale {
+        font-weight: 500;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .groupanotherdetaillandsale {
+        width: 100%;
+        display: block;
+        border-bottom: 1px solid rgb(212, 206, 206);
+        border-top: 1px solid rgb(212, 206, 206);
+    }
+    
+    .itemanotherdetaillandsale {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        margin-right: 0%;
+    }
+    
+    .firstitemanotherdetaillandsale {
+        color: gray;
+        font-size: 13px;
+    }
+    
+    .seconditemanotherdetaillandsale {
+        font-weight: 500;
+        font-size: 13px;
+    }
+    
+    .tinnoibatkhac {
+        margin-top: 30px;
+        width: 100%;
+    }
+    
+    .titletinoibatkhac {
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    
+    .grouptinnoibat {
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+    }
+    
+    .itemtinnoibat {
+        width: 60%;
+        
+    }
+    
+    .anhtinnoibat {
+        width: 100%;
+    }
+    
+    .imgnoibat {
+        width: 100%;
+        height: 90px;
+    }
+    
+    .coveritemtinnoibat {
+        width: 100%;
+        background-color: antiquewhite;
+        height: 100px;
+    }
+    
+    .priceareanoibat {
+        display: flex;
+        padding-top: 5%;
+        padding-left: 5%;
+        color: red;
+    }
+    
+    .ppriceareanoibat {
+        margin-right: 5%;
+        font-size: 13px;
+    }
+    
+    .locanoibatkhac {
+        display: flex;
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+    
+    .iconlocatinnoibat {
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+    
+    .rightdetaillandsale {   
+        width: 15%;
+        background-color: wheat;
+        height: 100%;
+        margin-left: 3%;
+        border-radius: 5px;
+        border: 1px solid rgb(213, 209, 209);
+        padding-bottom: 50px;
+    }
+    
+    .itemuserdangtin {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .avatarlandsaledetail {
+        width: 70%;
+        height: 60px;
+        margin-left: 15%;
+        margin-bottom: 10px;
+    }
+    
+    .avtaruserlandsale {
+        width: 80%;
+        border-radius: 50%;
+        height: 70%;
+    }
+    
+    .bydangtin {
+        color: gray;
+        opacity: 90%;
+        font-size: 12px;
+    }
+    
+    .usernamedangtin {
+        font-weight: 500;
+        font-size: 11px;
+        word-wrap: break-word;
+    }
+    
+    .phoneuserdangtin {
+        background-color: rgb(18, 129, 193);
+        margin-top: 20px;
+        padding: 5px;
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 11px;
+        color: white;
+        border-radius: 5px;
+        writing-mode: vertical-lr;
+    }
+    
+    .dropdown {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .btnsharesocialcopy {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        border: none;
+        background: none;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+      }
+      
+      .btnsharesocialcopy:hover {
+        background-color: #f1f1f1;
+      }
+      
+      .iconcopy {
+        width: 25px;
+        height: 25px;
+      }
+    
+      .btnsharesocialfa {
+        margin-right: 35px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    
+      .btnsharesocialtw {
+        margin-right: 55px;
+      }
+      
+  }
+
+  
+  @media all and (max-width: 414px) {
+    .contentdetaillandsale {
+        display: flex;
+        margin-top: 25%;
+        margin-bottom: 200px;
+    }
+    
+    .leftdetaillandsale {
+        width: 75%;
+        height: 1900px;
+        margin-left: 3%;
+    }
+    
+    .grouppicturelandsaledetail {
+        width: 100%;
+        height: 10%;
+    }
+    
+    .toppicturesliderlandsale {
+        width: 100%;
+        height: 80%;
+        background-color: black;
+        position: relative;
+        display: flex;
+    }
+    
+    .bottompicturelandsaledetail {
+        width: 100%;
+        height: 10%;
+        margin-top: 1%;
+        background-color: rgb(233, 214, 214);
+    }
+    
+    .imglandsaledetail {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .main{
+        text-align: center;
+        margin-top:30px ;
+      }
+    
+    .flex_row{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .thumbnail {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+    
+    .clicked{
+      border: 5px solid rgb(234, 17, 17);
+    }
+    
+      
+    .btns {
+        position: absolute;
+        top: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    
+    .ploacationnoibat {
+        font-size: 13px;
+    }
+      
+    .namelandsaledetail {
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .addresslandsaledetail {
+        margin-top: 5px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    
+    .ultitilandsaledetail {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid rgb(212, 206, 206) ;
+        border-bottom: 1px solid rgb(212, 206, 206) ;
+    }
+    
+    .groupinfolandsale {
+        display: flex;
+        width: 70%;
+       
+    }
+    
+    .arealandsaledetail {
+       margin-right: 10%;
+       line-height: 1;
+       margin-top: 10px;
+    }
+    
+    .plandsaledetail {
+        opacity: 90%;
+        font-size: 12px;
+    }
+    
+    .plandsaledetailunder {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    
+    .sharelikelandsale {
+        width: 30%;
+        float: right;
+    }
+    
+    .iconshrarelike {
+        margin-top: 10%;
+        margin-left: 40%;
+        font-size: 23px;
+        color: goldenrod;
+    }
+    
+    .deslandsaledetail {
+        margin-top: 50px;
+    }
+    
+    .titledeslandsale {
+        font-size: 15px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+    
+    .characlandsaledetail {
+        margin-top: 30px;
+    }
+    
+    .titlecharaclandsaledetail {
+       font-size: 15px;
+       font-weight: 500;
+       margin-bottom: 20px;
+    }
+    
+    .groupleftrightcharacdetaillandsale {
+        display: block;
+        width: 100%;
+    }
+    
+    .groupleftcharaclandsaledetail {
+        width: 100%;
+    }
+    
+    .grouprightcharaclandsaledetail {
+       width: 100%;
+       margin-left: 0%;
+    }
+    
+    .grouptopcharaclandsaledetail {
+        display: flex;
+    }
+    
+    .groupbottomcharaclandsaledetail {
+        display: flex;
+    }
+    
+    .ptopright {
+        margin-left: 100px;
+    }
+    
+    .punderright {
+        margin-left: 60px;
+    }
+    
+    .punderright2 {
+        margin-left: 98px;
+    }
+    
+    .grouptopcharaclandsaledetail {
+        border-top: 1px solid rgb(212, 206, 206);
+        border-bottom: 1px solid rgb(212, 206, 206);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+    
+    .groupbottomcharaclandsaledetail {
+        border-bottom: none;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 14px;
+    }
+    
+    .descontentlandsaledetail {
+        text-align: justify;
+        margin-right: 20px;
+        font-size: 13px;
+    }
+    
+    .ptopleft, .punderleft {
+        font-weight: 500;
+    }
+    
+    .iconcharacdetaillandsale {
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+    
+    .anotherinfodetaillandsale {
+        margin-top: 30px;
+        width: 100%;
+    }
+    
+    .titleanotherdetaillandsale {
+        font-weight: 500;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .groupanotherdetaillandsale {
+        width: 100%;
+        display: block;
+        border-bottom: 1px solid rgb(212, 206, 206);
+        border-top: 1px solid rgb(212, 206, 206);
+    }
+    
+    .itemanotherdetaillandsale {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        margin-right: 0%;
+    }
+    
+    .firstitemanotherdetaillandsale {
+        color: gray;
+        font-size: 13px;
+    }
+    
+    .seconditemanotherdetaillandsale {
+        font-weight: 500;
+        font-size: 13px;
+    }
+    
+    .tinnoibatkhac {
+        margin-top: 30px;
+        width: 100%;
+    }
+    
+    .titletinoibatkhac {
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    
+    .grouptinnoibat {
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+    }
+    
+    .itemtinnoibat {
+        width: 60%;
+        
+    }
+    
+    .anhtinnoibat {
+        width: 100%;
+    }
+    
+    .imgnoibat {
+        width: 100%;
+        height: 90px;
+    }
+    
+    .coveritemtinnoibat {
+        width: 100%;
+        background-color: antiquewhite;
+        height: 100px;
+    }
+    
+    .priceareanoibat {
+        display: flex;
+        padding-top: 5%;
+        padding-left: 5%;
+        color: red;
+    }
+    
+    .ppriceareanoibat {
+        margin-right: 5%;
+        font-size: 13px;
+    }
+    
+    .locanoibatkhac {
+        display: flex;
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+    
+    .iconlocatinnoibat {
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+    
+    .rightdetaillandsale {   
+        width: 15%;
+        background-color: wheat;
+        height: 100%;
+        margin-left: 3%;
+        border-radius: 5px;
+        border: 1px solid rgb(213, 209, 209);
+        padding-bottom: 50px;
+    }
+    
+    .itemuserdangtin {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .avatarlandsaledetail {
+        width: 70%;
+        height: 60px;
+        margin-left: 15%;
+        margin-bottom: 10px;
+    }
+    
+    .avtaruserlandsale {
+        width: 80%;
+        border-radius: 50%;
+        height: 70%;
+    }
+    
+    .bydangtin {
+        color: gray;
+        opacity: 90%;
+        font-size: 12px;
+    }
+    
+    .usernamedangtin {
+        font-weight: 500;
+        font-size: 11px;
+        word-wrap: break-word;
+    }
+    
+    .phoneuserdangtin {
+        background-color: rgb(18, 129, 193);
+        margin-top: 20px;
+        padding: 5px;
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 11px;
+        color: white;
+        border-radius: 5px;
+        writing-mode: vertical-lr;
+    }
+    
+    .dropdown {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .btnsharesocialcopy {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        border: none;
+        background: none;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+      }
+      
+      .btnsharesocialcopy:hover {
+        background-color: #f1f1f1;
+      }
+      
+      .iconcopy {
+        width: 25px;
+        height: 25px;
+      }
+    
+      .btnsharesocialfa {
+        margin-right: 35px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    
+      .btnsharesocialtw {
+        margin-right: 55px;
+      }
+      
+  }
+  
+  @media all and (max-width: 600px){ 
+    .contentdetaillandsale {
+        display: flex;
+        margin-top: 25%;
+        margin-bottom: 200px;
+    }
+    
+    .leftdetaillandsale {
+        width: 75%;
+        height: 1900px;
+        margin-left: 3%;
+    }
+    
+    .grouppicturelandsaledetail {
+        width: 100%;
+        height: 10%;
+    }
+    
+    .toppicturesliderlandsale {
+        width: 100%;
+        height: 80%;
+        background-color: black;
+        position: relative;
+        display: flex;
+    }
+    
+    .bottompicturelandsaledetail {
+        width: 100%;
+        height: 10%;
+        margin-top: 1%;
+        background-color: rgb(233, 214, 214);
+    }
+    
+    .imglandsaledetail {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .main{
+        text-align: center;
+        margin-top:30px ;
+      }
+    
+    .flex_row{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .thumbnail {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+    
+    .clicked{
+      border: 5px solid rgb(234, 17, 17);
+    }
+    
+      
+    .btns {
+        position: absolute;
+        top: 50%;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    
+    .ploacationnoibat {
+        font-size: 13px;
+    }
+      
+    .namelandsaledetail {
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    
+    .addresslandsaledetail {
+        margin-top: 5px;
+        font-size: 12px;
+        font-weight: 400;
+    }
+    
+    .ultitilandsaledetail {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid rgb(212, 206, 206) ;
+        border-bottom: 1px solid rgb(212, 206, 206) ;
+    }
+    
+    .groupinfolandsale {
+        display: flex;
+        width: 70%;
+       
+    }
+    
+    .arealandsaledetail {
+       margin-right: 10%;
+       line-height: 1;
+       margin-top: 10px;
+    }
+    
+    .plandsaledetail {
+        opacity: 90%;
+        font-size: 12px;
+    }
+    
+    .plandsaledetailunder {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    
+    .sharelikelandsale {
+        width: 30%;
+        float: right;
+    }
+    
+    .iconshrarelike {
+        margin-top: 10%;
+        margin-left: 40%;
+        font-size: 23px;
+        color: goldenrod;
+    }
+    
+    .deslandsaledetail {
+        margin-top: 50px;
+    }
+    
+    .titledeslandsale {
+        font-size: 15px;
+        margin-bottom: 20px;
+        font-weight: 500;
+    }
+    
+    .characlandsaledetail {
+        margin-top: 30px;
+    }
+    
+    .titlecharaclandsaledetail {
+       font-size: 15px;
+       font-weight: 500;
+       margin-bottom: 20px;
+    }
+    
+    .groupleftrightcharacdetaillandsale {
+        display: block;
+        width: 100%;
+    }
+    
+    .groupleftcharaclandsaledetail {
+        width: 100%;
+    }
+    
+    .grouprightcharaclandsaledetail {
+       width: 100%;
+       margin-left: 0%;
+    }
+    
+    .grouptopcharaclandsaledetail {
+        display: flex;
+    }
+    
+    .groupbottomcharaclandsaledetail {
+        display: flex;
+    }
+    
+    .ptopright {
+        margin-left: 100px;
+    }
+    
+    .punderright {
+        margin-left: 60px;
+    }
+    
+    .punderright2 {
+        margin-left: 98px;
+    }
+    
+    .grouptopcharaclandsaledetail {
+        border-top: 1px solid rgb(212, 206, 206);
+        border-bottom: 1px solid rgb(212, 206, 206);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+    
+    .groupbottomcharaclandsaledetail {
+        border-bottom: none;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        font-size: 14px;
+    }
+    
+    .descontentlandsaledetail {
+        text-align: justify;
+        margin-right: 20px;
+        font-size: 13px;
+    }
+    
+    .ptopleft, .punderleft {
+        font-weight: 500;
+    }
+    
+    .iconcharacdetaillandsale {
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+    
+    .anotherinfodetaillandsale {
+        margin-top: 30px;
+        width: 100%;
+    }
+    
+    .titleanotherdetaillandsale {
+        font-weight: 500;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .groupanotherdetaillandsale {
+        width: 100%;
+        display: block;
+        border-bottom: 1px solid rgb(212, 206, 206);
+        border-top: 1px solid rgb(212, 206, 206);
+    }
+    
+    .itemanotherdetaillandsale {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        margin-right: 0%;
+    }
+    
+    .firstitemanotherdetaillandsale {
+        color: gray;
+        font-size: 13px;
+    }
+    
+    .seconditemanotherdetaillandsale {
+        font-weight: 500;
+        font-size: 13px;
+    }
+    
+    .tinnoibatkhac {
+        margin-top: 30px;
+        width: 100%;
+    }
+    
+    .titletinoibatkhac {
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    
+    .grouptinnoibat {
+        width: 100%;
+        display: block;
+        justify-content: space-between;
+    }
+    
+    .itemtinnoibat {
+        width: 60%;
+        
+    }
+    
+    .anhtinnoibat {
+        width: 100%;
+    }
+    
+    .imgnoibat {
+        width: 100%;
+        height: 90px;
+    }
+    
+    .coveritemtinnoibat {
+        width: 100%;
+        background-color: antiquewhite;
+        height: 100px;
+    }
+    
+    .priceareanoibat {
+        display: flex;
+        padding-top: 5%;
+        padding-left: 5%;
+        color: red;
+    }
+    
+    .ppriceareanoibat {
+        margin-right: 5%;
+        font-size: 13px;
+    }
+    
+    .locanoibatkhac {
+        display: flex;
+        padding-top: 5%;
+        padding-left: 5%;
+    }
+    
+    .iconlocatinnoibat {
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+    
+    .rightdetaillandsale {   
+        width: 15%;
+        background-color: wheat;
+        height: 100%;
+        margin-left: 3%;
+        border-radius: 5px;
+        border: 1px solid rgb(213, 209, 209);
+        padding-bottom: 50px;
+    }
+    
+    .itemuserdangtin {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+    
+    .avatarlandsaledetail {
+        width: 70%;
+        height: 60px;
+        margin-left: 15%;
+        margin-bottom: 10px;
+    }
+    
+    .avtaruserlandsale {
+        width: 80%;
+        border-radius: 50%;
+        height: 70%;
+    }
+    
+    .bydangtin {
+        color: gray;
+        opacity: 90%;
+        font-size: 12px;
+    }
+    
+    .usernamedangtin {
+        font-weight: 500;
+        font-size: 11px;
+        word-wrap: break-word;
+    }
+    
+    .phoneuserdangtin {
+        background-color: rgb(18, 129, 193);
+        margin-top: 20px;
+        padding: 5px;
+        margin-left: 15px;
+        margin-right: 15px;
+        font-size: 11px;
+        color: white;
+        border-radius: 5px;
+        writing-mode: vertical-lr;
+    }
+    
+    .dropdown {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+      
+      .btnsharesocialcopy {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        border: none;
+        background: none;
+        width: 100%;
+        text-align: left;
+        cursor: pointer;
+      }
+      
+      .btnsharesocialcopy:hover {
+        background-color: #f1f1f1;
+      }
+      
+      .iconcopy {
+        width: 25px;
+        height: 25px;
+      }
+    
+      .btnsharesocialfa {
+        margin-right: 35px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+    
+      .btnsharesocialtw {
+        margin-right: 55px;
+      }
+      
+  }

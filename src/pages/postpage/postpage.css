@@ -1,0 +1,1020 @@
+.postpageContainer {
+    width: 100%;
+    position: absolute;
+}
+
+.divpostone {
+    border: 1px solid rgb(198, 196, 196);
+    margin-top: 7%;
+    width: 60%;
+    margin-left: 20%;
+    padding: 20px;
+    box-shadow:  1px 1px 10px 1px  rgb(213, 212, 212);
+    border-radius: 5px;
+}
+
+.titlePostPage {
+    font-size: 25px;
+    color: goldenrod;
+    font-weight: 600;
+}
+
+.choicesalelease {
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+    text-align: center;
+   
+}
+
+.salepost, .leasepost  {
+    width: 50%;
+    border: 1px solid rgb(180, 177, 177);
+    padding: 3px;
+    border-radius: 2px;
+    font-size: 18px;
+    font-weight: 500;
+    color: gray;
+    cursor: pointer;
+}
+
+.salepost {
+   
+}
+
+.categorylandpost {
+    margin-top: 20px;
+}
+
+.titlecategorylandpost, .titlecitypost, .titlewardpost, .titlepost {
+    font-weight: 500;
+}
+
+.selectcategorytag {
+    margin-top: 10px;
+    width: 100%;
+    padding: 3px;
+    border-radius: 2px;
+}
+
+.addresspost {
+    display: flex;
+    margin-top: 20px;
+}
+
+.leftaddresspost {
+    width: 48%;
+}
+
+.rightaddressPost {
+    width: 48%;
+    margin-left: 4%;
+}
+
+.wardpost {
+    margin-top: 10px;
+}
+
+.selectcitypost, .selectwardpost {
+    padding: 3px;
+}
+
+.spanpost {
+    color: red;
+}
+
+.divposttwo {
+    border: 1px solid rgb(198, 196, 196);
+    margin-top: 1%;
+    width: 60%;
+    margin-left: 20%;
+    padding: 20px;
+    box-shadow:  1px 1px 10px 1px  rgb(213, 212, 212);
+    border-radius: 5px;
+}
+
+.titlepostpage {
+    margin-top: 15px;
+}
+
+.texttitlepost {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.textareapost {
+    width: 100%;
+    height: 70px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.noticetext {
+    font-size: 13px;
+}
+
+.textareadescpost {
+    width: 100%;
+    height: 170px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.inputareapost {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+}
+
+.inputarea {
+    width: 90%;
+    
+}
+
+.donviarea {
+    width: 10%;
+    padding-left: 5%;
+}
+
+.inputpricepost {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+}
+
+.pricepost {
+    width: 72%;
+}
+
+.donviprice {
+    width: 25%;
+    margin-left: 3%;
+}
+
+.selectpricetag {
+    width: 100%;
+    height: 100%;
+}
+
+.textnoicepicture {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.postpicture {
+    width: 100%;
+}
+
+.picturepostpicture {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.iconpicturepost {
+  margin-right: 10px;
+  color: goldenrod;
+  
+}
+
+.inputarealienhepost {
+    width: 100%;
+    padding: 5px;
+}
+
+.btnpostpageinp {
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.btnpostpage {
+    width: 30%;
+    padding: 5px;
+    border: none;
+    background-color: goldenrod;
+    color: white;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+.btnpostpage:hover {
+    background-color: green;
+    border-radius: 3px;
+}
+
+.btnpostpage:active {
+    background-color: gray;
+}
+
+.toiletandroom {
+    margin-top: 15px;
+    display: flex;
+    width: 100%;
+}
+
+.toiletpost {
+    width: 48%;
+    margin-right: 4%;
+    
+}
+
+.titletoiletpost {
+    font-weight: 500;
+}
+
+.room {
+    width: 48%;
+}
+
+.inptoilet {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.addresspostdetail {
+    margin-top: 10px;
+}
+
+.inpdiachi {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.pricemontbillion {
+    margin-left: 4%;
+}
+
+.error {
+    font-size: 12px;
+    color: red;
+}
+
+.input-error {
+    border: 1px solid red;
+}
+
+@media all and (max-width: 360px) {
+   
+    .divpostone {
+        border: 1px solid rgb(198, 196, 196);
+        margin-top: 22%;
+        width: 96%;
+        margin-left: 2%;
+        padding: 20px;
+        box-shadow:  1px 1px 10px 1px  rgb(213, 212, 212);
+        border-radius: 5px;
+    }
+    
+    .titlePostPage {
+        font-size: 18px;
+        color: goldenrod;
+        font-weight: 600;
+    }
+    
+    .choicesalelease {
+        margin-top: 12px;
+        display: flex;
+        width: 100%;
+        text-align: center;
+       
+    }
+    
+    .salepost, .leasepost  {
+        width: 50%;
+        border: 1px solid rgb(180, 177, 177);
+        padding: 3px;
+        border-radius: 2px;
+        font-size: 13px;
+        font-weight: 500;
+        color: gray;
+        cursor: pointer;
+    }
+    
+    .categorylandpost {
+        margin-top: 20px;
+    }
+    
+    .titlecategorylandpost, .titlecitypost, .titlewardpost, .titlepost {
+        font-weight: 500;
+        font-size: 13px;
+    }
+    
+    .selectcategorytag {
+        margin-top: 10px;
+        width: 100%;
+        padding: 2px;
+        border-radius: 2px;
+        font-size: 13px;
+    }
+    
+    .addresspost {
+        display: flex;
+        margin-top: 20px;
+    }
+    
+    .leftaddresspost {
+        width: 48%;
+    }
+    
+    .rightaddressPost {
+        width: 48%;
+        margin-left: 4%;
+    }
+    
+    .wardpost {
+        margin-top: 10px;
+    }
+    
+    .selectcitypost, .selectwardpost {
+        padding: 3px;
+    }
+    
+    .spanpost {
+        color: red;
+    }
+    
+    .divposttwo {
+        border: 1px solid rgb(198, 196, 196);
+        margin-top: 1%;
+        width: 96%;
+        margin-left: 2%;
+        padding: 20px;
+        box-shadow:  1px 1px 10px 1px  rgb(213, 212, 212);
+        border-radius: 5px;
+    }
+    
+    .titlepostpage {
+        margin-top: 15px;
+    }
+    
+    .texttitlepost {
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .textareapost {
+        width: 100%;
+        height: 70px;
+        font-size: 13px;
+        border-radius: 5px;
+    }
+    
+    .noticetext {
+        font-size: 12px;
+    }
+    
+    .textareadescpost {
+        width: 100%;
+        height: 170px;
+        font-size: 13px;
+        border-radius: 5px;
+    }
+    
+    .inputareapost {
+        margin-top: 10px;
+        display: flex;
+        width: 100%;
+    }
+    
+    .inputarea {
+        width: 90%;
+        
+    }
+    
+    .donviarea {
+        width: 10%;
+        padding-left: 5%;
+    }
+    
+    .inputpricepost {
+        margin-top: 10px;
+        display: flex;
+        width: 100%;
+    }
+    
+    .pricepost {
+        width: 72%;
+    }
+    
+    .donviprice {
+        width: 25%;
+        margin-left: 3%;
+    }
+    
+    .selectpricetag {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .textnoicepicture {
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    
+    .postpicture {
+        width: 100%;
+    }
+    
+    .picturepostpicture {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+    
+    .iconpicturepost {
+      margin-right: 10px;
+      color: goldenrod;
+      
+    }
+    
+    .inputarealienhepost {
+        width: 100%;
+        padding: 5px;
+        font-size: 13px;
+    }
+    
+    .btnpostpageinp {
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .btnpostpage {
+        width: 30%;
+        padding: 5px;
+        border: none;
+        background-color: goldenrod;
+        color: white;
+        font-size: 18px;
+        border-radius: 3px;
+    }
+    
+    .btnpostpage:hover {
+        background-color: green;
+        border-radius: 3px;
+    }
+    
+    .btnpostpage:active {
+        background-color: gray;
+    }
+    
+    .toiletandroom {
+        margin-top: 15px;
+        display: flex;
+        width: 100%;
+    }
+    
+    .toiletpost {
+        width: 48%;
+        margin-right: 4%;
+        
+    }
+    
+    .titletoiletpost {
+        font-weight: 500;
+        font-size: 13px;
+    }
+    
+    .room {
+        width: 48%;
+    }
+    
+    .inptoilet {
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+    .addresspostdetail {
+        margin-top: 10px;
+    }
+    
+    .inpdiachi {
+        margin-top: 10px;
+        width: 100%;
+        font-size: 13px;
+    }
+    
+    .pricemontbillion {
+        margin-left: 4%;
+    }
+    
+    .error {
+        font-size: 12px;
+        color: red;
+    }
+    
+    .input-error {
+        border: 1px solid red;
+    }
+}
+
+@media all and (max-width: 375px) {
+   
+    .divpostone {
+        border: 1px solid rgb(198, 196, 196);
+        margin-top: 22%;
+        width: 96%;
+        margin-left: 2%;
+        padding: 20px;
+        box-shadow:  1px 1px 10px 1px  rgb(213, 212, 212);
+        border-radius: 5px;
+    }
+    
+    .titlePostPage {
+        font-size: 18px;
+        color: goldenrod;
+        font-weight: 600;
+    }
+    
+    .choicesalelease {
+        margin-top: 12px;
+        display: flex;
+        width: 100%;
+        text-align: center;
+       
+    }
+    
+    .salepost, .leasepost  {
+        width: 50%;
+        border: 1px solid rgb(180, 177, 177);
+        padding: 3px;
+        border-radius: 2px;
+        font-size: 13px;
+        font-weight: 500;
+        color: gray;
+        cursor: pointer;
+    }
+    
+    .categorylandpost {
+        margin-top: 20px;
+    }
+    
+    .titlecategorylandpost, .titlecitypost, .titlewardpost, .titlepost {
+        font-weight: 500;
+        font-size: 13px;
+    }
+    
+    .selectcategorytag {
+        margin-top: 10px;
+        width: 100%;
+        padding: 2px;
+        border-radius: 2px;
+        font-size: 13px;
+    }
+    
+    .addresspost {
+        display: flex;
+        margin-top: 20px;
+    }
+    
+    .leftaddresspost {
+        width: 48%;
+    }
+    
+    .rightaddressPost {
+        width: 48%;
+        margin-left: 4%;
+    }
+    
+    .wardpost {
+        margin-top: 10px;
+    }
+    
+    .selectcitypost, .selectwardpost {
+        padding: 3px;
+    }
+    
+    .spanpost {
+        color: red;
+    }
+    
+    .divposttwo {
+        border: 1px solid rgb(198, 196, 196);
+        margin-top: 1%;
+        width: 96%;
+        margin-left: 2%;
+        padding: 20px;
+        box-shadow:  1px 1px 10px 1px  rgb(213, 212, 212);
+        border-radius: 5px;
+    }
+    
+    .titlepostpage {
+        margin-top: 15px;
+    }
+    
+    .texttitlepost {
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .textareapost {
+        width: 100%;
+        height: 70px;
+        font-size: 13px;
+        border-radius: 5px;
+    }
+    
+    .noticetext {
+        font-size: 12px;
+    }
+    
+    .textareadescpost {
+        width: 100%;
+        height: 170px;
+        font-size: 13px;
+        border-radius: 5px;
+    }
+    
+    .inputareapost {
+        margin-top: 10px;
+        display: flex;
+        width: 100%;
+    }
+    
+    .inputarea {
+        width: 90%;
+        
+    }
+    
+    .donviarea {
+        width: 10%;
+        padding-left: 5%;
+    }
+    
+    .inputpricepost {
+        margin-top: 10px;
+        display: flex;
+        width: 100%;
+    }
+    
+    .pricepost {
+        width: 72%;
+    }
+    
+    .donviprice {
+        width: 25%;
+        margin-left: 3%;
+    }
+    
+    .selectpricetag {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .textnoicepicture {
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    
+    .postpicture {
+        width: 100%;
+    }
+    
+    .picturepostpicture {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+    
+    .iconpicturepost {
+      margin-right: 10px;
+      color: goldenrod;
+      
+    }
+    
+    .inputarealienhepost {
+        width: 100%;
+        padding: 5px;
+        font-size: 13px;
+    }
+    
+    .btnpostpageinp {
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .btnpostpage {
+        width: 30%;
+        padding: 5px;
+        border: none;
+        background-color: goldenrod;
+        color: white;
+        font-size: 18px;
+        border-radius: 3px;
+    }
+    
+    .btnpostpage:hover {
+        background-color: green;
+        border-radius: 3px;
+    }
+    
+    .btnpostpage:active {
+        background-color: gray;
+    }
+    
+    .toiletandroom {
+        margin-top: 15px;
+        display: flex;
+        width: 100%;
+    }
+    
+    .toiletpost {
+        width: 48%;
+        margin-right: 4%;
+        
+    }
+    
+    .titletoiletpost {
+        font-weight: 500;
+        font-size: 13px;
+    }
+    
+    .room {
+        width: 48%;
+    }
+    
+    .inptoilet {
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+    .addresspostdetail {
+        margin-top: 10px;
+    }
+    
+    .inpdiachi {
+        margin-top: 10px;
+        width: 100%;
+        font-size: 13px;
+    }
+    
+    .pricemontbillion {
+        margin-left: 4%;
+    }
+    
+    .error {
+        font-size: 12px;
+        color: red;
+    }
+    
+    .input-error {
+        border: 1px solid red;
+    }
+}
+
+@media all and (max-width: 414px) {
+   
+    .divpostone {
+        border: 1px solid rgb(198, 196, 196);
+        margin-top: 22%;
+        width: 96%;
+        margin-left: 2%;
+        padding: 20px;
+        box-shadow:  1px 1px 10px 1px  rgb(213, 212, 212);
+        border-radius: 5px;
+    }
+    
+    .titlePostPage {
+        font-size: 18px;
+        color: goldenrod;
+        font-weight: 600;
+    }
+    
+    .choicesalelease {
+        margin-top: 12px;
+        display: flex;
+        width: 100%;
+        text-align: center;
+       
+    }
+    
+    .salepost, .leasepost  {
+        width: 50%;
+        border: 1px solid rgb(180, 177, 177);
+        padding: 3px;
+        border-radius: 2px;
+        font-size: 13px;
+        font-weight: 500;
+        color: gray;
+        cursor: pointer;
+    }
+    
+    .categorylandpost {
+        margin-top: 20px;
+    }
+    
+    .titlecategorylandpost, .titlecitypost, .titlewardpost, .titlepost {
+        font-weight: 500;
+        font-size: 13px;
+    }
+    
+    .selectcategorytag {
+        margin-top: 10px;
+        width: 100%;
+        padding: 2px;
+        border-radius: 2px;
+        font-size: 13px;
+    }
+    
+    .addresspost {
+        display: flex;
+        margin-top: 20px;
+    }
+    
+    .leftaddresspost {
+        width: 48%;
+    }
+    
+    .rightaddressPost {
+        width: 48%;
+        margin-left: 4%;
+    }
+    
+    .wardpost {
+        margin-top: 10px;
+    }
+    
+    .selectcitypost, .selectwardpost {
+        padding: 3px;
+    }
+    
+    .spanpost {
+        color: red;
+    }
+    
+    .divposttwo {
+        border: 1px solid rgb(198, 196, 196);
+        margin-top: 1%;
+        width: 96%;
+        margin-left: 2%;
+        padding: 20px;
+        box-shadow:  1px 1px 10px 1px  rgb(213, 212, 212);
+        border-radius: 5px;
+    }
+    
+    .titlepostpage {
+        margin-top: 15px;
+    }
+    
+    .texttitlepost {
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .textareapost {
+        width: 100%;
+        height: 70px;
+        font-size: 13px;
+        border-radius: 5px;
+    }
+    
+    .noticetext {
+        font-size: 12px;
+    }
+    
+    .textareadescpost {
+        width: 100%;
+        height: 170px;
+        font-size: 13px;
+        border-radius: 5px;
+    }
+    
+    .inputareapost {
+        margin-top: 10px;
+        display: flex;
+        width: 100%;
+    }
+    
+    .inputarea {
+        width: 90%;
+        
+    }
+    
+    .donviarea {
+        width: 10%;
+        padding-left: 5%;
+    }
+    
+    .inputpricepost {
+        margin-top: 10px;
+        display: flex;
+        width: 100%;
+    }
+    
+    .pricepost {
+        width: 72%;
+    }
+    
+    .donviprice {
+        width: 25%;
+        margin-left: 3%;
+    }
+    
+    .selectpricetag {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .textnoicepicture {
+        margin-top: 10px;
+        font-size: 13px;
+    }
+    
+    .postpicture {
+        width: 100%;
+    }
+    
+    .picturepostpicture {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 10px;
+    }
+    
+    .iconpicturepost {
+      margin-right: 10px;
+      color: goldenrod;
+      
+    }
+    
+    .inputarealienhepost {
+        width: 100%;
+        padding: 5px;
+        font-size: 13px;
+    }
+    
+    .btnpostpageinp {
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    .btnpostpage {
+        width: 30%;
+        padding: 5px;
+        border: none;
+        background-color: goldenrod;
+        color: white;
+        font-size: 18px;
+        border-radius: 3px;
+    }
+    
+    .btnpostpage:hover {
+        background-color: green;
+        border-radius: 3px;
+    }
+    
+    .btnpostpage:active {
+        background-color: gray;
+    }
+    
+    .toiletandroom {
+        margin-top: 15px;
+        display: flex;
+        width: 100%;
+    }
+    
+    .toiletpost {
+        width: 48%;
+        margin-right: 4%;
+        
+    }
+    
+    .titletoiletpost {
+        font-weight: 500;
+        font-size: 13px;
+    }
+    
+    .room {
+        width: 48%;
+    }
+    
+    .inptoilet {
+        margin-top: 10px;
+        width: 100%;
+    }
+    
+    .addresspostdetail {
+        margin-top: 10px;
+    }
+    
+    .inpdiachi {
+        margin-top: 10px;
+        width: 100%;
+        font-size: 13px;
+    }
+    
+    .pricemontbillion {
+        margin-left: 4%;
+    }
+    
+    .error {
+        font-size: 12px;
+        color: red;
+    }
+    
+    .input-error {
+        border: 1px solid red;
+    }
+}

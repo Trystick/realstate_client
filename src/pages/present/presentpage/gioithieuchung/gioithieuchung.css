@@ -1,0 +1,676 @@
+.gioithieuContainer {
+    margin-bottom: 5%;
+    padding-top: 5%;
+}
+
+.presentchungimg {
+    width: 100%;
+
+}
+.homepage > p {
+    font-size: 14px;
+    margin-right: 3px;
+}
+
+.homepage > span {
+    font-size: 14px;
+}
+
+.titlegtc {
+    text-align: center;
+    font-size: 57px;
+    font-weight: bold;
+    color: goldenrod;
+}
+
+.ruler {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rulerone {
+    margin-top: 53px;
+    background-color: rgb(202, 202, 128);
+    height: 3.5px;
+    width: 420px;
+    margin-left: 20px;
+}
+
+.rulertwo {
+    background-color: rgb(202, 202, 128);
+    height: 3.5px;
+    width: 420px;
+    margin-top: 53px;
+    margin-right: 20px;
+}
+
+.gioithieucontent {
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.namegt {
+    margin-left: 30px;
+    color: gold;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.rulerthree {
+    background-color: gold;
+    height: 1.7px;
+    width: 750px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.noidunggt {
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 250px;
+    font-size: 17px;
+}
+
+.its {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.it {
+    color: goldenrod;
+    font-weight: 500;
+}
+
+.fouricon {
+    color: green;
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgiconfour {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.firsticon {
+    margin-left: 120px;
+}
+
+.fourthicon {
+    margin-right: 130px;
+}
+
+.numberingree {
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.contenticon {
+    margin-top: 5px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.boxdiv {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.firstbox {
+    border-radius: 3px;
+    margin-left: 20px;
+    width: 400px;
+    height: 330px;
+    border: 2px solid goldenrod;
+}
+
+.titlefirstbox {
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+    padding-top: 1px;
+    background-color: gold;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    border: 1px solid goldenrod;
+}
+
+.secondbox {
+    border-radius: 3px;
+    margin-right: 30px;
+    width: 780px;
+    height: 330px;
+    border: 2px solid goldenrod;
+}
+
+.titlesecondbox {
+    font-size: 22px;
+    color: white;
+    font-weight: 500;
+    padding-top: 1px;
+    background-color: gold;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    border: 1px solid goldenrod;
+}
+
+.contentfirstbox {
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.contentfirstbox > p {
+    font-size: 15px;
+}
+
+.contentfirstbox > span {
+    color: goldenrod;
+    font-weight: 500;
+}
+
+.pfirtbox {
+    margin-top: 10px;
+}
+
+.contentsecondbox {
+    padding: 10px 10px 10px 10px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.contentsecondbox > h5{
+    font-size: 16px;
+    color: goldenrod;
+}
+
+.contentsecondbox > p {
+    font-size: 15px;
+}
+
+.imggoldenmaker {
+    margin-top: 20px;
+}
+
+.imggticon {
+    height: 450px;
+    width: 100%;
+}
+
+@media all and (max-width: 1024px) {
+    .titlegtc {
+        font-size: 50px;
+    }
+    .firstbox {
+        height: 320px;
+    }
+    .secondbox {
+        height: 320px;
+        margin-left: 15px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .titlegtc {
+        font-size: 45px;
+    }
+    .firstbox {
+        height: 360px;
+    }
+    .secondbox {
+        height: 360px;
+        margin-left: 15px;
+    }
+    .rulerthree {
+        width: 600px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .titlegtc {
+        font-size: 42px;
+    }
+    .firstbox {
+        height: 360px;
+    }
+    .secondbox {
+        height: 360px;
+        margin-left: 15px;
+    }
+    .namegt {
+        font-size: 20px;
+    }
+    .its {
+        font-size: 16px;
+    }
+    .noidunggt {
+        font-size: 16px;
+    }
+    .contentfirstbox {
+        font-size: 15px;
+    }
+    .contentfirstbox > p {
+        font-size: 14.5px;
+    }
+    .rulerthree {
+        width: 500px;
+    }
+}
+
+/* Dành cho máy tính bảng chiều dọc*/
+@media all and (max-width: 600px) {
+    .titlegtc {
+        font-size: 30px;
+    }
+    .firstbox {
+        height: 380px;
+    }
+    .secondbox {
+        height: 380px;
+        margin-left: 15px;
+    }
+    .namegt {
+        font-size: 18px;
+    }
+    .its {
+        font-size: 14px;
+    }
+    .noidunggt {
+        font-size: 14px;
+    }
+    .contentfirstbox {
+        font-size: 13px;
+    }
+    .contentfirstbox > p {
+        font-size: 12.5px;
+    }
+    .rulerthree {
+        width: 450px;
+    }
+    .rulerone {
+        width: 300px;
+    }
+    .rulertwo {
+        width: 300px;
+    }
+    .noidunggt {
+        margin-top: 20px;
+        margin-right: 180px;
+        font-size: 14px;
+    }
+    .imgiconfour {
+        width: 60px;
+        height: 60px;
+    }
+    .firsticon {
+        margin-left: 3%;
+    }
+    .fourthicon {
+        margin-right: 7%;
+    }
+    .imggticon {
+        height: 300px;
+    }
+    .contentsecondbox > h5{
+        font-size: 13px;
+    }
+    .contentsecondbox > p {
+        font-size: 12px;
+    }
+    .titlefirstbox, .titlesecondbox {
+        font-size: 20px;
+    }
+}
+
+/* Dành cho điện thoại chiều ngang */
+@media all and (max-width: 480px) {
+    .titlegtc {
+        font-size: 26px;
+    }
+    .rulerthree {
+        width: 370px;
+    }
+    .rulerone {
+        width: 200px;
+    }
+    .rulertwo {
+        width: 200px;
+    }
+    .namegt {
+        font-size: 16px;
+        padding-right: 30px;
+    }
+    .noidunggt {
+        margin-top: 20px;
+        margin-right: 80px;
+        font-size: 14px;
+    }
+    .imgiconfour {
+        width: 50px;
+        height: 50px;
+    }
+    .threeicon {
+        margin-right: 10px;
+    }
+    .boxdiv {
+        display: block;
+        padding-left: 30px;
+    }
+    .firstbox {
+        height: 100%;
+        margin-bottom: 20px;
+        margin-left: 0%;
+    }
+    .secondbox {
+        width: 400px;
+        margin-left: 0%;
+        height: 100%;
+    }
+    .titlefirstbox, .titlesecondbox {
+        font-size: 18px;
+    }
+}
+
+@media all and (max-width: 414px) {
+    .titlegtc {
+        font-size: 22px;
+    }
+    .rulerthree {
+        width: 260px;
+    }
+    .rulerone {
+        width: 150px;
+    }
+    .rulertwo {
+        width: 150px;
+    }
+    .namegt {
+        font-size: 16px;
+        padding-right: 30px;
+    }
+    .noidunggt {
+        margin-top: 20px;
+        margin-right: 20px;
+        font-size: 12px;
+    }
+    .imgiconfour {
+        width: 40px;
+        height: 40px;
+    }
+    .numberingree {
+        font-size: 13px;
+    }
+    .contenticon {
+        font-size: 12px;
+    }
+    .titlefirstbox, .titlesecondbox {
+        font-size: 16px;
+    }
+    .imggticon {
+        height: 250px;
+    }
+    .boxdiv {
+        display: block;
+        padding-left: 1%;
+    }
+    .firstbox {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+        margin-left: 0%;
+    }
+    .secondbox {
+        width: 100%;
+        height: 100%;
+        margin-left: 0%;
+        height: 100%;
+    }
+    .titlefirstbox, .titlesecondbox {
+        font-size: 15px;
+        height: 80%;
+    }
+}
+
+
+/* Dành cho điện thoại */
+@media all and (max-width: 360px) {
+    .titlegtc {
+        font-size: 22px;
+    }
+    .rulerthree {
+        width: 260px;
+    }
+    .rulerone {
+        width: 150px;
+    }
+    .rulertwo {
+        width: 150px;
+    }
+    .namegt {
+        font-size: 16px;
+        padding-right: 30px;
+    }
+    .noidunggt {
+        margin-top: 20px;
+        margin-right: 20px;
+        font-size: 12px;
+    }
+    .imgiconfour {
+        width: 40px;
+        height: 40px;
+    }
+    .numberingree {
+        font-size: 13px;
+    }
+    .contenticon {
+        font-size: 12px;
+    }
+    .titlefirstbox, .titlesecondbox {
+        font-size: 16px;
+    }
+    .imggticon {
+        height: 250px;
+    }
+    .boxdiv {
+        display: block;
+        padding-left: 1%;
+    }
+    .firstbox {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+        margin-left: 0%;
+    }
+    .secondbox {
+        width: 100%;
+        height: 100%;
+        margin-left: 0%;
+        height: 100%;
+    }
+    .titlefirstbox, .titlesecondbox {
+        font-size: 15px;
+        height: 80%;
+    }
+}
+
+/* Dành cho điện thoại */
+@media all and (max-width: 320px) {
+    .titlegtc {
+        font-size: 22px;
+    }
+    .rulerthree {
+        width: 260px;
+    }
+    .rulerone {
+        width: 150px;
+    }
+    .rulertwo {
+        width: 150px;
+    }
+    .namegt {
+        font-size: 16px;
+        padding-right: 30px;
+    }
+    .noidunggt {
+        margin-top: 20px;
+        margin-right: 20px;
+        font-size: 12px;
+    }
+    .imgiconfour {
+        width: 40px;
+        height: 40px;
+    }
+    .numberingree {
+        font-size: 13px;
+    }
+    .contenticon {
+        font-size: 12px;
+    }
+    .titlefirstbox, .titlesecondbox {
+        font-size: 16px;
+    }
+    .imggticon {
+        height: 250px;
+    }
+    .boxdiv {
+        display: block;
+        padding-left: 1%;
+    }
+    .firstbox {
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+        margin-left: 0%;
+    }
+    .secondbox {
+        width: 100%;
+        height: 100%;
+        margin-left: 0%;
+        height: 100%;
+    }
+    .titlefirstbox, .titlesecondbox {
+        font-size: 15px;
+        height: 80%;
+    }
+}
+
+@media all and (min-width: 1280px) and (max-width: 1366px) {
+  .gioithieuContainer {
+    width: 100%;
+  }
+  .presentchungimg {
+    width: 100%;
+  }
+}
+
+@media all and (min-width: 1366px) and (max-width: 1440px) {
+    .gioithieuContainer {
+        width: 100%;
+    }
+    .presentchungimg {
+        width: 100%;
+    }
+    .firstbox {
+        width: 30%;
+    }
+    .secondbox {
+        width: 65%;
+    }
+}
+
+@media all and (min-width: 1440px) and (max-width: 1680px) {
+    .gioithieuContainer {
+        width: 100%;
+        padding-top: 4.5%;
+    }
+    .presentchungimg {
+        width: 100%;
+    }
+    .firstbox {
+        width: 30%;
+    }
+    .secondbox {
+        width: 65%;
+    }
+}
+
+@media all and (min-width: 1680px) and (max-width: 1920px) {
+    .gioithieuContainer {
+        width: 100%;
+        padding-top: 4%;
+    }
+    .presentchungimg {
+        width: 100%;
+    }
+    .firstbox {
+        width: 30%;
+        height: 370px;
+    }
+    .secondbox {
+        width: 66%;
+        height: 90%;
+    }
+    .titlefirstbox {
+        font-size: 22px;
+    }
+    .titlesecondbox {
+        font-size: 22px;
+    }
+    .contentfirstbox {
+        font-size: 20px;
+    }
+    .contentfirstbox > p {
+        font-size: 20px;
+    }
+    .contentsecondbox > h5{
+        font-size: 20px;
+    }
+    .contentsecondbox > p{
+        font-size: 18px;
+    }
+}
+
+@media all and (min-width: 1920px) and (max-width: 2560px) {
+    .gioithieuContainer {
+        width: 100%;
+        padding-top: 3.6%;
+    }
+    .presentchungimg {
+        width: 100%;
+    }
+    .firstbox {
+        width: 30%;
+        height: 370px;
+    }
+    .secondbox {
+        width: 66%;
+        height: 90%;
+    }
+    .titlefirstbox {
+        font-size: 22px;
+    }
+    .titlesecondbox {
+        font-size: 22px;
+    }
+    .contentfirstbox {
+        font-size: 20px;
+    }
+    .contentfirstbox > p {
+        font-size: 20px;
+    }
+    .contentsecondbox > h5{
+        font-size: 20px;
+    }
+    .contentsecondbox > p{
+        font-size: 18px;
+    }
+}

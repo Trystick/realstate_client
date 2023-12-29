@@ -1,0 +1,291 @@
+.formContainer {
+    padding-top: 5%;
+}
+
+.ingfromtd {
+    width: 100%;
+}
+
+.titleformut {
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.titlett {
+    color: goldenrod;
+    font-weight: 500;
+}
+
+.ttcanhan {
+    background-color: goldenrod;
+    width: 90%;
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    margin-left: 75px;
+    font-weight: 600;
+    height: 40px;
+    padding-top: 6px;
+}
+
+.formtuyendung {
+    width: 90%;
+    margin-left: 75px;
+}
+
+.logotd {
+    width: 40%;
+}
+
+.imgtuyendung {
+    width: 100%;
+    padding-left: 10%;
+}
+
+.firstform {
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.ipfirstform {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: rgb(240, 235, 235);
+    margin-bottom: 20px;
+}
+
+
+.formone > p {
+    color: goldenrod;
+}
+
+.inputfile {
+    margin-top: 20px;
+   
+}
+
+.dinhkem {
+    font-size: 17px;
+}
+
+.fileinput {
+    background-color: goldenrod;
+}
+
+.btnguihoso {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.btnhoso {
+    width: 70%;
+    height: 40px;
+    background-color: goldenrod;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+}
+
+.btnhoso:hover {
+    background-color: green;
+}
+
+
+/* Dành cho máy tính bảng*/
+@media all and (max-width: 1024px) {
+    .formContainer {
+        width: 100%;
+    }
+    .ingfromtd {
+        width: 100%;
+    }
+    .titleformut {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .formContainer {
+        width: 100%;
+    }
+    .ingfromtd {
+        width: 100%;
+    }
+    .titleformut {
+       
+        width: 100%;
+    }
+    .formtuyendung {
+        margin-left: 40px;
+    }
+    .ttcanhan {
+        margin-left: 40px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .formContainer {
+        width: 100%;
+    }
+    .ingfromtd {
+        width: 100%;
+    }
+    .titleformut {
+       
+        width: 100%;
+    }
+    .formtuyendung {
+        margin-left: 40px;
+    }
+    .ttcanhan {
+        margin-left: 40px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .formContainer {
+        width: 100%;
+    }
+    .ingfromtd {
+        width: 100%;
+    }
+    .titleformut {
+       
+        width: 100%;
+    }
+    .formtuyendung {
+        margin-left: 40px;
+    }
+    .ttcanhan {
+        margin-left: 40px;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .formContainer {
+        width: 100%;
+    }
+    .ingfromtd {
+        width: 100%;
+    }
+    .titleformut {
+       
+        width: 100%;
+    }
+    .formtuyendung {
+        margin-left: 20px;
+    }
+    .ttcanhan {
+        margin-left: 20px;
+    }
+}
+
+@media all and (max-width: 414px) {
+    .formContainer {
+        width: 100%;
+    }
+    .ingfromtd {
+        width: 100%;
+    }
+    .titleformut {
+       
+        width: 100%;
+    }
+    .formtuyendung {
+        margin-left: 20px;
+    }
+    .ttcanhan {
+        margin-left: 20px;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .formContainer {
+        width: 100%;
+    }
+    .ingfromtd {
+        width: 100%;
+    }
+    .titleformut {
+       
+        width: 100%;
+    }
+    .formtuyendung {
+        margin-left: 20px;
+    }
+    .ttcanhan {
+        margin-left: 20px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .formContainer {
+        width: 100%;
+    }
+    .ingfromtd {
+        width: 100%;
+    }
+    .titleformut {
+       
+        width: 100%;
+    }
+    .formtuyendung {
+        margin-left: 10px;
+    }
+    .ttcanhan {
+        margin-left: 10px;
+    }
+}
+
+@media all and (min-width: 1280px) and (max-width: 1366px) {
+    .formContainer {
+        width: 100%;
+    }
+    .ingfromtd {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 1366px) and (max-width: 1440px) {
+    .formContainer {
+        width: 100%;
+    }
+    .ingfromtd {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 1440px) and (max-width: 1680px) {
+    .formContainer {
+        width: 100%;
+        padding-top: 4.8%;
+    }
+    .ingfromtd {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 1680px) and (max-width: 1920px) {
+    .formContainer {
+        width: 100%;
+        padding-top: 4.2%;
+    }
+    .ingfromtd {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 1920px) and (max-width: 2560px) {
+    .formContainer {
+        width: 100%;
+        padding-top: 3.5%;
+    }
+    .ingfromtd {
+        width: 100%;
+    }
+}

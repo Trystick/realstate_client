@@ -1,0 +1,349 @@
+.jobContainer {
+    margin-bottom: 30px;
+    padding-top: 5%;
+}
+
+.imgjob {
+    width: 100%;
+}
+
+.bothjob {
+    display: flex;
+    width: 100%;
+}
+
+.leftside {
+    margin-left: 10%;
+    width: 70%;
+}
+
+.titleviec {
+    color: goldenrod;
+    font-weight: 500;
+}
+
+.timejob {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.iconCalender {
+    margin-top: 4px;
+    margin-right: 5px;
+    color: #bbb;
+}
+
+.yeucaucv {
+    text-align: justify;
+    white-space: pre-line;
+}
+
+.itemtime {
+    color: #bbb;
+}
+
+.tieude {
+    font-family: 500;
+    font-size: 20px;
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+.mailsendjob {
+    color: gold;
+}
+
+.ungtuyen {
+    margin-top: 50px;
+}
+
+.btnungtuyen {
+    border: none;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    width: 300px;
+    height: 35px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+.noidungcv {
+    text-align: justify;
+    white-space: pre-line;
+}
+
+.rightside {
+    width: 20%;
+    margin-right: 10%;
+}
+
+.vieckhac {
+    background-color: goldenrod;
+    font-size: 20px;
+    padding-left: 10px;
+    height: 40px;
+    padding-top: 5px;
+    color: white;
+}
+
+.timejob1 {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.namejob {
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.linkjobcontent {
+    text-decoration: none;
+    color: black;
+}
+
+/* Dành cho máy tính bảng*/
+@media all and (max-width: 1024px) {
+    .jobContainer {
+        width: 100%;
+    }
+    .leftside {
+        margin-left: 8%;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .jobContainer {
+        width: 100%;
+    }
+    .leftside {
+        margin-left: 8%;
+    }
+    .vieckhac {
+        font-size: 15px;
+    }
+    .noidungcv {
+        font-size: 15px;
+    }
+    .yeucaucv {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .jobContainer {
+        width: 100%;
+    }
+    .leftside {
+        margin-left: 8%;
+    }
+    .vieckhac {
+        font-size: 14px;
+        height: 3%;
+    }
+    .nameviec {
+        font-size: 14px;
+    }
+    .noidungcv {
+        font-size: 15px;
+    }
+    .yeucaucv {
+        font-size: 15px;
+    }
+    
+}
+
+@media all and (max-width: 600px) {
+    .jobContainer {
+        width: 100%;
+    }
+    .leftside {
+        margin-left: 3%;
+    }
+    .vieckhac {
+        font-size: 11px;
+        height: 2.5%;
+        
+    }
+    .nameviec {
+        font-size: 12px;
+    }
+    .noidungcv {
+        font-size: 13px;
+    }
+    .yeucaucv {
+        font-size: 13px;
+    }
+    
+}
+
+@media all and (max-width: 480px) {
+    .jobContainer {
+        width: 100%;
+    }
+    .leftside {
+        margin-left: 3%;
+    }
+    
+    .vieckhac {
+        font-size: 11px;
+        height: 3.5%;
+        
+    }
+    .nameviec {
+        font-size: 12px;
+    }
+    .noidungcv {
+        font-size: 13px;
+    }
+    .yeucaucv {
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width: 414px) {
+    .jobContainer {
+        width: 100%;
+    }
+    .leftside {
+        margin-left: 3%;
+        width: 100%;
+        padding-right: 20px;
+    }
+    .bothjob {
+        display: block;
+    }
+    .rightside {
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 87%;
+    }
+    .vieckhac {
+        font-size: 11px;
+    }
+    .nameviec {
+        font-size: 14px;
+    }
+    .noidungcv {
+        font-size: 13px;
+    }
+    .yeucaucv {
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .jobContainer {
+        width: 100%;
+    }
+    .leftside {
+        margin-left: 3%;
+        width: 100%;
+        padding-right: 20px;
+    }
+    .bothjob {
+        display: block;
+    }
+    .rightside {
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 87%;
+    }
+    .vieckhac {
+        font-size: 11px;
+    }
+    .nameviec {
+        font-size: 14px;
+    }
+    .noidungcv {
+        font-size: 13px;
+    }
+    .yeucaucv {
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .jobContainer {
+        width: 100%;
+    }
+    .leftside {
+        margin-left: 3%;
+        width: 100%;
+        padding-right: 20px;
+    }
+    .bothjob {
+        display: block;
+    }
+    .rightside {
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 87%;
+    }
+    .vieckhac {
+        font-size: 11px;
+    }
+    .nameviec {
+        font-size: 14px;
+    }
+    .noidungcv {
+        font-size: 13px;
+    }
+    .yeucaucv {
+        font-size: 13px;
+    }
+    .btnungtuyen {
+        width: 100%;
+        font-size: 16px;
+    }
+}
+
+@media all and (min-width: 1280px) and (max-width: 1366px) {
+    .jobContainer {
+        width: 100%;
+    }
+    .imgjob {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 1366px) and (max-width: 1440px) {
+    .jobContainer {
+        width: 100%;
+    }
+    .imgjob {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 1440px) and (max-width: 1680px) {
+    .jobContainer {
+        width: 100%;
+        padding-top: 4.8%;
+    }
+    .imgjob {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 1680px) and (max-width: 1920px) {
+    .jobContainer {
+        width: 100%;
+        padding-top: 4.2%;
+    }
+    .imgjob {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 1920px) and (max-width: 2560px) {
+    .jobContainer {
+        width: 100%;
+        padding-top: 3.5%;
+    }
+    .imgjob {
+        width: 100%;
+    }
+}

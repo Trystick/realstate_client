@@ -1,0 +1,392 @@
+.contactContainer {
+    margin-bottom: 30px;
+    padding-top: 5%;
+    width: 100%;
+}
+
+.contactContent {
+    display: flex;
+}
+
+.goldcontact {
+    width: 100%;
+}
+
+.infocontact {
+    color: white;
+    background-color: goldenrod;
+    width: 68%;
+    height: 330px;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding-left: 10px;
+}
+
+.titleinfocontact {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.locationinfo {
+    display: flex;
+}
+
+.phoneinfo {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.emailinfo {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.websiteinfo {
+    display: flex;
+}
+
+.iconfirst {
+    width: 25px;
+    height: 25px;
+    padding-right: 10px;
+}
+
+.textinfo {
+    font-size: 17px;
+}
+
+.iconinfo {
+    display: flex;
+    margin-top: 30px;
+
+}
+
+.iconsecond {
+    width: 30px;
+    height: 30px;
+}
+.iconsecondfa {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+.iconsecondglobal {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    
+}
+
+.titleformcontact {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.formcontactinfo {
+    margin-top: 10px;
+}
+
+.inp {
+    width: 95%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    height: 30px;
+}
+
+.btncontact {
+    border: none;
+    background-color: goldenrod;
+    width: 10%;
+    height: 40px;
+    color: white;
+    justify-items: center;
+    margin-left: 45%;
+}
+
+.buttoncontactinfo {
+   width: 100%;
+   
+}
+
+.btncontact:hover {
+    background-color: green;
+    color: goldenrod;
+}
+
+.contactimg {
+    width: 100%;
+    margin-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+    height: 450px;
+}
+
+.formcontact {
+    height: 100%;
+    margin-left: 10px;
+}
+
+@media all and (max-width: 1024px) {
+    .contactContainer {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .contactContainer {
+        width: 100%;
+    }
+    .contactContent {
+        width: 100%;
+    }
+    .infocontact {
+        width: 50%;
+    }
+    .formcontact {
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .contactContainer {
+        width: 100%;
+    }
+    .contactContent {
+        width: 100%;
+    }
+    .infocontact {
+        width: 50%;
+    }
+    .formcontact {
+        width: 50%;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .contactContainer {
+        width: 100%;
+    }
+    .contactContent {
+        width: 100%;
+    }
+    .infocontact {
+        width: 50%;
+    }
+    .formcontact {
+        width: 50%;
+    }
+    .textinfo {
+        font-size: 14px;
+    }
+}
+
+/* Dành cho điện thoại chiều ngang */
+@media all and (max-width: 480px) {
+    .contactContainer {
+        width: 100%;
+    }
+    .contactContent {
+        width: 100%;
+    }
+    .infocontact {
+        width: 50%;
+    }
+    .formcontact {
+        width: 50%;
+    }
+    .textinfo {
+        font-size: 12px;
+    }
+    .iconfirst {
+        width: 15px;
+        height: 15px;
+    }
+    .buttoncontactinfo {
+        width: 100%;
+    }
+    .btncontact {
+        width: 20%;
+    }
+}
+
+@media all and (max-width: 414px) {
+    .contactContainer {
+        width: 100%;
+    }
+    .contactContent {
+        width: 100%;
+        display: block;
+    }
+    .infocontact {
+        width: 100%;
+    }
+    .formcontact {
+        width: 100%;
+    }
+    .textinfo {
+        font-size: 15px;
+    }
+    .iconfirst {
+        width: 25px;
+        height: 25px;
+    }
+    .buttoncontactinfo {
+        width: 100%;
+       
+    }
+    .btncontact {
+       align-items: center;
+    }
+}
+
+/* Dành cho điện thoại chiều ngang */
+@media all and (max-width: 360px) {
+    .contactContainer {
+        width: 100%;
+    }
+    .contactContent {
+        width: 100%;
+        display: block;
+    }
+    .infocontact {
+        width: 100%;
+    }
+    .formcontact {
+        width: 100%;
+    }
+    .textinfo {
+        font-size: 15px;
+    }
+    .iconfirst {
+        width: 25px;
+        height: 25px;
+    }
+    .buttoncontactinfo {
+        width: 100%;
+       
+    }
+    .btncontact {
+       align-items: center;
+    }
+}
+
+/* Dành cho điện thoại chiều ngang */
+@media all and (max-width: 320px) {
+    .contactContainer {
+        width: 100%;
+    }
+    .contactContent {
+        width: 100%;
+        display: block;
+    }
+    .infocontact {
+        width: 100%;
+    }
+    .formcontact {
+        width: 100%;
+    }
+    .textinfo {
+        font-size: 15px;
+    }
+    .iconfirst {
+        width: 25px;
+        height: 25px;
+    }
+    .buttoncontactinfo {
+        width: 100%;
+       
+    }
+    .btncontact {
+       align-items: center;
+    }
+}
+
+@media all and (min-width: 1280px) and (max-width: 1366px) {
+    .contactContainer {
+        width: 100%;
+    }
+    .goldcontact {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 1366px) and (max-width: 1440px) {
+    .contactContainer {
+        width: 100%;
+    }
+    .goldcontact {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 1440px) and (max-width: 1680px) {
+    .contactContainer {
+        width: 100%;
+        padding-top: 4.8%;
+    }
+    .goldcontact {
+        width: 100%;
+    }
+    .infocontact {
+        width: 55%;
+    }
+}
+
+@media all and (min-width: 1680px) and (max-width: 1920px) {
+    .contactContainer {
+        width: 100%;
+        padding-top: 4.2%;
+    }
+    .goldcontact {
+        width: 100%;
+    }
+    .infocontact {
+        width: 50%;
+    }
+    .titleinfocontact {
+        font-size: 22px;
+    }
+    .textinfo {
+        font-size: 20px;
+    }
+    .titleformcontact {
+        font-size: 22px;
+    }
+    
+}
+
+@media all and (min-width: 1920px) and (max-width: 2560px) {
+    .contactContainer {
+        width: 100%;
+        padding-top: 3.5%;
+    }
+    .goldcontact {
+        width: 100%;
+    }
+    .infocontact {
+        width: 50%;
+    }
+    .titleinfocontact {
+        font-size: 24px;
+    }
+    .textinfo {
+        font-size: 22px;
+    }
+    .formcontact {
+        width: 50%;
+    }
+    .titleformcontact {
+        font-size: 24px;
+    }
+}
