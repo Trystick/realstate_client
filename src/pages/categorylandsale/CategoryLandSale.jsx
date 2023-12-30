@@ -65,7 +65,7 @@ const CategoryLandSale = () => {
         );
         Promise.all(landsalePromises)
           .then(landsaleResponses => {
-            const houses = landsaleResponses.map(response => response.data);
+            const houses = landsaleResponses.map(response => response.data).filter(house => house !== null);
             setHouses(houses);
 
             // Lấy danh sách userId duy nhất từ dữ liệu

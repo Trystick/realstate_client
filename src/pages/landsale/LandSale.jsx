@@ -52,7 +52,7 @@ const LandSale = () => {
   const itemsPerPage = 5;
 
   useEffect(() => {
-    axios.get('https://realstate-api-glm4.onrender.com/api/landSale', {withCredentials: true})
+    axios.get('https://realstate-api-glm4.onrender.com/api/landSale/userlandsale', {withCredentials: true})
       .then(response => {
         setHouses(response.data);
         // Lấy danh sách userId duy nhất từ dữ liệu

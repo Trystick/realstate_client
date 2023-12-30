@@ -53,7 +53,7 @@ const LandLease = () => {
   const itemsPerPage = 5;
 
   useEffect(() => {
-    axios.get('https://realstate-api-glm4.onrender.com/api/landLease', {withCredentials: true})
+    axios.get('https://realstate-api-glm4.onrender.com/api/landLease/userlandlease', {withCredentials: true})
       .then(response => {
         setHouses(response.data);
         // Lấy danh sách userId duy nhất từ dữ liệu

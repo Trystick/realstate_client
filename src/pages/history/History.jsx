@@ -182,6 +182,7 @@ const [landData, setLandData] = useState([]);
             <th className='thhistory'>Tên bài đăng</th>
             <th className='thhistory'>Địa chỉ</th>
             <th className='thhistory'>Giá</th>
+            <th className='thhistory'>Trạng thái</th>
             <th className='thhistory'>Thao tác</th>
           </tr>
         </thead>
@@ -194,6 +195,7 @@ const [landData, setLandData] = useState([]);
               <td data-title='Tên bài đăng' className='tdhistory'>{land.name}</td>
               <td data-title='Địa chỉ' className='tdhistory'>{land.location}</td>
               <td data-title='Giá' className='tdhistory'>{land.price} {land.type === 'Landsale' ? 'tỷ' : 'triệu/tháng'} </td>
+              <td data-title='Trạng thái' className='tdhistory'>{land.isApproved ? 'Đã đăng' : 'Chưa đăng'}</td>
               <td data-title='Thao tác' className='tdhistory'>
                 <button className='btnhistorysua' onClick={() => handleEdit(land._id)}>Sửa</button>
                 <button className='btnhistoryxoa' onClick={() => handleDelete(land._id, land.type === 'Landsale' ? land.categoryLandSaleId : land.categoryLandLeaseId, land.type)}>Xóa</button>

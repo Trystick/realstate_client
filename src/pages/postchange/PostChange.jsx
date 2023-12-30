@@ -354,6 +354,7 @@ const handleClickForm = async (e) => {
         selectedId: selectedId,
         photos: list,
         userId: userLocal._id,
+        isApproved: true,
     };
     
     let url;

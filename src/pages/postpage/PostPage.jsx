@@ -292,7 +292,7 @@ const handleSubmit = (event) => {
         return;  // Dừng hàm nếu form không hợp lệ
     }
 
-    alert('Vui lòng chờ trong ít phút. Đừng chuyển qua trang khác');
+    alert('Vui lòng chờ trong ít phút. Đừng chuyển trang đi đâu cả nhé');
 
     try {
       const list = await Promise.all(
@@ -305,14 +305,12 @@ const handleSubmit = (event) => {
         return url;
     }));
 
-
-
-    setTimeout(async () => {
         const newPost = {
             ...info,
             selectedId: selectedId,
             photos: list,
             userId: userLocal._id,
+            isApproved: false,
         };
         
         let url;
@@ -324,9 +322,8 @@ const handleSubmit = (event) => {
         
         await axios.post(url, newPost, {withCredentials: true});
         
-        alert('Đăng bài thành công!');
+        alert("Thủ tục đăng bài hoàn tất, Xin hãy chờ đợi quá trình kiểm duyệt")
         navigate('/');
-    }, 1 * 60 * 1000); 
     } catch (err) {
       alert("Thêm thất bại !!! Có thể trùng dặp dữ liệu hoặc lỗi sever");
       console.log(err);
