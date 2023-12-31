@@ -134,7 +134,11 @@ const NewDetail = () => {
         }
       } catch (error) {
         console.error('Error creating comment', error);
-        alert('Có lỗi xảy ra khi đăng bình luận');
+        if (error.response && error.response.data && error.response.data.message) {
+          alert(error.response.data.message);
+        } else {
+          alert('Có lỗi xảy ra khi đăng bình luận');
+        }
       }
     };
     
@@ -193,7 +197,11 @@ const NewDetail = () => {
           window.location.reload();
         }
       } catch (error) {
-        console.error('Error creating reply', error);
+        if (error.response && error.response.data && error.response.data.message) {
+          alert(error.response.data.message);
+        } else {
+          alert('Có lỗi xảy ra khi đăng bình luận');
+        }
       }
     };
 
