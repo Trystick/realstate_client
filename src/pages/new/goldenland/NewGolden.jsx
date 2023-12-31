@@ -40,7 +40,7 @@ const NewGolden = () => {
     );
     
     useEffect(() => {
-        axios.get('https://realstate-api-glm4.onrender.com/api/post/postCategory/657290e0eab7b27a0a0ba7c5')
+        axios.get('https://realstate-api-glm4.onrender.com/api/post/postCategory/6590d705bb030d3212c6af23')
           .then(response => setData(response.data))
           .catch(error => console.error(error));
       }, []);
