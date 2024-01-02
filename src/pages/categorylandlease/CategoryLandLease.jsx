@@ -63,7 +63,7 @@ const CategoryLandLease = () => {
         const landsaleIds = response.data.landleases;
         setLandleaseType(response.data.name); // Cập nhật tên loại dự án
         const landsalePromises = landsaleIds.map(_id =>
-          axios.get(`https://realstate-api-glm4.onrender.com/landLease/find/${_id}`)
+          axios.get(`https://realstate-api-glm4.onrender.com/api/landLease/find/${_id}`)
         );
         Promise.all(landsalePromises)
           .then(landsaleResponses => {
