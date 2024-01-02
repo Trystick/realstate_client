@@ -1,15 +1,15 @@
 import './newGolden.css'
-import Footer from '../src/components/footer/Footer'
-import Header from "../src/components/header/Header"
+import Footer from '../../../components/footer/Footer'
+import Header from "../../../components/header/Header"
 import imgNew from "../../listEstate/img/h1.jpg"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHouse } from '@fortawesome/free-solid-svg-icons'
 import { Link } from 'react-router-dom'
 import axios from 'axios';
 import { useEffect, useState } from 'react'
-import ScrollToTop from '../src/components/scrolltop/ScrollToTop'
+import ScrollToTop from '../../../components/scrolltop/ScrollToTop'
 import { useTranslation } from 'react-i18next';
-import '../src/hooks/i18n';
+import '../../../hooks/i18n';
 
 const NewGolden = () => {
     const { t } = useTranslation();
