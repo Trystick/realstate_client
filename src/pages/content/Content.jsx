@@ -145,7 +145,7 @@ const Content = () => {
         </div>
         <h2 className='titletuyendung'>{t('CƠ HỘI NGHỀ NGHIỆP')}</h2>
         
-        <table className="tabletuyendung" key={item._id}>
+        <table className="tabletuyendung">
             <tr className="thtuyendung">
                 <th className="muctuyendung">{t('Vị trí ứng tuyển')}</th>
                 <th className="muctuyendung">{t('Số lượng')}</th>
@@ -153,7 +153,7 @@ const Content = () => {
                 <th className="muctuyendung">{t('Hạn nộp hồ sơ')}</th>
             </tr>
             {currentItems.map(item => (
-            <tr className="tdtuyendung">
+            <tr className="tdtuyendung" key={item._id}>
                 <td className="noidungtuyendung"><Link to={`/job/${item._id}`} className="linkjob" >{t(item.name)}</Link></td>
                 <td className="noidungtuyendung">{t(item.number)}</td>
                 <td className="noidungtuyendung">{t(item.location)}</td>
