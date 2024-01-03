@@ -144,7 +144,7 @@ const Content = () => {
             <p>{t('Tuyển dụng')}</p>
         </div>
         <h2 className='titletuyendung'>{t('CƠ HỘI NGHỀ NGHIỆP')}</h2>
-        {currentItems.map(item => (
+        
         <table className="tabletuyendung" key={item._id}>
             <tr className="thtuyendung">
                 <th className="muctuyendung">{t('Vị trí ứng tuyển')}</th>
@@ -152,14 +152,15 @@ const Content = () => {
                 <th className="muctuyendung">{t('Địa điểm')}</th>
                 <th className="muctuyendung">{t('Hạn nộp hồ sơ')}</th>
             </tr>
+            {currentItems.map(item => (
             <tr className="tdtuyendung">
                 <td className="noidungtuyendung"><Link to={`/job/${item._id}`} className="linkjob" >{t(item.name)}</Link></td>
                 <td className="noidungtuyendung">{t(item.number)}</td>
                 <td className="noidungtuyendung">{t(item.location)}</td>
                 <td className="noidungtuyendung">{item.dateend}</td>
             </tr>
+             ))}
         </table>
-        ))}
          <div className="pagination">
         {[...Array(pageCount)].map((_, index) => (
           <button
