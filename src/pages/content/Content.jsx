@@ -154,10 +154,10 @@ const Content = () => {
             </tr>
             {currentItems.map(item => (
             <tr className="tdtuyendung" key={item._id}>
-                <td className="noidungtuyendung"><Link to={`/job/${item._id}`} className="linkjob" >{t(item.name)}</Link></td>
-                <td className="noidungtuyendung">{t(item.number)}</td>
-                <td className="noidungtuyendung">{t(item.location)}</td>
-                <td className="noidungtuyendung">{item.dateend}</td>
+              <td data-title='Vị trí ứng tuyển' className="noidungtuyendung"><Link to={`/job/${item._id}`} className="linkjob" >{t(item.name)}</Link></td>
+              <td data-title='Số lượng' className="noidungtuyendung">{t(item.number)}</td>
+              <td data-title='Địa điểm' className="noidungtuyendung">{t(item.location)}</td>
+              <td data-title='Hạn nộp hồ sơ' className="noidungtuyendung">{item.dateend}</td>
             </tr>
              ))}
         </table>
