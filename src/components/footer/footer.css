@@ -144,7 +144,7 @@
 }
 
 .ipform {
-    width: 360px;
+    width: 100%;
     margin-bottom: 22px;
 }
 
@@ -235,7 +235,7 @@
         width: 33%;
     }
     .ipform {
-        width: 300px;
+        width: 100%;
     }
 
     .btnDk {
@@ -280,7 +280,7 @@
         width: 33%;
     }
     .ipform {
-        width: 240px;
+        width: 100%;
     }
 
     .btnDk {
@@ -339,7 +339,7 @@
         width: 33%;
     }
     .ipform {
-        width: 230px;
+        width: 100%;
     }
 
     .btnDk {
@@ -402,7 +402,7 @@
         width: 33%;
     }
     .ipform {
-        width: 180px;
+        width: 100%;
         font-size: 80%;
     }
     .btnDk {
@@ -534,10 +534,11 @@
         margin-bottom: 10px;
     }
     .ipform {
-        margin-right: 10%;
         width: 100%;
     }
 }
+
+
 
 @media all and (max-width: 414px) {
     .footer {
@@ -598,7 +599,6 @@
         margin-bottom: 10px;
     }
     .ipform {
-        margin-right: 10%;
         width: 100%;
     }
 }
@@ -664,7 +664,6 @@
         margin-bottom: 10px;
     }
     .ipform {
-        margin-right: 10%;
         width: 100%;
     }
 }
@@ -729,7 +728,6 @@
         margin-bottom: 10px;
     }
     .ipform {
-        margin-right: 10%;
         width: 100%;
     }
 }
@@ -790,7 +788,7 @@
         margin-top: 54px;
     }
     .ipform {
-        width: 460px;
+        width: 100%;
     }
     .btnDk {
         margin-left: 40%;
@@ -817,7 +815,7 @@
         margin-top: 54px;
     }
     .ipform {
-        width: 540px;
+        width: 100%;
     }
     .btnDk {
         margin-left: 45%;
@@ -844,7 +842,7 @@
         margin-top: 54px;
     }
     .ipform {
-        width: 620px;
+        width: 100%;
     }
     .btnDk {
         margin-left: 45%;
