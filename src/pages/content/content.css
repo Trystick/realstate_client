@@ -482,6 +482,69 @@
     .nd > a {
         font-size: 16px;
     }
+
+    .tabletuyendung {
+        width: 100%;
+        margin-left: 8%;
+     }
+ 
+     .muctuyendung {
+         display: none;
+     }
+ 
+     .tdtuyendung, .noidungtuyendung {
+         width: 100%;
+     }
+     
+     .tabletuyendung, .thtuyendung  {
+         display: block;
+     }
+ 
+     .tabletuyendung .muctuyendung, .noidungtuyendung {
+         padding: .5em;
+     }
+     
+       .tabletuyendung .noidungtuyendung {
+         text-align: right;
+         display: block;
+       }
+     
+       .tabletuyendung .noidungtuyendung::before {
+         content: attr(data-title) " ";
+         float: left;
+         background-color: #4CAF50;
+         padding: 4px;
+         color: white;
+         border-radius: 4px;
+       }
+ 
+     
+       /* Điều chỉnh độ rộng của các cột */
+       .noidungtuyendung:nth-child(1), .muctuyendung:nth-child(1) { /* Số thứ tự */
+         width: 100%;
+       }
+       
+       .noidungtuyendung:nth-child(2), .muctuyendung:nth-child(2) { /* Loại bất động sản */
+         width: 100%;
+       }
+     
+       .noidungtuyendung:nth-child(3), .muctuyendung:nth-child(3) { /* Loại bất động sản */
+         width: 100%;
+       }
+       
+       .noidungtuyendung:nth-child(4), .muctuyendung:nth-child(4) { /* Tên bài đăng */
+         width: 100%;
+       }
+       
+       .muctuyendung, .noidungtuyendung {
+         border: none;
+         font-size: 13px;
+       }
+     
+       .linkjob {
+         margin-left: 5%;
+       }
+     
 }
 
 @media all and (max-width: 360px) { 
@@ -496,21 +559,15 @@
     }
     .stt {
       font-size: 10px;
-      
+      font-size: 9px;
+      height: 17%;
     }
     .noidungquytrinh {
         font-size: 8.5px;
     }
-    .stt {
-      font-size: 9px;
-      height: 17%;
-    }
     .tt {
         font-size: 14px;
         height: 50%;
-    }
-    .tabletuyendung {
-        margin-left: 3%;
     }
     .lhtuyendung {
         display: block;
@@ -546,6 +603,68 @@
     .nd > a {
         font-size: 13px;
     }
+    .tabletuyendung {
+       width: 100%;
+       margin-left: 8%;
+    }
+
+    .muctuyendung {
+        display: none;
+    }
+
+    .tdtuyendung, .noidungtuyendung {
+        width: 100%;
+    }
+    
+    .tabletuyendung, .thtuyendung  {
+        display: block;
+    }
+
+    .tabletuyendung .muctuyendung, .noidungtuyendung {
+        padding: .5em;
+    }
+    
+      .tabletuyendung .noidungtuyendung {
+        text-align: right;
+        display: block;
+      }
+    
+      .tabletuyendung .noidungtuyendung::before {
+        content: attr(data-title) " ";
+        float: left;
+        background-color: #4CAF50;
+        padding: 4px;
+        color: white;
+        border-radius: 4px;
+      }
+
+    
+      /* Điều chỉnh độ rộng của các cột */
+      .noidungtuyendung:nth-child(1), .muctuyendung:nth-child(1) { /* Số thứ tự */
+        width: 100%;
+      }
+      
+      .noidungtuyendung:nth-child(2), .muctuyendung:nth-child(2) { /* Loại bất động sản */
+        width: 100%;
+      }
+    
+      .noidungtuyendung:nth-child(3), .muctuyendung:nth-child(3) { /* Loại bất động sản */
+        width: 100%;
+      }
+      
+      .noidungtuyendung:nth-child(4), .muctuyendung:nth-child(4) { /* Tên bài đăng */
+        width: 100%;
+      }
+      
+      .muctuyendung, .noidungtuyendung {
+        border: none;
+        font-size: 13px;
+      }
+    
+      .linkjob {
+        margin-left: 5%;
+      }
+    
 }
 
 @media all and (max-width: 320px) { 
@@ -610,6 +729,69 @@
     .nd > a {
         font-size: 13px;
     }
+
+    .tabletuyendung {
+        width: 100%;
+        margin-left: 8%;
+     }
+ 
+     .muctuyendung {
+         display: none;
+     }
+ 
+     .tdtuyendung, .noidungtuyendung {
+         width: 100%;
+     }
+     
+     .tabletuyendung, .thtuyendung  {
+         display: block;
+     }
+ 
+     .tabletuyendung .muctuyendung, .noidungtuyendung {
+         padding: .5em;
+     }
+     
+       .tabletuyendung .noidungtuyendung {
+         text-align: right;
+         display: block;
+       }
+     
+       .tabletuyendung .noidungtuyendung::before {
+         content: attr(data-title) " ";
+         float: left;
+         background-color: #4CAF50;
+         padding: 4px;
+         color: white;
+         border-radius: 4px;
+       }
+ 
+     
+       /* Điều chỉnh độ rộng của các cột */
+       .noidungtuyendung:nth-child(1), .muctuyendung:nth-child(1) { /* Số thứ tự */
+         width: 100%;
+       }
+       
+       .noidungtuyendung:nth-child(2), .muctuyendung:nth-child(2) { /* Loại bất động sản */
+         width: 100%;
+       }
+     
+       .noidungtuyendung:nth-child(3), .muctuyendung:nth-child(3) { /* Loại bất động sản */
+         width: 100%;
+       }
+       
+       .noidungtuyendung:nth-child(4), .muctuyendung:nth-child(4) { /* Tên bài đăng */
+         width: 100%;
+       }
+       
+       .muctuyendung, .noidungtuyendung {
+         border: none;
+         font-size: 13px;
+       }
+     
+       .linkjob {
+         margin-left: 5%;
+       }
+     
 }
 
 @media all and (min-width: 1280px) and (max-width: 1366px) {
